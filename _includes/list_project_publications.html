@@ -1,0 +1,18 @@
+{% assign pubs = site.data['sorted_publications'] | where_exp: "pub", "pub.project contains include.shortname" %}
+
+{% if pubs.size > 0 %}
+<h3>Publications</h3>
+<ul>
+  {% for pub in pubs %}
+    {% if pub.citation-count and pub.citation-count > 0 %}
+      {% assign cited = " [" | append: pub.citation-count | append: " citations]" %}
+      {% if pub.inspire-id %}
+        {% capture cited %} <a href='http://inspirehep.net/record/{{pub.inspire-id}}/citations'>{{cited}}</a>{% endcapture %}
+      {% endif %}
+    {% else %}
+      {% assign cited = "" %}
+    {% endif %}
+    <li> {% include print_pub.html pub=pub %} </li>
+  {% endfor %}
+</ul>
+{% endif %}

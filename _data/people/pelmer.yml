@@ -1,0 +1,24 @@
+active: true
+e-mail: Peter.Elmer@cern.ch
+focus-area:
+  - ssc
+  - ia
+institution: Princeton University
+name: Peter Elmer
+photo: "/assets/images/team/Peter-Elmer.jpg"
+shortname: pelmer
+title: Institute PI and Executive Director
+website: https://scholar.princeton.edu/elmer/home
+presentations:
+  - title:
+      Institute for Research and Innovation in Software for High Energy Physics
+      (IRIS-HEP)
+    date: 2019-08-01
+    url: https://indico.cern.ch/event/782953/contributions/3462566/attachments/1889484/3115717/IRIS-HEP-APS-DPF-2019.pdf
+    meeting:
+      2019 Meeting of the Division of Particles & Fields of the American Physical
+      Society
+    meetingurl: https://indico.cern.ch/event/782953/overview
+    location: Northeastern University (Boston)
+    focus-area:
+    project:

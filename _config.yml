@@ -1,0 +1,77 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Institute for Research and Innovation in Software for High Energy Physics
+email: Peter.Elmer@cern.ch
+description: >- # this means to ignore newlines until "baseurl:"
+  The Institute for Research and Innovation in Software for High Energy Physics (IRIS-HEP) has been established to meet the software and computing challenges of the planned upgrades to the Large Hadron Collider, the world's most powerful particle accelerator.  IRIS-HEP pursues R&D for the software needed to acquire, manage, process and analyze the torrent of data that will be produced by the upgrade accelerator and its detectors as part of the search for discoveries beyond the Standard Model of Particle Physics.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://research-software-collaborations.org" # the base hostname & protocol for your site, e.g. http://example.com
+twitter:
+  username: tbd_hep
+github_username: research-software-collaborations
+excerpt_separator: <!--more-->
+logo: /assets/logos/Iris-hep-5-just-graphic.png
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/logos/Iris-hep-5-just-graphic.png
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+strict_front_matter: true
+
+liquid:
+  error_mode: strict
+  strict_filters: true
+
+# Exclude from processing.
+exclude:
+  - _cache
+  - _scripts
+  - bin
+  - .github
+  - Rakefile
+
+sass:
+  sass_dir: _sass
+
+inspire:
+  cache-dir: _cache
+  pub-dir: publications
+  authors:
+    min-len: 10
+    trunc-len: 1
+  open-science-categories:
+    - algo
+    - general
+    - physics
+
+iris-hep:
+  extra-focus-areas:
+    - core
+    - outreach
+  projectless-focus-areas:
+    - core
+    - ssc
+    - blueprint
+    - ssl

@@ -1,0 +1,113 @@
+<!doctype html>
+
+{% include layout_header_navbar.html %}
+
+<div id="container">
+  <div class="container page">
+    <main role="main">
+
+      <div>
+        <br>
+        <center><h1>IRIS-HEP Fellow: {{ page.fellow-name }}</h1>
+
+          <img src="{{page.photo}}" width="150px">
+          <br>
+          <br>
+          <b> Fellowship dates: </b>
+          {% include fellow_dates.html dates=page.dates %}
+          <br>
+          <b> Home Institution:</b> {{ page.institution }}
+          <br>
+          <br>
+        </center>
+
+        {%- assign projects = page.projects | default: page | ensure_array -%}
+
+        {% for project in projects %}
+
+        <br>
+        <h3>Project: {{project.project_title}}</h3>
+
+        {{project.project_goal}}
+        <br>
+        <br>
+        More information: <a href = "{{project.proposal}}">My project proposal</a><br>
+
+        <br>
+        <b>Mentors: </b> <br>
+        <ul>
+          {% for mentor in project.mentors %}
+          <li>
+            {% assign person = site.data.people | values | find: "shortname", mentor %}
+            {% if person %}
+              {{ person.name }} ({{person.institution}})
+            {% else %}
+              {{ mentor | markdownify }}
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+        {% endfor %}
+
+
+        <b>Presentations and Publications</b>
+        <ul>
+          {% for presentation in page.presentations %}
+            {% assign prettydate = presentation.date | date: "%-d %b %Y" %}
+            <li>{{prettydate}} - <a href="{{presentation.url}}">"{{presentation.title}}"</a>, {{page.fellow-name}}, <a href="{{presentation.meetingurl}}">{{presentation.meeting}}</a>
+            {% if presentation.recordingurl %}
+              Recording: <a href="{{presentation.recordingurl}}">{{presentation.title}}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+        <hr>
+
+        <b>Current Status</b>
+        <br>
+        {{page.current_status}}
+        <br>
+        <br>
+
+        <b>Contact me:</b><br>
+        <ul class="list-unstyled">
+          {% if page.e-mail.size > 4 %}
+          <li>
+            <i class="fas fa-envelope-square"></i><a href = "mailto:{{page.e-mail}}"> Send me an email</a><br>
+          </li>
+          {% endif %}
+          {% if page.website.size > 4 %}
+          <li>
+            <i class="fas fa-link"></i><a href = {{page.website}}> Visit my website</a><br>
+          </li>
+          {% endif %}
+          {% if page.github-username.size > 4 %}
+          <li>
+            <i class="fab fa-github"></i><a href = "https://github.com/{{page.github-username}}"> Visit my GitHub Repo</a><br>
+          </li>
+          {% endif %}
+           {% if page.gitlab-url.size > 4 %}
+          <li>
+            <i class="fab fa-gitlab"></i><a href = "{{page.gitlab-url}}"> Visit my GitLab Repo</a><br>
+          </li>
+          {% endif %}
+          {% if page.linkedin-profile.size > 4 %}
+          <li>
+            <i class="fab fa-linkedin"></i><a href = "{{page.linkedin-profile}}"> Visit my LinkedIn Profile</a><br>
+          </li>
+          {% endif %}
+        </ul>
+
+
+        <div>
+          {{content}}
+        </div>
+
+      </div>
+    </main>
+  </div>
+  {% include_cached footer.html %}
+</div>
+
+{% include_cached layout_analytics.html %}
+</body>
+</html>
