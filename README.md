@@ -2,7 +2,7 @@
 
 Is this badge red? Click on it to find out what's wrong with the repository...
 
-# FAIROS-hep.org Website
+# Research Software Collaborations Website
 
 GitHub pages for the Research Software Collaborations project website.
 
@@ -28,3 +28,9 @@ docker run --rm -it \
 This will mount your checked out copy of this repo, then build and start the
 jekyll server mapping it to port 4000 on your computer. You can make changes
 locally and view them at http://localhost:4000
+
+## Color codes for Indian Flag
+
+Orange = #FF9933
+White = #FFFFFF
+Green = #138808
