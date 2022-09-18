@@ -1,12 +1,12 @@
 ---
-permalink: /about/executive-board.html
+permalink: /about/executive-committee.html
 layout: default
-title: Executive Board
+title: Executive Committee
 ---
 
 <div class="container-fluid">
   <h1>Executive Committee</h1><br>
-  <p><b>The project Executive Board manages the day to day activities of the Institute.</b></p>
+  <p><b>The project Executive Committee manages the day to day activities of the project.</b></p>
   <div class="row">
   {% for member in site.data.orgs.exec-board.personnel  %}
      {% assign person = site.data.people[member] %}
