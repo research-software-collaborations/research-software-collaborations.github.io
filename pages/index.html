@@ -181,35 +181,6 @@ ongoing events don't get prematurely flagged as recent.
 <div class="mainpage-related mainpage-core">
 <div class="mainpage-sidebar-text">
 
-<h4>Related projects:</h4>
-{%- assign projlist = "" | split: "," -%}
-{{ " " }}
-{%- assign projs = site.data.collabcats | hash_fetch: site.data.collaborations, "id" | flat_map -%}
-{%- for proj in projs -%}
-  {%- capture projtxt -%}
-    {%- if proj.short -%}
-      [{{ proj.short }}]({{ proj.url }})
-    {%- else -%}
-      [{{ proj.name }}]({{ proj.url }})
-    {%- endif -%}
-  {%- endcapture -%}
-  {%- assign projlist = projlist | push: projtxt -%}
-{%- endfor -%}
-
-<ul>
-<li>
-<div class="event">
-  <div class="projects">
-    {{ projlist | join: " &bull; " | markdownify }}
-  </div>
-</div>
-</li>
-</ul>
-
-<div class="mainpage-sidebar-links">
-  <a href="/collaborations">Full list with details</a>
-</div>
-
 </div>
 </div>
 </div>
