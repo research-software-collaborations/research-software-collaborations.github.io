@@ -34,3 +34,10 @@ locally and view them at http://localhost:4000
 Orange = #FF9933
 White = #FFFFFF
 Green = #138808
+
+## Monsoon season
+
+[Monsoon season at Scheme Color](https://www.schemecolor.com/monsoon-season.php)
+
+#B5C7CC #8BA1AD #587B89 #244C66 #407D6C #7DB290
+
