@@ -13,10 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Institute for Research and Innovation in Software for High Energy Physics
+title: Research Software Collaborations in Physics
 email: Peter.Elmer@cern.ch
 description: >- # this means to ignore newlines until "baseurl:"
-  The Institute for Research and Innovation in Software for High Energy Physics (IRIS-HEP) has been established to meet the software and computing challenges of the planned upgrades to the Large Hadron Collider, the world's most powerful particle accelerator.  IRIS-HEP pursues R&D for the software needed to acquire, manage, process and analyze the torrent of data that will be produced by the upgrade accelerator and its detectors as part of the search for discoveries beyond the Standard Model of Particle Physics.
+The HSF-India network of networks extends the growing research software collaborations between physics and computer science researchers in the U.S. and Europe to include researchers in India. This network-of-networks will build expertise and drive research software collaborations in areas which are critical to advance particle, nuclear and astroparticle physics research: novel approaches to analysis systems, next-generation simulation tools and methods for open science. It will connect software experts and researchers across the international community in a collaborative framework that promotes software collaborations. Immediate mutual benefits of the international collaboration will be a training network that enables early-career researchers to pursue impactful research software initiatives in ways that advance their careers in experimental data-intensive science.
+HSF-India will build international collaborative structures which will enable innovation in critical software areas for discovery in particle, nuclear and astroparticle physics and lay the foundations for similar international collaborations across the scientific spectrum.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://research-software-collaborations.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter:
