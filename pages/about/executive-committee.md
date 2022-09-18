@@ -5,8 +5,8 @@ title: Executive Board
 ---
 
 <div class="container-fluid">
-  <h1>Executive Board</h1><br>
-  <p><b>The IRIS-HEP Executive Board manages the day to day activities of the Institute.</b></p>
+  <h1>Executive Committee</h1><br>
+  <p><b>The project Executive Board manages the day to day activities of the Institute.</b></p>
   <div class="row">
   {% for member in site.data.orgs.exec-board.personnel  %}
      {% assign person = site.data.people[member] %}
