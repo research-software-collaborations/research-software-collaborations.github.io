@@ -1,5 +1,5 @@
 .footer-dark {
-  @include gradient-x($navbar-dark-active-color, $primary, 0%, 100%);
+  @include gradient-x($navbar-dark-active-color, $primary, 100%, 100%);
   border-top-color: $iris-100;
 
   border-top-style: solid;
