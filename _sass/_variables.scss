@@ -11,8 +11,7 @@ $white: #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
-//$gray-400: #ced4da !default;
-$gray-400: #b5c7cc !default;
+$gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
 $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
@@ -39,7 +38,8 @@ $grays: map-merge(
 
 $blue: #007bff !default;
 $indigo: #6610f2 !default;
-$purple: #6f42c1 !default;
+//$purple: #6f42c1 !default;
+$purple: #b5c7cc !default;
 $pink: #e83e8c !default;
 $red: #dc3545 !default;
 $orange: #fd7e14 !default;
