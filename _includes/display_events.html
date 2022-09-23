@@ -1,0 +1,44 @@
+{% comment %}
+Go through the list and produce a list of upcoming events as well as a
+list of events in the past 90 days. Treat 6 days ago as "now" so that
+ongoing events don't get prematurely flagged as recent.
+{% endcomment %}
+
+<div class="mainpage-sidebar-text">
+<h4>Upcoming Events</h4>
+</div>
+
+{%- include get_all_events.html -%}
+
+{% assign selected_events = all_events | where_day_range: "startdate", 6 | where_exp: "item", "item.skipfrontpage != true" | reverse %}
+
+<ul>
+  {% for event in selected_events %}
+    <li>
+      <a href="{{event.meetingurl}}">
+        <div class="event">
+          <div class="date">
+            {{ event.startdate | print_date_range: event.enddate }}, {{event.location}}
+          </div>
+{% comment %}
+          <div class="location">
+            {{event.location}}
+          </div>
+{% endcomment %}
+          <div class="name">
+            {{event.name}}
+          </div>
+        </div>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+{%- if selected_events.size == 0 %}
+  <div class="empty">
+    No events currently scheduled. <br>Check back again soon!
+  </div>
+{%- endif %}
+
+<div class="mainpage-sidebar-links">
+<a href="/events.html">View all past events</a>
+</div>

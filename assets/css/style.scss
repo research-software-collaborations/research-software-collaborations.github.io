@@ -399,6 +399,13 @@ div#container {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .mainpage-triple {
+    flex: 1 0px;
+    margin-right: 10px;
+  }
+}
+
 main {
   padding-top: 0px;
 }

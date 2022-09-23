@@ -1,16 +1,16 @@
 ---
 permalink: /events.html
 layout: default
-title: IRIS-HEP Events
+title: HSF-India Events
 ---
 <center>
 <h3> IRIS-HEP Events</h3>
 </center>
 
 <br>
-Events that IRIS-HEP team members are involved in organizing, planning to participate in or otherwise interested in:
+Events that HSF-India team members and participants are involved in organizing, planning to participate in or otherwise interested in:
 
-{% assign yearlist = "2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016" | split: ", " %}
+{% assign yearlist = "2028, 2027, 2026, 2025, 2024, 2023, 2022" | split: ", " %}
 {% assign monthlist= "12, 11, 10, 09, 08, 07, 06, 05, 04, 03, 02, 01" | split: ", " %}
 
 {% comment %}

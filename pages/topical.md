@@ -1,19 +1,17 @@
 ---
 permalink: /topical.html
 layout: default
-title: IRIS-HEP Topical Meetings
+title: HSF-India Topical Meetings
 ---
 <center>
-<h3> IRIS-HEP Topical Meetings</h3>
+<h3> HSF-India Topical Meetings</h3>
 </center>
 
 <br>
-IRIS-HEP topical meetings cover one or more presentations involving
-IRIS-HEP researchers or from related research areas. They are
-typically held Mondays 17:30 GVA and Wednesdays 18:00 GVA. Vidyo
-connections are always available and meetings are usually recorded.
+Topical meetings cover one or more presentations involving
+HSF-India researchers or from related research areas.
 Find all topical meeting agendas
-[here](https://indico.cern.ch/category/10570/).
+[here](https://indico.cern.ch/category/15964/).
 
 {% comment %}
 Go through the list and produce a breakdown of the events in reverse

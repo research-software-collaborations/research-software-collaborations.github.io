@@ -6,8 +6,8 @@ bgimage: assets/images/Tprime-200pu-PhaseII-black-arctic-main-image.jpg
 ---
 
 <div class="mainpage-all">
-<div class="mainpage-main mainpage-container">
 <div class="mainpage-intro mainpage-core">
+
 
 <!--
 <h4>Research Software Collaborations in Physics</h4>
@@ -21,98 +21,24 @@ HSF-India will build international collaborative structures which will enable in
 
 </div>
 
-<div class="mainpage-sidebar mainpage-container">
-<div class="mainpage-events mainpage-core">
 
-{% comment %}
-Go through the list and produce a list of upcoming events as well as a
-list of events in the past 90 days. Treat 6 days ago as "now" so that
-ongoing events don't get prematurely flagged as recent.
-{% endcomment %}
 
-<div class="mainpage-sidebar-text">
-<h4>Upcoming Events:</h4>
-</div>
-
-{%- include get_all_events.html -%}
-
-{% assign selected_events = all_events | where_day_range: "startdate", 6 | where_exp: "item", "item.skipfrontpage != true" | reverse %}
-
-<ul>
-  {% for event in selected_events %}
-    <li>
-      <a href="{{event.meetingurl}}">
-        <div class="event">
-          <div class="date">
-            {{ event.startdate | print_date_range: event.enddate }}
-          </div>
-          <div class="location">
-            {{event.location}}
-          </div>
-          <div class="name">
-            {{event.name}}
-          </div>
-        </div>
-      </a>
-    </li>
-  {% endfor %}
-</ul>
-{%- if selected_events.size == 0 %}
-  <div class="empty">
-    No events currently scheduled. Check back again soon!
+<div class="row">
+  <div class="mainpage-triple mainpage-container">
+    Project database.... Coming soon
   </div>
-{%- endif %}
-
-<div class="mainpage-sidebar-links">
-<a href="/events.html">View all past events</a>
-</div>
-</div>
-
-<div class="mainpage-topical mainpage-core">
-
-<div class="mainpage-sidebar-text">
-<h4>Upcoming Topical Meetings:</h4>
-</div>
-{% include get_indico_list.html %}
-{% assign upcoming_topical = indico_list | where_day_range: "startdate", 1 %}
-
-<ul>
-{% for event in upcoming_topical %}
-  <li>
-    <a href="{{event.meetingurl}}">
-      <div class="event">
-        <div class="date">
-          {{ event.startdate | print_date_range: event.enddate }}
-        </div>
-        <div class="location">
-        </div>
-        <div class="name">
-          {{event.name}}
-        </div>
-      </div>
-    </a>
-  </li>
-{% endfor %}
-</ul>
-
-{%- if upcoming_topical.size == 0 %}
-  <div class="empty">
-    No meetings currently scheduled. Check back again soon!
+  <div class="mainpage-triple mainpage-container">
+  <div class="mainpage-events mainpage-core">
+    {%- include display_events.html -%}
   </div>
-{%- endif %}
+  </div>
+  <div class="mainpage-triple mainpage-container">
+  <div class="mainpage-topical mainpage-core">
+    {%- include display_topical.html -%}
+  </div>
+  </div>
+</div>  
 
-<div class="mainpage-sidebar-links">
-<a href="/topical.html" aria-label="View all topical meetings">View all</a>
-&bull;
-<a href="https://indico.cern.ch/category/10570/" aria-label="Indico page for topical meetings">Indico</a>
-<a href="https://www.youtube.com/channel/UC8Dmx4MYjp6RQ9ngc58Ujmg/videos" aria-label="Recordings of past topical meetings">(recordings)</a>
-</div>
-</div>
-
-<div class="mainpage-related mainpage-core">
-<div class="mainpage-sidebar-text">
 
 </div>
-</div>
-</div>
-</div>
+
