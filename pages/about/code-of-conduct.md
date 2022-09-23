@@ -4,7 +4,7 @@ layout: default
 title: Code of Conduct
 ---
 
-# Code Of Conduct
+# DRAFT/PRELIMINARY Code Of Conduct
 
 The success of any research collaboration depends on its ability to engage a community from
 collaborating institutions and disciplines with diverse skills, personalities
