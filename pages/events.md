@@ -4,7 +4,7 @@ layout: default
 title: HSF-India Events
 ---
 <center>
-<h3> IRIS-HEP Events</h3>
+<h3> HSF-India Events</h3>
 </center>
 
 <br>
