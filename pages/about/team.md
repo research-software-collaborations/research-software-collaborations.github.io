@@ -7,7 +7,7 @@ title: Institute Team
 {% include institution_list.html %}
 {% assign univs = institution_list | hash_fetch: site.data.universities %}
 
-<h1>Full Team</h1><br>
+<h2>HSF-India PI Team</h2><br>
 
 <div class="container-fluid">
   <div class="row">
@@ -23,6 +23,7 @@ title: Institute Team
   </div>
 </div>
 
+{%- comment -%}
 <br>
 <h1>Former Team Members</h1><br>
 
@@ -39,5 +40,5 @@ title: Institute Team
     {% endfor %}
   </div>
 </div>
-
+{%- endcomment -%}
 

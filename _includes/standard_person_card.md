@@ -13,7 +13,7 @@
          {% endif %}
          <small>{{ include.person.institution }}</small><br><br>
          </div>
-         <div class="card-text mt-auto"><i>{{ include.person.title }}</i><br></div>
+         <div class="card-text mt-auto"><i>{{ include.person.title }}</i></div>
          </div>
        </div>
 
