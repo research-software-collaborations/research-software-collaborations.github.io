@@ -4,21 +4,14 @@ layout: default
 title: Code of Conduct
 ---
 
-# IRIS-HEP Code Of Conduct
+# Code Of Conduct
 
-{% include figure.html
-  file="/assets/images/iris-hep-team-2018-uchicago.jpg"
-  alt="Group photo"
-  caption="A group photo of IRIS-HEP PIs and team members during the kickoff meeting at the University of Chicago on October 31 - November 2, 2018"
-  class="center"
-%}
-
-The success of IRIS-HEP depends on its ability to engage a community from
+The success of any research collaboration depends on its ability to engage a community from
 collaborating institutions and disciplines with diverse skills, personalities
 and experiences.
 
 We are outlining here a set of principles and processes to support and promote
-a healthy community and make IRIS-HEP a welcoming and productive community.
+a healthy community, welcoming and productive community.
 
 * Foster an open, productive, harassment-free environment for everyone.
 * Be welcoming and support people of all backgrounds and identities,
@@ -44,7 +37,7 @@ a healthy community and make IRIS-HEP a welcoming and productive community.
   put down other community members. Harassment and other exclusionary behavior
   are not acceptable.
 * When we disagree, try to understand why. Disagreements, both social and
-  technical, happen all the time and the IRIS-HEP community is no exception.
+  technical, happen all the time and the our community is no exception.
   Try to understand where others are coming from, as seeing a question from
   their viewpoint may help find a new path forward. And don’t forget that it is
   human to err: blaming each other doesn't get us anywhere, while we can learn
@@ -69,27 +62,21 @@ situations online and offline, including conferences, training events, mailing
 lists, forums, GitHub organizations, chat rooms, social media, social events
 associated with conferences and events, and one-to-one interactions.
 
-> IRIS-HEP will seek opportunities for education and training on diversity,
-> inclusivity, reporting, and bystander intervention techniques. There is a plan
-> to offer a DEI workshop in the coming months which will be facilitated by
-> Princeton University.
-{: .alert .alert-primary}
-
 ### Discussing and/or Reporting Your Concerns
 
 If you believe someone is violating the code of conduct or if you have specific
 concerns, please report this in a timely manner. Code of conduct violations
 reduce the value of the community for everyone and we take them seriously.
 
-Please contact any member of the IRIS-HEP Executive Board or email Floe
-Fusin-Wischusen, Institute Manager, Princeton Institute for Computational
-Science & Engineering at [floe@princeton.edu](mailto:floe@princeton.edu).
+We have not yet formulated a reporting mechanism. Please contact any of
+the PI team until we do.
 
-[Parts of this Code of Conduct was adapted from the Project JupyterHub’s Code
+[Parts of this Code of Conduct was adapted from that of the IRIS-HEP project
+as well as the Project JupyterHub’s Code
 of Conduct (Some content on this page is licensed under a [Creative Commons
 Attribution][] license) and from Princeton Institute for Computational Science
 & Engineering.]
 
 
-[IRIS-HEP Executive Board]: https://iris-hep.org/about/executive-board
+[IRIS-HEP]: https://iris-hep.org
 [Creative Commons Attribution]: http://creativecommons.org/licenses/by/3.0/
