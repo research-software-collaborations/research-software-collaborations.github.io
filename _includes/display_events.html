@@ -5,16 +5,16 @@ ongoing events don't get prematurely flagged as recent.
 {% endcomment %}
 
 <div class="mainpage-sidebar-text">
-<h4>Upcoming Events</h4>
+  <center>
+  <h4>Events</h4>
+  </center>
 </div>
 
 {%- include get_all_events.html -%}
 
 {% assign selected_events = all_events | where_day_range: "startdate", 6 | where_exp: "item", "item.skipfrontpage != true" | reverse %}
 
-<ul>
   {% for event in selected_events %}
-    <li>
       <a href="{{event.meetingurl}}">
         <div class="event">
           <div class="date">
@@ -30,12 +30,12 @@ ongoing events don't get prematurely flagged as recent.
           </div>
         </div>
       </a>
-    </li>
+      <br>      
   {% endfor %}
-</ul>
 {%- if selected_events.size == 0 %}
-  <div class="empty">
-    No events currently scheduled. <br>Check back again soon!
+      <div class="empty">
+    No events currently scheduled. <br>Check back again soon!	<br>
+    <br>
   </div>
 {%- endif %}
 

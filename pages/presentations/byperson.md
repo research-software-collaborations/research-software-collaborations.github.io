@@ -6,7 +6,7 @@ title: Presentations by Person
 
 {% assign empty-list = "" | split: "," %}
 
-<h2>Presentations by the IRIS-HEP team</h2>
+<h2>Presentations related to HSF-India</h2>
 {% assign prescount = 0 %}
 
 {% assign members = site.data.people | where_exp:"item", "item.active and item.hidden != true"

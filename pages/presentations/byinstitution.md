@@ -13,7 +13,7 @@ date | name | title | url | meeting | meetingurl | project | focus_area | instit
 
 {% include institution_list.html %}
 
-<h2>Presentations by the IRIS-HEP team</h2>
+<h2>Presentations related to HSF-India</h2>
 {% assign prescount = 0 %}
 
 {% for uniindex in institution_list %}

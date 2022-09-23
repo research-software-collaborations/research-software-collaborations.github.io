@@ -11,7 +11,7 @@ title: Presentations by Area
 date | name | title | url | meeting | meetingurl | project | focus_area | institution
 -->
 
-<h2>Presentations by the IRIS-HEP team</h2>
+<h2>Presentations related to HSF-India</h2>
 {% assign prescount = 0 %}
 
 {% assign activities = site.pages | where: "layout", "focus-area" | where_exp: "item", "item.draft != true" | sort_natural: 'title' %}

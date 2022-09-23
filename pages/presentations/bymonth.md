@@ -8,7 +8,7 @@ redirect_from: "/presentations/all"
 {% assign groups = site.data['sorted_presentations'] | group_by_exp: "item", "item.date | date: '%B, %Y'" %}
 
 
-<h2>Presentations by the IRIS-HEP team</h2>
+<h2>Presentations related to HSF-India</h2>
 
 {% for pair in groups %}
   <h4> {{ pair.name }} </h4>
