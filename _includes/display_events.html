@@ -18,24 +18,20 @@ ongoing events don't get prematurely flagged as recent.
       <a href="{{event.meetingurl}}">
         <div class="event">
           <div class="date">
-            {{ event.startdate | print_date_range: event.enddate }}, {{event.location}}
+            {{ event.startdate | print_date_range: event.enddate }},
           </div>
-{% comment %}
           <div class="location">
             {{event.location}}
           </div>
-{% endcomment %}
           <div class="name">
             {{event.name}}
           </div>
         </div>
       </a>
-      <br>      
   {% endfor %}
 {%- if selected_events.size == 0 %}
       <div class="empty">
     No events currently scheduled. <br>Check back again soon!	<br>
-    <br>
   </div>
 {%- endif %}
 
