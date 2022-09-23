@@ -5,7 +5,7 @@ title: Publications
 draft: false
 ---
 
-## Publications by the IRIS-HEP team
+## Publications associated with HSF-India
 
 {% assign sorted_publications = site.data['sorted_publications'] %}
 
