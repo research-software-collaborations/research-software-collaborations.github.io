@@ -1,14 +1,15 @@
 active: true
 e-mail: Peter.Elmer@cern.ch
-focus-area:
-  - ssc
-  - ia
 institution: Princeton University
 name: Peter Elmer
 photo: "/assets/images/team/Peter-Elmer.jpg"
 shortname: pelmer
 title: 
 website: https://scholar.princeton.edu/elmer/home
+networks:
+  - cms
+  - irishep
+  - uscms
 presentations:
   - title:
       Institute for Research and Innovation in Software for High Energy Physics

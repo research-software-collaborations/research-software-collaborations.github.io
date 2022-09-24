@@ -1,11 +1,13 @@
 active: true
 e-mail: David.Lange@cern.ch
-focus-area:
-  - core
 institution: Princeton University
 name: David Lange
 photo: "/assets/images/team/David-Lange.png"
 shortname: davidlange6
 title: 
 website: https://dlange.web.cern.ch
+networks:
+  - cms
+  - irishep
+  - uscms
 presentations:
