@@ -8,7 +8,7 @@ title: HSF-India Events
 </center>
 
 <br>
-Events that HSF-India team members and participants are involved in organizing, planning to participate in or otherwise interested in:
+The following is a list of events organized by HSF-India team members and direct collaborators or topically related and potentially synergistic events being organized by others:
 
 {% assign yearlist = "2028, 2027, 2026, 2025, 2024, 2023, 2022" | split: ", " %}
 {% assign monthlist= "12, 11, 10, 09, 08, 07, 06, 05, 04, 03, 02, 01" | split: ", " %}
