@@ -1,0 +1,19 @@
+networks:
+  - name: cms
+    url: https://cms.cern
+    graphic: https://cms-docdb.cern.ch/cgi-bin/PublicDocDB/RetrieveFile?docid=3045&filename=CMSlogo_color_nolabel_1024_May2014.png&version=3
+  - name: uscms
+    url: https://uscms.org
+    graphic: https://uscms-software-and-computing.github.io/assets/logos/USCMS_SC_logo.png
+  - name: atlas
+    url: https://atlas.cern
+    graphic: https://atlas.cern/sites/default/files/logo/ATLAS-Logowhite-big.png
+  - name: usatlas
+    url: https://www.usatlas.org
+    graphic: https://www.usatlas.org/themes/custom/atlas/logo.svg
+  - name: dune
+    url: https://lbnf-dune.fnal.gov
+    graphic: https://live.staticflickr.com/952/42019568911_f71dba5cdb_c.jpg
+  - name: irishep
+    url: https://iris-hep.org
+    graphic: https://iris-hep.org/assets/logos/Iris-hep-4-no-long-name.png
