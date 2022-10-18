@@ -1,9 +1,21 @@
-<center>
-<img src="/assets/images/coming-soon-g994b7410f_1280.png" style="width:20%">
-<br>
+
+
+<div class="container-fluid">
+  <div class="row">
+      {% for network in site.data.networks.networks %}
+        <div class="card" style="font-size:14px;height: 135px;margin-left:5px;margin-right:5px;margin-bottom:-15px; border: none; text-align: center;">
+          <img style="height: 85px;" src="{{network.graphic}}"  alt="Card image cap">
+          <a href="{{network.url}}">{{ network.name }}</a>
+        </div>
+      {% endfor %}
+  </div>
+</div>
 
 <h4>
-  Join us!
+  <center>
+    Join us! <img src="/assets/images/coming-soon-g994b7410f_1280.png" style="width:5%">
+
+  </center>  
 </h4>
 
 </center>
