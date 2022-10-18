@@ -5,37 +5,7 @@ title: IRIS/HEP Projects
 mermaid: true
 ---
 
-# IRIS-HEP Projects
+# Projects
 
-<style>
-table {
-    width: 100%;
-}
-</style>
+<img src="/assets/images/coming-soon-g994b7410f_1280.png" width="200">
 
-
-| Name | Focus Area(s) | Maturity | Description |
-|------|-------|-------|:------------|
-{% assign sorted = site.pages | sort_natural: 'title' -%}
-{% assign projects = sorted | where: "pagetype", "project" -%}
-{% for mypage in projects %}
-{%- capture focus-areas -%}
-{%- assign notfirst = false -%}
-{%- for fa in mypage.focus-area -%}
-{%- if notfirst -%}
-{{", "}}
-{%- endif -%}
-{%- assign notfirst = true -%}
-[{{fa | upcase }}](/{{fa}}.html)
-{%- endfor -%}
-{%- endcapture -%}
-| [{{mypage.title}}](/projects/{{mypage.shortname}}.html) | {{focus-areas}} | {% include maturity.html project=mypage %} | {{ mypage.blurb }} |
-{% endfor %}
-
-<br/>
-
-{{ projects | gantt_projects }}
-
-<script>
-  mermaid.initialize({ startOnLoad: true });
-</script>
