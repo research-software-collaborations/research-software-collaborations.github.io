@@ -1,0 +1,13 @@
+name: My second test project
+categories:
+  - open_science
+durations:
+  - 3 months
+experiments:
+  - Dune
+  - Atlas
+skillset:
+  - Python
+status:
+  - Available
+  

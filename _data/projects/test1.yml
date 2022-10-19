@@ -1,0 +1,12 @@
+name: My test project
+categories:
+  - simulation
+durations:
+  - PhD thesis
+experiments:
+  - CMS
+skillset:
+  - C++
+status:
+  - Available
+  

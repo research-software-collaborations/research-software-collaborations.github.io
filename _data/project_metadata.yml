@@ -1,0 +1,30 @@
+categories:
+  - analysis_systems
+  - simulation
+  - open_science
+  - ml/ai
+
+durations:
+  - 3 months
+  - 1 year
+  - PhD thesis
+
+experiments:
+  - CMS
+  - Atlas
+  - Dune
+  - INO
+  - Alice
+  - EIC
+  
+skillset:
+  - Python
+  - C++
+  - Geant4
+  - Generators
+  
+status:
+  - Available
+  - In progress
+  - Complete
+  - Obsolete/Closed
