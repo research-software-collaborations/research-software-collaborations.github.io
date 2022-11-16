@@ -14,3 +14,11 @@ and data. IRIS-HEP and its European collaborators at CERN and in the UK have bee
 software elements to support this, e.g. pyhf is being used to publish likelihoods for physics results into
 HEPData, a repository for publication-related data. The CERN open data portal and Zenodo provide data and
 example software from the LHC and beyond (including COVID-related data).
+
+This is a broad and still developing area of research. We are looking for interested researchers
+(both potential mentors and potential students) on cross-experimental
+topics around software including:
+  - Open dataset development
+  - Analysis reproducibility
+  - Result reinterpretation
+

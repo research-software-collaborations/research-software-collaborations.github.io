@@ -18,3 +18,11 @@ The challenge here is that scale of Monte Carlo simulation needed scales with th
 Significant research is going into improving current tools, either in their computational techniques (eg, use of GPUs for
 detector simulation) or in their physics completeness (eg, NNLO for matrix element generators). The incorporation of new machine
 learning and data science approaches and methodologies into the software ecosystem also holds great promise.
+
+This is a vast area of research. We are looking for interested researchers (both potential mentors and potential students) on cross-experimental
+topics around software including:
+  - Physics generators
+  - Geant4 modernization
+  - Fast simulation, fast generation approaches (eg, based on modern machine learning techniques)
+  - Novel simulation approaches (eg, simulation based inference, differentiable programming techniques, etc)
+
