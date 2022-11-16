@@ -38,6 +38,7 @@ gem 'minima', '~> 2.5'
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.16'
   gem 'jekyll-include-cache'
+  gem 'jekyll-indico', '~> 0.6.2'
 end
 
 # This is used like a library, not as a plugin
