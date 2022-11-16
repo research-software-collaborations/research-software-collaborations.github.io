@@ -7,11 +7,14 @@ mermaid: true
 
 # Open project database
 
-This page is a prototype project database instance. Use the menu bars to select projects based on their attributes. Projects with no value
+We want to make finding projects easier for students and advertising projects easier for scientists
+with research opportunities. Today, this is very much a work in progress... eventually you will be able
+to search for perspective project ideas and easily add new project opportunities to this repository.
+
+This page is a prototype project database. Use the menu bars to select projects based on their attributes. Projects with no value
 specified for a given attribute will be included if a selection is made on that attribute.
 Click the triangle next to each project for more information (if provided by the project mentors).
 
-Very much a work in progress...
 
 <img src="/assets/images/coming-soon-g994b7410f_1280.png" width="100">
 
