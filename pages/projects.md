@@ -7,7 +7,11 @@ mermaid: true
 
 # Open project database
 
-This page is a prototype project database instance.. Very much a work in progress...
+This page is a prototype project database instance. Use the menu bars to select projects based on their attributes. Projects with no value
+specified for a given attribute will be included if a selection is made on that attribute.
+Click the triangle next to each project for more information (if provided by the project mentors).
+
+Very much a work in progress...
 
 <img src="/assets/images/coming-soon-g994b7410f_1280.png" width="100">
 
