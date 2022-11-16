@@ -56,9 +56,15 @@ var id = 0;
 {% assign id = 0 %}
 {%- assign projects = site.data.projects | values -%}
 {% for project in projects %}
+ {%- assign names = project.contacts | join: "," -%}
   {% assign id = id | plus:1 %}
   <div id="{{id}}">
-   <li> {{project.name }} </li>
+   <li style="list-style: none;">
+   {% capture details %} {{project.description}} {% endcapture %}
+   {% capture summary %}{{project.name }}: {{project.shortdescription}}. <a href="mailto:{{names}}">Email the mentors</a>{% endcapture %}{% include details.html %}
+
+   
+   </li>
   </div> 
 {% endfor %}
 
