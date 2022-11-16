@@ -28,3 +28,11 @@ status:
   - In progress
   - Complete
   - Obsolete/Closed
+
+project:
+  - compiler research
+  - IRIS-HEP
+
+program:
+  - GSOC 2023
+  - IRIS-HEP Fellow

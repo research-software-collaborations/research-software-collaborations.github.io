@@ -27,32 +27,16 @@ var id = 0;
     {%- assign item_hash_0 = item_hash[0] -%}
     var list = document.getElementById(list_item);
     var selectedCategory = list.options[list.selectedIndex].text;
-    var cats = {{ project[item_hash_0] | jsonify }};
-    if ( !( selectedCategory =='---'+item_name+'---' || cats.includes(selectedCategory) ) ) {
-      show_item = 'none'
-    }
+    {%- if project[item_hash_0] -%}
+       var cats = {{ project[item_hash_0] | jsonify }};
+       if ( !( selectedCategory =='---'+item_name+'---' || cats.includes(selectedCategory) ) ) {
+         show_item = 'none'
+       }
+    {%- endif -%}
   {%- endfor -%}
   projectDiv.style.display = show_item;
 {%- endfor -%}
 
-}  
-</script>
-
-
-<script>  
-function dropdownMenu(which_menu,which_item) {  
-   var list = document.getElementById(which_menu);
-   var options = list.options;
-   var selectedCategory = options[list.selectedIndex].text;
-   var id = 0;
-   {%- assign projects = site.data.projects | values -%}
-   {% for project in projects %}
-      var cats = {{ project.categories | jsonify }}
-      var projectDiv = document.getElementById(++id);
-      projectDiv.style.display = ( selectedCategory == '---'+which_item+'---' || cats.includes(selectedCategory) ) 
-        ? 'unset' 
-        : 'none';
-   {%- endfor -%}
 }  
 </script>
 
