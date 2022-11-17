@@ -6,6 +6,8 @@ durations:
 skillset:
   - C++
   - ML
+experiment:
+  - Any
 project:
   - compiler research
 location:
