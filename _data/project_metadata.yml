@@ -16,12 +16,14 @@ experiments:
   - INO
   - Alice
   - EIC
+  - HLLHC
   
 skillset:
   - Python
   - C++
   - Geant4
   - Generators
+  - ML
   
 status:
   - Available
@@ -35,4 +37,14 @@ project:
 
 program:
   - GSOC 2023
-  - IRIS-HEP Fellow
+  - IRIS-HEP fellow
+  - HSF-India fellow
+  
+location:
+  - Remote
+  - In person
+  
+Commitment:
+  - Part time
+  - Full time
+

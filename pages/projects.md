@@ -66,13 +66,10 @@ var id = 0;
  {%- assign names = project.contacts | join: "," -%}
   {% assign id = id | plus:1 %}
   <div id="{{id}}">
-   <li style="list-style: none;">
-   {% capture details %} {{project.description}} {% endcapture %}
-   {% capture summary %}{{project.name }}: {{project.shortdescription}}. <a href="mailto:{{names}}">Email the mentors</a>{% endcapture %}{% include details.html %}
-
-   
-   </li>
-  </div> 
+   {%- capture details -%} {{project.description}} {%- endcapture -%}
+   {%- capture summary -%}{{project.name }}: {{project.shortdescription}}. <a href="mailto:{{names}}">Email the mentors</a>{%- endcapture -%}
+   {%- include details.html -%}
+  </div>
 {% endfor %}
 
 
