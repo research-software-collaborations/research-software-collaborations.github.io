@@ -1,7 +1,7 @@
 ---
 permalink: /docs/newteammember.html
 layout: default
-title: Information for new IRIS-HEP team members
+title: Information for new HSF-India team members
 pagetype: doc
 ---
 
