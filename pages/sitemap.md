@@ -38,7 +38,7 @@ different page categories (using our custom frontmatter tag "pagetype").
 </ul>
 
 <br>
-<b>IRIS-HEP Fellow pages:</b>
+<b>HSF-India Fellow pages:</b>
 <ul>
 {% assign sorted = site.pages | where: 'pagetype', 'fellow' | sort_natural: 'title' %}
 {% for mypage in sorted %}
