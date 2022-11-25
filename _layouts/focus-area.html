@@ -130,6 +130,7 @@
 {% include display_videos.html videos=selected_videos %}
 {% endif %}
 
+<!--
 <section class="">
   <div class="container-lg p-responsive py-5 py-md-6 ">
     <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="join-us">Join us</h2>
@@ -145,6 +146,7 @@
     </div>
   </div>
 </section>
+-->
 
 {% if sorted.size > 0 %}
   {{ sorted | gantt_project: page.title }}
