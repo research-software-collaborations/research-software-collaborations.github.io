@@ -1,6 +1,6 @@
 ---
 permalink: /analysis_systems.html
-layout: default
+layout: focus-area
 title: Analysis Systems
 ---
 

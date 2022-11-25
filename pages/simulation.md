@@ -1,6 +1,6 @@
 ---
 permalink: /simulation.html
-layout: default
+layout: focus-area
 title: Simulation Methods
 ---
 

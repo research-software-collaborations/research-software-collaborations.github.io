@@ -1,6 +1,6 @@
 ---
 permalink: /open_science.html
-layout: default
+layout: focus-area
 title: Open Science
 ---
 
