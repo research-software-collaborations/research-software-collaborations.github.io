@@ -1,13 +1,13 @@
 ---
 permalink: /docs/webdev.html
 layout: default
-title: Developing the IRIS-HEP website
+title: Developing the HSF-India website
 pagetype: doc
 ---
 
 ### Getting the source
 
-The website source is available at <https://github.com/iris-hep/iris-hep.github.io>.
+The website source is available at <https://github.com/research-software-collaborations/research-software-collaborations.github.io>.
 
 You can always click the edit button to make small edits to the website source, but if you want to test locally or make larger edits, you'll want to clone the source for the website and build it with Ruby.
 
