@@ -42,36 +42,36 @@ software-focused researcher exchanges. HSF-India will iteratively
 build on these seeds towards a broad and sustainable international
 research software collaboration with three key research themes:
 
-  1 **Analysis Systems:** Tools and techniques enabling next-generation
-    analysis approaches to realize the maximum scientific potential
-    of the data in the least time. The final stages of data analysis
-    for our science are topically diverse and highly collaborative
-    within small subsets of the experiment collaborations. Researchers
-    are working to develop relevant analysis tools in the Python
-    ecosystem, where much of the broader data science and machine
-    learning innovation is also happening. These tools must be scalable,
-    efficient and easy to use in order to support scientific needs
-    ranging from individual researchers to those required for datasets
-    of the size and complexity of the largest facilities
-  1 **Novel simulation techniques** are critical tools for the increasingly
-    complex questions being asked by current and planned experiments,
-    and touch all aspects of experimental work in nuclear and
-    particle physics. Traditional Monte Carlo techniques face large
-    gaps with respect to needs for next-generation experiments. These
-    can be closed through research that enables the efficient use of
-    new computing technology; the application of machine learning
-    approaches and more broadly emerging techniques such as simulation
-    based inference and differentiable programming.
-  1 **Tools for Open Science** will ensure that researchers benefit
-    from, and contribute to, the innovation of the broader data science
-    community. This includes not only openness of the software, but
-    also the development of corresponding open datasets to enable
-    further software evolution. An open science approach is also key
-    to enable international collaborations as well as multidisciplinary
-    collaborations between physicists, computer scientists and other
-    data science practitioners. Finally, by developing open tools
-    that are generalized to work across many experiments, they will
-    also find applications beyond our own science.
+  1. **Analysis Systems:** Tools and techniques enabling next-generation
+     analysis approaches to realize the maximum scientific potential
+     of the data in the least time. The final stages of data analysis
+     for our science are topically diverse and highly collaborative
+     within small subsets of the experiment collaborations. Researchers
+     are working to develop relevant analysis tools in the Python
+     ecosystem, where much of the broader data science and machine
+     learning innovation is also happening. These tools must be scalable,
+     efficient and easy to use in order to support scientific needs
+     ranging from individual researchers to those required for datasets
+     of the size and complexity of the largest facilities
+  1. **Novel simulation techniques** are critical tools for the increasingly
+     complex questions being asked by current and planned experiments,
+     and touch all aspects of experimental work in nuclear and
+     particle physics. Traditional Monte Carlo techniques face large
+     gaps with respect to needs for next-generation experiments. These
+     can be closed through research that enables the efficient use of
+     new computing technology; the application of machine learning
+     approaches and more broadly emerging techniques such as simulation
+     based inference and differentiable programming.
+  1. **Tools for Open Science** will ensure that researchers benefit
+     from, and contribute to, the innovation of the broader data science
+     community. This includes not only openness of the software, but
+     also the development of corresponding open datasets to enable
+     further software evolution. An open science approach is also key
+     to enable international collaborations as well as multidisciplinary
+     collaborations between physicists, computer scientists and other
+     data science practitioners. Finally, by developing open tools
+     that are generalized to work across many experiments, they will
+     also find applications beyond our own science.
 
 As described below, it will focus on opportunities for early-career
 researchers and establish mentoring and co-mentoring relationships
