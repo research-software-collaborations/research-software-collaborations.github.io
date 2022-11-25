@@ -5,15 +5,15 @@ title: Information for new IRIS-HEP team members
 pagetype: doc
 ---
 
-### Things new IRIS-HEP team members need to do
+### Things new HSF-India team members need to do
 
-New IRIS-HEP team members need to do some number of things to get connected.
+New HSF-India team members need to do some number of things to get connected.
 This webpage documents the things that need to be done. If you find there are steps
 not mentioned here, or missing/unclear information, please [contribute an improvement][]!
 
-#### IRIS-HEP website
+#### HSF-India website
 
-* Request membership in the [IRIS-HEP GitHub organization][].
+* Request membership in the [research software collaborations GitHub organization](https://github.com/research-software-collaborations/research-software-collaborations.github.io).
 * Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder][]. It should be 320x240 pixels.
 * Add a "`<your github username>.yml`" file to the [people folder in the website repository][people]. Here is an example:
 
@@ -40,6 +40,7 @@ presentations:
 
 * Add your GitHub username to the proper [university file][]. Note that you will *not* show up in the full team page if you are not in a university file!
 
+<!--
 #### Communication
 
 * Have an existing team member add your email address to the [IRIS-HEP Slack][] team.
@@ -52,6 +53,8 @@ presentations:
 [university file]:              https://github.com/iris-hep/iris-hep.github.io/tree/master/_data/universities
 [IRIS-HEP Slack]:               https://iris-hep.slack.com
 [Google mailing lists]:         https://groups.google.com/a/iris-hep.org
+
+-->
 
 #### Presentations
 
