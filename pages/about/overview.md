@@ -90,49 +90,49 @@ We say “collaboration building” rather than directly forming
 geographically distributed) “many to many” relationships is required.
 These will include:
 
-  1 **Training events** that will build upon the curriculum being
-    actively developed and used today by the HSF and IRIS-HEP. This
-    will include an introduction to the current analysis, deep learning
-    and data science ecosystem, software development/engineering
-    skills, and best practices for collaborative work. Practical
-    sessions and group "hackathons" will develop team connections.
-    We aim to engage 150 students per year and have funds to assist
-    with instructor travel costs and networking events.
-  1 **Mentoring and co-mentoring** of early-career researchers across
-    the networks. This will include curating a catalog of possible
-    software-related projects of various sizes, including those sized
-    for summer or semester-long projects as well as larger projects
-    which are suitable to be the subject or a part of a student thesis.
-  1 **Fellowship programs** for students that have participated in our
-    training programs, or have equivalent experience. Fellows will
-    be based at their home institute (or elsewhere as convenient) and
-    interact remotely with their mentors on software projects. Projects
-    will nominally have two mentors, both for practical reasons
-    (holidays, busy schedules, etc), and to bring different perspectives,
-    from different networks, to the problem. We also aim for projects
-    where two Fellows from different countries work together under
-    the same mentors on a project. We aim to support 10 students per
-    year for a three month fellowship.
-  1 **Researcher exchanges** organized and funded between the U.S. and
-    India. While short in-person visits for training events, workshops
-    and conferences can reduce barriers to communication, longer
-    visits are critical to building and sustaining durable longer-term
-    relationships.  We aim to provide travel support for 10 early-career
-    researchers per year to participate in a researcher exchange
-    across HSF-India networks.
-  1 **Virtual Topical Meetings** to allow participants to periodically
-    present the status of their projects as well as invited external
-    speakers with relevant software activities.
-  1 **Annual Project Meeting** to facilitate collaboration amongst
-    HSF-India participants.
+  1. **Training events** that will build upon the curriculum being
+     actively developed and used today by the HSF and IRIS-HEP. This
+     will include an introduction to the current analysis, deep learning
+     and data science ecosystem, software development/engineering
+     skills, and best practices for collaborative work. Practical
+     sessions and group "hackathons" will develop team connections.
+     We aim to engage 150 students per year and have funds to assist
+     with instructor travel costs and networking events.
+  1. **Mentoring and co-mentoring** of early-career researchers across
+     the networks. This will include curating a catalog of possible
+     software-related projects of various sizes, including those sized
+     for summer or semester-long projects as well as larger projects
+     which are suitable to be the subject or a part of a student thesis.
+  1. **Fellowship programs** for students that have participated in our
+     training programs, or have equivalent experience. Fellows will
+     be based at their home institute (or elsewhere as convenient) and
+     interact remotely with their mentors on software projects. Projects
+     will nominally have two mentors, both for practical reasons
+     (holidays, busy schedules, etc), and to bring different perspectives,
+     from different networks, to the problem. We also aim for projects
+     where two Fellows from different countries work together under
+     the same mentors on a project. We aim to support 10 students per
+     year for a three month fellowship.
+  1. **Researcher exchanges** organized and funded between the U.S. and
+     India. While short in-person visits for training events, workshops
+     and conferences can reduce barriers to communication, longer
+     visits are critical to building and sustaining durable longer-term
+     relationships.  We aim to provide travel support for 10 early-career
+     researchers per year to participate in a researcher exchange
+     across HSF-India networks.
+  1. **Virtual Topical Meetings** to allow participants to periodically
+     present the status of their projects as well as invited external
+     speakers with relevant software activities.
+  1. **Annual Project Meeting** to facilitate collaboration amongst
+     HSF-India participants.
 
 The HSF-India organizational structure will include reporting to
 NSF, and a steering board. The NSF reporting will be handled primarily
-by the PI-team consisting of [David Lange]https://dlange.web.cern.ch/) 
+by the PI-team consisting of [David Lange](https://dlange.web.cern.ch/) 
 (Princeton University), [Peter Elmer](https://elmer.scholar.princeton.edu) 
-(Princeton University), Rafael Coelho Lopes de Sa
-(University of Massachusetts, Amherst), Verena Martinez Outschoorn
-(University of Massachusetts, Amherst), and Heidi Schellman (Oregon
+(Princeton University), [Rafael Coelho Lopes de Sa](https://www.physics.umass.edu/people/rafael-lopes-de-sa)
+(University of Massachusetts, Amherst), [Verena Martinez Outschoorn](https://www.physics.umass.edu/people/verena-martinez-outschoorn)
+(University of Massachusetts, Amherst), and [Heidi Schellman](https://physics.oregonstate.edu/heidi-schellman) (Oregon
 State University). A steering board is to be formulated at the
 project kick off meeting based on an initial draft and input from
 all involved collaborators. The idea is that the steering board has
