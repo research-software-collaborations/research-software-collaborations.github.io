@@ -55,7 +55,7 @@ research software collaboration with three key research themes:
     of the size and complexity of the largest facilities
   1 **Novel simulation techniques** are critical tools for the increasingly
     complex questions being asked by current and planned experiments,
-    and touch all aspects of exper- imental work in nuclear and
+    and touch all aspects of experimental work in nuclear and
     particle physics. Traditional Monte Carlo techniques face large
     gaps with respect to needs for next-generation experiments. These
     can be closed through research that enables the efficient use of
