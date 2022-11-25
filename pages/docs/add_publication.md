@@ -5,14 +5,14 @@ title: Adding a publication to the website
 pagetype: doc
 ---
 
-## How to add a publication to the IRIS-HEP site
+## How to add a publication to the HSF-India website
 
-We would like each IRIS-HEP related presentation to be listed on the website.
+We would like each HSF-India related presentation to be listed on the website.
 This will be useful for advertising your work and (more mundane) reporting.
 
 #### Inspire
 
-This is easiest if you have your paper's inspire ID, which we will assume for the purpose of this tutorial is 12345678. Make a new yaml file in  [_data/publications](https://github.com/iris-hep/iris-hep.github.io/tree/master/_data/publications) - you can click the new file button or [click here](https://github.com/iris-hep/iris-hep.github.io/new/master/_data/publications). Name your file `ID.yml`; in our example, it would be `12345678.yml` The contents of the file should look like this:
+This is easiest if you have your paper's inspire ID, which we will assume for the purpose of this tutorial is 12345678. Make a new yaml file in  [_data/publications](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_data/publications) - you can click the new file button or [click here](https://github.com/research-software-collaborations/research-software-collaborations.github.io/new/master/_data/publications). Name your file `ID.yml`; in our example, it would be `12345678.yml` The contents of the file should look like this:
 
 ```yaml
 inspire-id: 12345678
