@@ -1,7 +1,7 @@
 ---
 permalink: /docs.html
 layout: default
-title: "Documentation pages for the IRIS-HEP team"
+title: "Documentation pages for the HSF-India team"
 ---
 
 # Documentation pages
@@ -9,9 +9,6 @@ title: "Documentation pages for the IRIS-HEP team"
 #### Informational
 
 * [Acknowledgements](/docs/acknowledgements)
-* [Logos and colors](/docs/logo)
-* [Preparing the annual IRIS-HEP SOWs](/docs/sows)
-* [Related projects](/docs/related-projects)
 
 #### New team members
 * [Reimbursement](/docs/reimbursement)
@@ -20,7 +17,7 @@ title: "Documentation pages for the IRIS-HEP team"
 * [Fellows Onboarding](/docs/fellows_onboarding)
 
 #### Website
-* [Website GitHub repo](https://github.com/iris-hep/iris-hep.github.io)
+* [Website GitHub repo](https://github.com/research-software-collaborations/research-software-collaborations.github.io)
 * [Setting up for web development](/docs/webdev)
 * [Website design features](/docs/webdesign)
 * [Add new news post](/docs/add_news)
