@@ -1,7 +1,7 @@
 ---
 permalink: /about/team.html
 layout: people
-title: Institute Team
+title: HSF-India Collaborators
 ---
 
 {% include institution_list.html %}

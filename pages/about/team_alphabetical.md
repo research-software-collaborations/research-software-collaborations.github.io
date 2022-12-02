@@ -1,7 +1,7 @@
 ---
 permalink: /about/team_alphabetical.html
 layout: people
-title: Institute Team
+title: HSF-India Collaborators
 ---
 
 {% include institution_list.html %}
@@ -13,7 +13,7 @@ title: Institute Team
                                   | last_name_sort: "name" %}
 
 
-<h1>Full Team</h1><br>
+<h1>HSF-India Collaborators</h1><br>
 
 <div class="container-fluid">
 <div class="row">
@@ -23,7 +23,8 @@ title: Institute Team
 </div>
 </div>
 
-<h1>Former Team Members</h1><br>
+{%- comment -%}
+<h1>Former Collaborators</h1><br>
 
 <div class="container-fluid">
 <div class="row">
@@ -32,3 +33,4 @@ title: Institute Team
 {% endfor %}
 </div>
 </div>
+{%- endcomment -%}
