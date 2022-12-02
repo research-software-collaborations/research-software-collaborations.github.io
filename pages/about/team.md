@@ -7,7 +7,7 @@ title: Institute Team
 {% include institution_list.html %}
 {% assign univs = institution_list | hash_fetch: site.data.universities %}
 
-<h2>HSF-India PI Team</h2><br>
+<h2>HSF-India Collaborators</h2><br>
 
 <div class="container-fluid">
   <div class="row">
