@@ -77,6 +77,8 @@ indico:
 collections:
   universities:
     output: true
+  networks:
+    output: true
 
 iris-hep:
   extra-focus-areas:
