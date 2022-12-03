@@ -58,11 +58,18 @@ different page categories (using our custom frontmatter tag "pagetype").
 </ul>
 
 <br>
-<b>Collections:</b>
+<b>Universities:</b>
 <ul>
 {% for post in site.universities %}
   <li><a href="{{post.url}}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 
+<br>
+<b>Networks:</b>
+<ul>
+{% for post in site.networks %}
+  <li><a href="{{post.url}}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
 
