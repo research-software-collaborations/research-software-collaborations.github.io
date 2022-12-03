@@ -1,6 +1,6 @@
 ---
 layout: university
-name: University of Massachusetts Amherst
+title: University of Massachusetts Amherst
 personnel:
   - rafaellopesdesa
   - vimartin

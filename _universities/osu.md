@@ -1,6 +1,6 @@
 ---
 layout: university
-name: Oregon State University
+title: Oregon State University
 personnel:
   - schellman
 ---

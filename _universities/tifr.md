@@ -1,6 +1,6 @@
 ---
 layout: university
-name: Tata Institute of Fundamental Research
+title: Tata Institute of Fundamental Research
 personnel:
   - kajari
   - brij01
