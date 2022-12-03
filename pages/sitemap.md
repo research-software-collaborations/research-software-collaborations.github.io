@@ -58,6 +58,7 @@ different page categories (using our custom frontmatter tag "pagetype").
 </ul>
 
 
+{% comment %}
 <br>
 <b>Collections:</b>
 {% for collection in site.collections %}
@@ -70,4 +71,14 @@ different page categories (using our custom frontmatter tag "pagetype").
     </ul>
     {% endfor %}
 {% endfor %}
+{% endcomment %}
+
+<br>
+<b>Collections:</b>
+<ul>
+{% for post in site.universities %}
+  <li><a href="{{post.permalink}}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
 
