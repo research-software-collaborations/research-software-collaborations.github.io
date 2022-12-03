@@ -1,6 +1,8 @@
 <!doctype html>
 
 {% include layout_header_navbar.html %}
+{% include institution_list.html %}
+{% assign univs = institution_list | hash_fetch: site.data.universities %}
 
     <div id="container">
       <div class="container page">
@@ -13,9 +15,6 @@
               <a href="/about/team_alphabetical.html">by name</a>.
       </div>
           </div>
-
-{% include institution_list.html %}
-{% assign univs = institution_list | hash_fetch: site.data.universities %}
 
 <h1>HSF-India Collaborators</h1><br>
 
