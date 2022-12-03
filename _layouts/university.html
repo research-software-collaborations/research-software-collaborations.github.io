@@ -1,56 +1,10 @@
 <!doctype html>
 
 {% include layout_header_navbar.html %}
-{% include institution_list.html %}
-{% assign univs = institution_list | hash_fetch: site.data.universities %}
-
     <div id="container">
       <div class="container page">
         <main role="main">
-          <div class="presentation toppagelinks">
-            <div class="inner">
-              Team:
-              <a href="/about/team.html">by institution</a>
-              &#8226;
-              <a href="/about/team_alphabetical.html">by name</a>.
-      </div>
-          </div>
-
-<h1>HSF-India Collaborators</h1><br>
-
-<div class="container-fluid">
-  <div class="row">
-    {% for univ in univs %}
-      {% assign members = univ.personnel | hash_fetch: site.data.people
-                                         | where_exp:"item", "item.active and item.hidden != true"
-                                         | last_name_sort: "name" %}
-
-      {% for person in members %}
-        {% include standard_person_card.md person=person %}
-      {% endfor %}
-    {% endfor %}
-  </div>
-</div>
-
-{%- comment -%}
-<br>
-<h1>Former Team Members</h1><br>
-
-<div class="container-fluid">
-  <div class="row">
-    {% for univ in univs %}
-      {% assign members = univ.personnel | hash_fetch: site.data.people
-                                         | where_exp: "item", "item.active == nil or item.active == false and item.hidden != true"
-                                         | last_name_sort: "name" %}
-
-      {% for person in members %}
-        {% include standard_person_card.md person=person %}
-      {% endfor %}
-    {% endfor %}
-  </div>
-</div>
-{%- endcomment -%}
-
+          PAGE: {{page.name}}
           {{ content }}
         </main>
       </div>
