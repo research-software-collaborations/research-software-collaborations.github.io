@@ -75,7 +75,7 @@ indico:
     topical: 15964
 
 collections:
-  universities:
+  institutes:
     output: true
   networks:
     output: true
