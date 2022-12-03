@@ -91,7 +91,9 @@ geographically distributed) “many to many” relationships is required.
 These will include:
 
   1. **Training events** that will build upon the curriculum being
-     actively developed and used today by the HSF and IRIS-HEP. This
+     actively developed and used today by the 
+     [HEP Software Foundation (HSF)](https://hepsoftwarefoundation.org)
+      and [IRIS-HEP](https://iris-hep.org). This
      will include an introduction to the current analysis, deep learning
      and data science ecosystem, software development/engineering
      skills, and best practices for collaborative work. Practical
@@ -136,7 +138,7 @@ by the PI-team consisting of [David Lange](https://dlange.web.cern.ch/)
 State University). A steering board is to be formulated at the
 project kick off meeting based on an initial draft and input from
 all involved collaborators. The idea is that the steering board has
-a membership spanning the “networks” engaged in HSF-India research
+a membership spanning the "networks" engaged in HSF-India research
 and meetings regularly to help organize HSF-India events and
 opportunities. Its makeup should include researchers from across
 the engaged experiments, regions and interests, as well as of
