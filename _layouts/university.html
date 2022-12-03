@@ -4,9 +4,11 @@
     <div id="container">
       <div class="container page">
         <main role="main">
-          PAGE: {{page.title}}
-          PAGE: {{page.longitude}}
 
+<h2>{{ page.title }}</h2>
+          {{ content }}
+
+<h2>{{ page.title }} Collaborators</h2>
 <div class="container-fluid">
   <div class="row">
       {% assign members = page.personnel | hash_fetch: site.data.people
@@ -17,9 +19,6 @@
       {% endfor %}
   </div>
 </div>
-
-          {{ content }}
-
 
         </main>
       </div>
