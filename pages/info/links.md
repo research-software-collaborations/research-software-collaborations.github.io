@@ -1,5 +1,5 @@
 ---
-permalink: /links.html
+permalink: /info/links.html
 layout: default
 title: Useful Links
 ---
