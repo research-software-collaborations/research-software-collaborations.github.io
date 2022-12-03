@@ -17,6 +17,7 @@ title: Information on travel to Mumbai
 hotels in a variety of price ranges include:
 
   * [Hotel Fariyas](https://fariyas.com/hotel-in-mumbai/)
+  * [Ramanujan Guest House (at TIFR)](https://www.tifr.res.in/~rgh/Contact.html)
   * [Astoria Hotel Mumbai](https://astoria-hotel.mumbaihotel.net/en/)
   * [Chateau Windsor](https://www.chateauwindsor.com)
   * [Taj President](https://www.tajhotels.co.uk/our-properties/hotels/president-mumbai-ihcl-seleqtions/)
