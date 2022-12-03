@@ -16,6 +16,7 @@ title: Information on travel to Mumbai
   To visit TIFR, it is most convenient to be in the Colaba area. Example
 hotels in a variety of price ranges include:
 
+  * [YMCA Central Branch (Colaba)](https://www.ymcabombay.org/central-branch}
   * [Hotel Fariyas](https://fariyas.com/hotel-in-mumbai/)
   * [Ramanujan Guest House (at TIFR)](https://www.tifr.res.in/~rgh/Contact.html)
   * [Astoria Hotel Mumbai](https://astoria-hotel.mumbaihotel.net/en/)
