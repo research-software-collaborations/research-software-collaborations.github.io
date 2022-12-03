@@ -74,6 +74,10 @@ indico:
   ids:
     topical: 15964
 
+collections:
+  universities:
+    output: true
+
 iris-hep:
   extra-focus-areas:
     - core
