@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6c3782c50a9a61a75fbfb7af15b47b6b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6c3782c50a9a61a75fbfb7af15b47b6b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6c3782c50a9a61a75fbfb7af15b47b6b = L.map(
+                "map_6c3782c50a9a61a75fbfb7af15b47b6b",
+                {
+                    center: [18.912, 72.825],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_6c3782c50a9a61a75fbfb7af15b47b6b);
+
+            
+
+        
+    
+            var tile_layer_e5b9a8bef9440ed5e47b0fefffd9904d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6c3782c50a9a61a75fbfb7af15b47b6b);
+        
+    
+            var circle_marker_0cd727e612a6dad58c7bf1f55cccff53 = L.circleMarker(
+                [18.906663046504868, 72.80512751400512],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_6c3782c50a9a61a75fbfb7af15b47b6b);
+        
+    
+        var popup_fd419f3ec662deecb99df28de87b6703 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7297c3c5e5a1e431a5d0c459632bbe0d = $(`<div id="html_7297c3c5e5a1e431a5d0c459632bbe0d" style="width: 100.0%; height: 100.0%;"><a href="https://www.tifr.res.in">TIFR</a></div>`)[0];
+                popup_fd419f3ec662deecb99df28de87b6703.setContent(html_7297c3c5e5a1e431a5d0c459632bbe0d);
+            
+        
+
+        circle_marker_0cd727e612a6dad58c7bf1f55cccff53.bindPopup(popup_fd419f3ec662deecb99df28de87b6703)
+        ;
+
+        
+    
+    
+            var circle_84e6bf5365cc744d517185691eb16191 = L.circle(
+                [18.906663046504868, 72.80512751400512],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_6c3782c50a9a61a75fbfb7af15b47b6b);
+        
+    
+        var popup_ac75b9cdf076c93cd9117d3e2ff790a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_056bd3af8f1f798f53ee96ba976cb6e0 = $(`<div id="html_056bd3af8f1f798f53ee96ba976cb6e0" style="width: 100.0%; height: 100.0%;"><a href="https://www.tifr.res.in">TIFR</a></div>`)[0];
+                popup_ac75b9cdf076c93cd9117d3e2ff790a6.setContent(html_056bd3af8f1f798f53ee96ba976cb6e0);
+            
+        
+
+        circle_84e6bf5365cc744d517185691eb16191.bindPopup(popup_ac75b9cdf076c93cd9117d3e2ff790a6)
+        ;
+
+        
+    
+    
+            var circle_marker_6e2a6dfdcbaa038d1bb053d05a9163b8 = L.circleMarker(
+                [18.92271220890727, 72.83314355041013],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_6c3782c50a9a61a75fbfb7af15b47b6b);
+        
+    
+        var popup_5cab83097a028d0d7c49948c2e90b724 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_108cec586f8ff3673831715b02f78516 = $(`<div id="html_108cec586f8ff3673831715b02f78516" style="width: 100.0%; height: 100.0%;"><a href="https://www.tifr.res.in">Taj Mahal Tower</a></div>`)[0];
+                popup_5cab83097a028d0d7c49948c2e90b724.setContent(html_108cec586f8ff3673831715b02f78516);
+            
+        
+
+        circle_marker_6e2a6dfdcbaa038d1bb053d05a9163b8.bindPopup(popup_5cab83097a028d0d7c49948c2e90b724)
+        ;
+
+        
+    
+    
+            var circle_eb967eac020edfd18edfee4da11ef125 = L.circle(
+                [18.92271220890727, 72.83314355041013],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_6c3782c50a9a61a75fbfb7af15b47b6b);
+        
+    
+        var popup_a0e9fc8ff07792d59d618af53c50a8f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0021a0b602c4635614d0ba1f80d7f0a7 = $(`<div id="html_0021a0b602c4635614d0ba1f80d7f0a7" style="width: 100.0%; height: 100.0%;"><a href="https://www.tifr.res.in">Taj Mahal Tower</a></div>`)[0];
+                popup_a0e9fc8ff07792d59d618af53c50a8f9.setContent(html_0021a0b602c4635614d0ba1f80d7f0a7);
+            
+        
+
+        circle_eb967eac020edfd18edfee4da11ef125.bindPopup(popup_a0e9fc8ff07792d59d618af53c50a8f9)
+        ;
+
+        
+    
+    
+            var circle_marker_60e7f32b100185899b63a9ada7211879 = L.circleMarker(
+                [18.92209066189362, 72.83465966368782],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_6c3782c50a9a61a75fbfb7af15b47b6b);
+        
+    
+        var popup_48c3ccc92d26873582f7b26d99b73a9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b24f6573ad51e9932a5d8056bfcdcff = $(`<div id="html_5b24f6573ad51e9932a5d8056bfcdcff" style="width: 100.0%; height: 100.0%;"><a href="https://www.tifr.res.in">Gateway of India</a></div>`)[0];
+                popup_48c3ccc92d26873582f7b26d99b73a9b.setContent(html_5b24f6573ad51e9932a5d8056bfcdcff);
+            
+        
+
+        circle_marker_60e7f32b100185899b63a9ada7211879.bindPopup(popup_48c3ccc92d26873582f7b26d99b73a9b)
+        ;
+
+        
+    
+    
+            var circle_53f6a00cd37fc25c84e6f8309a572534 = L.circle(
+                [18.92209066189362, 72.83465966368782],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_6c3782c50a9a61a75fbfb7af15b47b6b);
+        
+    
+        var popup_998e58ea3d07d06fe4a45e4078c97c8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29c5cdda515887ac401057753fb546ae = $(`<div id="html_29c5cdda515887ac401057753fb546ae" style="width: 100.0%; height: 100.0%;"><a href="https://www.tifr.res.in">Gateway of India</a></div>`)[0];
+                popup_998e58ea3d07d06fe4a45e4078c97c8a.setContent(html_29c5cdda515887ac401057753fb546ae);
+            
+        
+
+        circle_53f6a00cd37fc25c84e6f8309a572534.bindPopup(popup_998e58ea3d07d06fe4a45e4078c97c8a)
+        ;
+
+        
+    
+    
+            var circle_marker_9fec23ee4f98814f73c937026b79ec68 = L.circleMarker(
+                [18.915648832788516, 72.82076941274809],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_6c3782c50a9a61a75fbfb7af15b47b6b);
+        
+    
+        var popup_dc155aa0359957b2c89d42cf7c33b122 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf42eb87631094d20e3dc77ef0b7af90 = $(`<div id="html_bf42eb87631094d20e3dc77ef0b7af90" style="width: 100.0%; height: 100.0%;"><a href="https://www.tifr.res.in">Taj President</a></div>`)[0];
+                popup_dc155aa0359957b2c89d42cf7c33b122.setContent(html_bf42eb87631094d20e3dc77ef0b7af90);
+            
+        
+
+        circle_marker_9fec23ee4f98814f73c937026b79ec68.bindPopup(popup_dc155aa0359957b2c89d42cf7c33b122)
+        ;
+
+        
+    
+    
+            var circle_6ff6a35517fb6f7b39cb13e4915f1c65 = L.circle(
+                [18.915648832788516, 72.82076941274809],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_6c3782c50a9a61a75fbfb7af15b47b6b);
+        
+    
+        var popup_9bb4635683cf32136d09b4690737f395 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7338e1d7b3919701ec85cf013487e00b = $(`<div id="html_7338e1d7b3919701ec85cf013487e00b" style="width: 100.0%; height: 100.0%;"><a href="https://www.tifr.res.in">Taj President</a></div>`)[0];
+                popup_9bb4635683cf32136d09b4690737f395.setContent(html_7338e1d7b3919701ec85cf013487e00b);
+            
+        
+
+        circle_6ff6a35517fb6f7b39cb13e4915f1c65.bindPopup(popup_9bb4635683cf32136d09b4690737f395)
+        ;
+
+        
+    
+    
+            var circle_marker_0d997c910cdcebdf17756dca3db3a6a8 = L.circleMarker(
+                [19.09268775235863, 72.86268584971148],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_6c3782c50a9a61a75fbfb7af15b47b6b);
+        
+    
+        var popup_26a07b6b477637bd15787a06bb260f3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9671ad18a966197c34492bb94838022 = $(`<div id="html_b9671ad18a966197c34492bb94838022" style="width: 100.0%; height: 100.0%;"><a href="https://www.tifr.res.in"> Chhatrapati Shivaji Maharaj International Airport (BOM)</a></div>`)[0];
+                popup_26a07b6b477637bd15787a06bb260f3a.setContent(html_b9671ad18a966197c34492bb94838022);
+            
+        
+
+        circle_marker_0d997c910cdcebdf17756dca3db3a6a8.bindPopup(popup_26a07b6b477637bd15787a06bb260f3a)
+        ;
+
+        
+    
+    
+            var circle_4b502a3a2d57498ef6ed987f84bef247 = L.circle(
+                [19.09268775235863, 72.86268584971148],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_6c3782c50a9a61a75fbfb7af15b47b6b);
+        
+    
+        var popup_cc647306ff97948cd82b1f4ab630063e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b4af882841ecfdf9e992f17f37e5a07 = $(`<div id="html_0b4af882841ecfdf9e992f17f37e5a07" style="width: 100.0%; height: 100.0%;"><a href="https://www.tifr.res.in"> Chhatrapati Shivaji Maharaj International Airport (BOM)</a></div>`)[0];
+                popup_cc647306ff97948cd82b1f4ab630063e.setContent(html_0b4af882841ecfdf9e992f17f37e5a07);
+            
+        
+
+        circle_4b502a3a2d57498ef6ed987f84bef247.bindPopup(popup_cc647306ff97948cd82b1f4ab630063e)
+        ;
+
+        
+    
+    
+            var circle_marker_5f13639d35398478e91d405bd650ea9b = L.circleMarker(
+                [18.917336835815505, 72.8298816524506],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_6c3782c50a9a61a75fbfb7af15b47b6b);
+        
+    
+        var popup_3aa037db52b467a0d61f0200794181e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0a24d08994235065597b2a8ecec464f = $(`<div id="html_e0a24d08994235065597b2a8ecec464f" style="width: 100.0%; height: 100.0%;"><a href="https://www.tifr.res.in">Fariyas Hotel</a></div>`)[0];
+                popup_3aa037db52b467a0d61f0200794181e8.setContent(html_e0a24d08994235065597b2a8ecec464f);
+            
+        
+
+        circle_marker_5f13639d35398478e91d405bd650ea9b.bindPopup(popup_3aa037db52b467a0d61f0200794181e8)
+        ;
+
+        
+    
+    
+            var circle_5dbbea35360a059be0df17564769d700 = L.circle(
+                [18.917336835815505, 72.8298816524506],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_6c3782c50a9a61a75fbfb7af15b47b6b);
+        
+    
+        var popup_56f91158645b9345201c83486a75cbf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e1c70f91621105c7456b68d385829cd = $(`<div id="html_7e1c70f91621105c7456b68d385829cd" style="width: 100.0%; height: 100.0%;"><a href="https://www.tifr.res.in">Fariyas Hotel</a></div>`)[0];
+                popup_56f91158645b9345201c83486a75cbf2.setContent(html_7e1c70f91621105c7456b68d385829cd);
+            
+        
+
+        circle_5dbbea35360a059be0df17564769d700.bindPopup(popup_56f91158645b9345201c83486a75cbf2)
+        ;
+
+        
+    
+    
+            var circle_marker_7aea3c671c999f888624d406d05531c4 = L.circleMarker(
+                [18.909802650185515, 72.8052769746721],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_6c3782c50a9a61a75fbfb7af15b47b6b);
+        
+    
+        var popup_3e4bf3ebaf0231bdf7a05af4a3bc7c0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2e4d0ea2128e9e2c60a3380dac7f42f = $(`<div id="html_e2e4d0ea2128e9e2c60a3380dac7f42f" style="width: 100.0%; height: 100.0%;"><a href="'https://www.tifr.res.in"">Ramanujan Guest House</a></div>`)[0];
+                popup_3e4bf3ebaf0231bdf7a05af4a3bc7c0e.setContent(html_e2e4d0ea2128e9e2c60a3380dac7f42f);
+            
+        
+
+        circle_marker_7aea3c671c999f888624d406d05531c4.bindPopup(popup_3e4bf3ebaf0231bdf7a05af4a3bc7c0e)
+        ;
+
+        
+    
+    
+            var circle_98a534b3d487853f6a747ee8a2150e45 = L.circle(
+                [18.909802650185515, 72.8052769746721],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_6c3782c50a9a61a75fbfb7af15b47b6b);
+        
+    
+        var popup_e6d2afb68f98a048304c213b53d40276 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e558b592e37b0675947de742e661635d = $(`<div id="html_e558b592e37b0675947de742e661635d" style="width: 100.0%; height: 100.0%;"><a href="'https://www.tifr.res.in"">Ramanujan Guest House</a></div>`)[0];
+                popup_e6d2afb68f98a048304c213b53d40276.setContent(html_e558b592e37b0675947de742e661635d);
+            
+        
+
+        circle_98a534b3d487853f6a747ee8a2150e45.bindPopup(popup_e6d2afb68f98a048304c213b53d40276)
+        ;
+
+        
+    
+</script>
+</html>
