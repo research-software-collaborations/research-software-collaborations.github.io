@@ -1,4 +1,4 @@
---
+---
 layout: university
 name: Princeton University
 latitude: 40.3431
@@ -7,4 +7,4 @@ url: https://www.princeton.edu
 personnel:
   - davidlange6
   - pelmer
---
+---
