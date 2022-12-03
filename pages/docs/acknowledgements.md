@@ -19,8 +19,8 @@ The following text should be used:
 ---
 
 Suitable variations to also acknowledge other sources of support are of
-course acceptable, but the specific award number (OISE-2201990) for HSF-India
-must be included.
+course acceptable, but the specific NSF award number (OISE-2201990) for
+HSF-India must be included.
 
 ## Referencing HSF-India in Publications
 
@@ -32,7 +32,7 @@ The BibTex entries for this would be:
 
 ```
 
-@Misc{IRISHEPWEB,
+@Misc{HSFINDIAWEB,
   howpublished = "\url{http://research-software-collaborations.org}",
   title        = "{HSF-India project website}",
 }
