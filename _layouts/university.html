@@ -8,6 +8,8 @@
 <h2>{{ page.title }}</h2>
           {{ content }}
 
+{% assign nummembers = page.personnel | size %}
+{% if nummembers > 0 %}
 <h2>{{ page.title }} Collaborators</h2>
 <div class="container-fluid">
   <div class="row">
@@ -19,6 +21,7 @@
       {% endfor %}
   </div>
 </div>
+{% endif %}
 
         </main>
       </div>
