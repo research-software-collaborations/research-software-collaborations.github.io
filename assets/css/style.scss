@@ -282,7 +282,7 @@ div#container {
 
 .navbar-dark {
   @media (prefers-color-scheme: dark) {
-    @include gradient-x($black, $primary, 20%, 100%);
+    @include gradient-x($primary, $primary, 0%, 100%);
   }
 }
 
@@ -291,7 +291,7 @@ div#container {
     @include gradient-x($navbar-dark-active-color, $primary, 20%, 100%);
   }
   @media (prefers-color-scheme: dark) {
-    @include gradient-x($black, $primary, 20%, 100%);
+    @include gradient-x($primary, $primary, 0%, 100%);
   }
   border-top-color: $iris-100;
 
