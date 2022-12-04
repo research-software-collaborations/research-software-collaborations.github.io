@@ -1,6 +1,6 @@
 ---
 layout: network
 title: HEP Software Foundation (HSF)
-url: https://hepsoftwarefoundation.org
+website: https://hepsoftwarefoundation.org
 personnel:
 ---

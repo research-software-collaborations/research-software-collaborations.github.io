@@ -1,6 +1,6 @@
 ---
 layout: network
 title: India EIC Network
-url: 
+website: 
 personnel:
 ---
