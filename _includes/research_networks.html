@@ -18,8 +18,7 @@
   {% assign nummembers = network.personnel | size %}
   {% if nummembers > 0 %}
         <div class="card" style="font-size:14px;height: 135px;margin-left:5px;margin-right:5px;margin-bottom:-15px; border: none; text-align: center;">
-          <img style="height: 85px;" src="{{network.logo}}"  alt="Card image cap">
-          <a href="{{network.url}}">{{ network.title }}</a>
+          <a href="{{network.permalink}}"><img style="height: 85px;" src="{{network.logo}}" alt="Card image cap"></a>
         </div>
   {% endif %}
 {% endfor %}
