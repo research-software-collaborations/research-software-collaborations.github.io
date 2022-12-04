@@ -8,6 +8,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+$card-border-color: black;
+
+.shadow {
+  box-shadow: 0px 0px 5px #9d9d9d
+}
+
 @at-root {
   @-ms-viewport {
     width: device-width;
@@ -36,6 +42,4 @@ html {
 @import "utilities/display";
 @import "utilities/flex";
 
-.shadow {
-  box-shadow: 0px 0px 5px #9d9d9d
-}
+
