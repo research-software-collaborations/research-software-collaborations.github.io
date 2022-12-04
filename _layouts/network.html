@@ -6,17 +6,19 @@
         <main role="main">
 
 <div class="row" style="display: flex; margin-bottom: 3.5em; margin-top: 3.5em;">
-  <div class="mainpage-sidebar mainpage-container" style="border: 0px solid white; padding: 5px">
+  <div class="card" style="border: 0px solid white; padding: 5px">
   <img style="height: 85px;" src="{{page.logo}}" alt="Card image cap"> 
   </div>
-  <div class="mainpage-sidebar mainpage-container" style="border: 0px solid white; padding: 5px">
+  <div class="mainpage-core mainpage-container" style="border: 0px solid white; padding: 5px">
   <h2>{{ page.title }}</h2>
   </div>
 </div>  
 
-          Website: {{page.website}}
+  Website: <a href="{{page.website}}">{{page.website}}</a>
 
-          {{ content }}
+<div>
+  {{ content }}
+</div>
 
 
 {% assign nummembers = page.personnel | size %}
