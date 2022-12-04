@@ -248,7 +248,8 @@
 
 // White links against a dark background
 .navbar-dark {
-  @include gradient-x($navbar-dark-active-color, $primary, 30%, 100%);
+  //@include gradient-x($navbar-dark-active-color, $primary, 30%, 100%);
+  @include gradient-x($primary, $primary, 0%, 100%);
   //border-bottom-color: $iris-accent-100;
   //border-bottom-color: lighten($iris-400, 25%);
   border-bottom-color: $iris-100;
