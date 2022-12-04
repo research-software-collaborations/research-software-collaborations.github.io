@@ -1,17 +1,4 @@
 
-
-<div class="container-fluid">
-  <div class="row">
-    {% assign network_list = site.data.networks.networks | sample: site.data.networks.networks.size %}
-    {% for network in network_list %}
-        <div class="card" style="font-size:14px;height: 135px;margin-left:5px;margin-right:5px;margin-bottom:-15px; border: none; text-align: center;">
-          <img style="height: 85px;" src="{{network.graphic}}"  alt="Card image cap">
-          <a href="{{network.url}}">{{ network.name }}</a>
-        </div>
-      {% endfor %}
-  </div>
-</div>
-
 <div class="container-fluid">
   <div class="row">
 {% for network in site.networks%}
@@ -26,12 +13,12 @@
 </div>
 
 
-
+<div class="container-fluid">>
 <h4>
   <center>
     Join us! <img src="/assets/images/coming-soon-g994b7410f_1280.png" style="width:5%">
-
   </center>  
 </h4>
+</div>
 
 </center>
