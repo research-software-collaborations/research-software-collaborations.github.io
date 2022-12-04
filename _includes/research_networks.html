@@ -5,7 +5,7 @@
   {% assign nummembers = network.personnel | size %}
   {% if nummembers > 0 %}
         <div class="card" style="font-size:14px;height:90px;margin-left:5px;margin-right:5px;margin-bottom:-15px; border: none; text-align: center;">
-          <a href="{{site.networks.collection}}/{{network.basename | replace: ".md", ""}}"><img style="height: 85px;" src="{{network.logo}}" alt="Card image cap"></a>
+          <a href="{{network.url}}"><img style="height: 85px;" src="{{network.logo}}" alt="Card image cap"></a>
         </div>
   {% endif %}
 {% endfor %}
