@@ -12,5 +12,3 @@ title: Collaborating Universities and Institutes
 {% endfor %}
 </ul>
 
-
-
