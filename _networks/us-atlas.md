@@ -6,4 +6,5 @@ logo: https://www.usatlas.org/themes/custom/atlas/logo.svg
 personnel:
   - rafaellopesdesa
   - vimartin
+  - gordonwatts
 ---
