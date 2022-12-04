@@ -5,7 +5,17 @@
       <div class="container page">
         <main role="main">
 
-<h2>{{ page.title }}</h2>
+<div class="row" style="display: flex; margin-bottom: 3.5em; margin-top: 3.5em;">
+  <div class="mainpage-sidebar mainpage-container" style="border: 0px solid white; padding: 5px">
+  <h2>{{ page.title }}</h2>
+  </div>
+  <div class="mainpage-sidebar mainpage-container" style="border: 0px solid white; padding: 5px">
+  <img style="height: 85px;" src="{{page.logo}}" alt="Card image cap"> 
+  </div>
+</div>  
+
+          Website: {{page.url}}
+
           {{ content }}
 
 
