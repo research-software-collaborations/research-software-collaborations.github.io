@@ -36,14 +36,12 @@
             <button type="button" class="btn btn-outline-secondary btn-sm">
               <a href="{{ include.person.gitlab-url }}"> <span class="fab fa-gitlab"></span></a>
             </button>
-            </div>
            {% endif %}
 
            {% if include.person.linkedin-profile and include.person.linkedin-profile != blank %}
             <button type="button" class="btn btn-outline-secondary btn-sm">
               <a href="{{ include.person.linkedin-profile }}"> <span class="fab fa-linkedin"></span></a>
             </button>
-            </div>
            {% endif %}
 
 <!--
@@ -54,6 +52,7 @@
            {% endif %}
 -->
 
+            </div>
 
        </div>
 
