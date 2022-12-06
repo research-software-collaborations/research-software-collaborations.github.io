@@ -20,7 +20,7 @@
 
 
            {% if include.person.e-mail and include.person.e-mail != blank %}
-            <button type="button" class="btn btn-outline-secondary btn-sm">
+            <button type="button" class="btn btn-secondary btn-sm">
               <a href="mailto:{{page.e-mail}}"><i class="fas fa-envelope-square"></i></a>
             </button>
            {% endif %}
