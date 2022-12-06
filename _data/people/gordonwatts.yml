@@ -1,7 +1,8 @@
 active: true
-e-mail: gwatts@uw.edu
-institution: University of Washington
 name: Gordon Watts
+institution: University of Washington
+e-mail: gwatts@uw.edu
+github-username: https://github.com/gordonwatts
 photo: "/assets/images/team/Gordon-Watts.jpg"
 shortname: gordonwatts
 title: 
