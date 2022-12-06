@@ -17,19 +17,45 @@
          </div>
 
           <div class="footer-buttons">
-<!--            <button type="button" class="btn btn-outline-secondary btn-sm">
-              <a href="https://twitter.com/iris_hep"><i class="fab fa-twitter"></i></a>
-            </button> -->
+
+
+           {% if include.person.e-mail and include.person.e-mail != blank %}
             <button type="button" class="btn btn-outline-secondary btn-sm">
-              <a href="https://github.com/research-software-collaborations"> <span class="fab fa-github"></span></a>
+              <a href="mailto:{{page.e-mail}}"><i class="fas fa-envelope-square"></i></a>
             </button>
+           {% endif %}
+
+           {% if include.person.github-username and include.person.github-username != blank %}
             <button type="button" class="btn btn-outline-secondary btn-sm">
-              <a href="https://www.youtube.com/channel/UC8Dmx4MYjp6RQ9ngc58Ujmg?view_as=subscriber"> <i class="fab fa-youtube"></i></a>
+              <a href="https://github.com/{{ include.person.github-username }}"> <span class="fab fa-github"></span></a>
             </button>
-<!--            <button type="button" class="btn btn-outline-secondary btn-sm">
-              <a href="https://groups.google.com/a/iris-hep.org/forum/#!forum/announcements"> <span class="fab fa-google"></span></a>
-            </button> -->
+           {% endif %}
+
+
+           {% if include.person.gitlab-url and include.person.gitlab-url != blank %}
+            <button type="button" class="btn btn-outline-secondary btn-sm">
+              <a href="{{ include.person.gitlab-url }}"> <span class="fab fa-gitlab"></span></a>
+            </button>
             </div>
+           {% endif %}
+
+           {% if include.person.linkedin-profile and include.person.linkedin-profile != blank %}
+            <button type="button" class="btn btn-outline-secondary btn-sm">
+              <a href="{{ include.person.linkedin-profile }}"> <span class="fab fa-linkedin"></span></a>
+            </button>
+            </div>
+           {% endif %}
+
+            <i class="fab fa-linkedin"></i><a href = "{{page.linkedin-profile}}"> Visit my LinkedIn Profile</a><br>
+
+<!--
+          {% if include.person.twitter and include.person.twitter != blank %}
+            <button type="button" class="btn btn-outline-secondary btn-sm">
+              <a href="{{ include.person.twitter }}"><i class="fab fa-twitter"></i></a>
+            </button> 
+           {% endif %}
+-->
+
 
        </div>
 

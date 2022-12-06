@@ -1,7 +1,8 @@
 active: true
-e-mail: Peter.Elmer@cern.ch
-institution: Princeton University
 name: Peter Elmer
+institution: Princeton University
+e-mail: Peter.Elmer@cern.ch
+github-username: pelmer
 photo: "/assets/images/team/Peter-Elmer.jpg"
 shortname: pelmer
 title: 
