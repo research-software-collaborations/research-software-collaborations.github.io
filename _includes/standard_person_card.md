@@ -15,5 +15,21 @@
          </div>
          <div class="card-text mt-auto"><i>{{ include.person.title }}</i></div>
          </div>
+
+          <div class="footer-buttons">
+<!--            <button type="button" class="btn btn-outline-secondary btn-sm">
+              <a href="https://twitter.com/iris_hep"><i class="fab fa-twitter"></i></a>
+            </button> -->
+            <button type="button" class="btn btn-outline-secondary btn-sm">
+              <a href="https://github.com/research-software-collaborations"> <span class="fab fa-github"></span></a>
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-sm">
+              <a href="https://www.youtube.com/channel/UC8Dmx4MYjp6RQ9ngc58Ujmg?view_as=subscriber"> <i class="fab fa-youtube"></i></a>
+            </button>
+<!--            <button type="button" class="btn btn-outline-secondary btn-sm">
+              <a href="https://groups.google.com/a/iris-hep.org/forum/#!forum/announcements"> <span class="fab fa-google"></span></a>
+            </button> -->
+            </div>
+
        </div>
 
