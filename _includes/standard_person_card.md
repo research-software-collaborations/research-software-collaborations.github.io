@@ -46,8 +46,6 @@
             </div>
            {% endif %}
 
-            <i class="fab fa-linkedin"></i><a href = "{{page.linkedin-profile}}"> Visit my LinkedIn Profile</a><br>
-
 <!--
           {% if include.person.twitter and include.person.twitter != blank %}
             <button type="button" class="btn btn-outline-secondary btn-sm">
