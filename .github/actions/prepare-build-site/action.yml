@@ -4,13 +4,13 @@ inputs:
   ruby-version:
     description: "Version of ruby to prepare"
     required: false
-    default: "3.1"
+    default: "3.1.2"
 
 runs:
   using: composite
   steps:
     - name: Restore bundle cache
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: vendor/bundle
         key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
@@ -18,7 +18,7 @@ runs:
           ${{ runner.os }}-gems-
 
     - name: Restore publication cache
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: _cache
         key: ${{ runner.os }}-_cache-${{ hashFiles('_data/publications/*.yml') }}
