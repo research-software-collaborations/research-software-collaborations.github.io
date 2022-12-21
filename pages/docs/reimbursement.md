@@ -1,9 +1,11 @@
 ---
 permalink: /docs/reimbursement.html
 layout: default
-title: Reimbursement for travel sponsored by IRIS-HEP
+title: Reimbursement for travel sponsored by HSF-India
 pagetype: doc
 ---
+
+  **This page is copied from the IRIS-HEP project. It will be updated at some point to contain instructions for reimbursement from the HSF-India project.**
 
   This page documents the guidelines for reimbursement of participant travel
 expenses which are being covered by the IRIS-HEP project. Please read
