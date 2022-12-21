@@ -1,10 +1,10 @@
 ---
 permalink: /former-fellows.html
 layout: default
-title: IRIS/HEP Former Fellows
+title: HSF-India Former Fellows
 ---
 
-# IRIS-HEP Former Fellows
+# HSF-India Former Fellows
 
 {% assign inactive-fellows = site.pages | where: "pagetype", "fellow"
                                         | reject: "active"
