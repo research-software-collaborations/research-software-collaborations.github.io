@@ -1,13 +1,15 @@
 ---
 permalink: /docs/fellows_onboarding.html
 layout: default
-title: Information for onboarding new IRIS-HEP fellows
+title: Information for onboarding new HSF-India fellows
 pagetype: doc
 ---
 
-## IRIS-HEP Fellows onboarding
+  **This page is copied from the IRIS-HEP project and only partially updated for HSF-India. It will be updated at some point to contain instructions for reimbursement from the HSF-India project.**
 
-Welcome to IRIS-HEP!  Congratulations on your acceptance into the IRIS-HEP Fellows Program.  We look forward to your contribution and collaboration.
+## HSF-India Fellows onboarding
+
+Welcome to HSF-India!  Congratulations on your acceptance into the HSF-India Fellows Program.  We look forward to your contribution and collaboration.
 
 There are some additional items needed to complete the onboarding process.
 
