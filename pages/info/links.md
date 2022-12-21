@@ -12,5 +12,6 @@ don't get lost.
 
   * [US State Department Smart Traveler Enrollment Program (STEP)](https://step.state.gov/STEPMobile/Default.aspx)
   * [Indian Visiting Advanced Joint Research (VAJRA) Faculty Scheme](https://www.vajra-india.in)
+  * [Indo-U.S. Virtual Networked Centers](https://vnc.iusstf.org/)
 
 
