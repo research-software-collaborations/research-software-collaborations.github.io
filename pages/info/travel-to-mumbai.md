@@ -6,7 +6,7 @@ title: Information on travel to Mumbai
 
 # Information on travel to Mumbai
 
-## Institutions in Mumbai:
+## Institutions in Mumbai
 
   * [Tata Institute of Fundamental Research](https://www.tifr.res.in)
   * [IIT Bombay](https://www.iitb.ac.in) - [Physics Department](https://www.phy.iitb.ac.in), [Computer Science and Engineering Department](https://www.cse.iitb.ac.in)
