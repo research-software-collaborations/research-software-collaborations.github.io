@@ -26,3 +26,8 @@ hotels in a variety of price ranges include:
   * [The Oberoi](https://www.oberoihotels.com/hotels-in-mumbai/)
 
 *Information on this page was taken from a number of sources, including [ICFA2023](https://www.tifr.res.in/~icfa2023/).*
+
+## Places to eat in Mumbai (Colaba):
+
+  * Cafe Mondegar - Informal place a few hundred meters back from the Gateway of India and the Taj Mahal Palace/Tower. A bit loud when crowded at peak times.
+  * [Cafe Marina](http://www.seapalacehotel.net/restaurants/restaurants.htm) - Rooftop terrace restaurant/bar on top of the Sea Palace Hotel.
