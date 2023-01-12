@@ -34,3 +34,10 @@ hotels in a variety of price ranges include:
   * [Cafe Marina](http://www.seapalacehotel.net/restaurants/restaurants.htm) - Rooftop terrace restaurant/bar on top of the Sea Palace Hotel.
   * [Samrat Veg Restaurant](http://www.prashantcaterers.com/samrat/) - Gujrati Thali restaurant in Colaba.
   * [Colaba SOCIAL](https://www.google.com/maps/place/Colaba+SOCIAL/@18.9216619,72.8322984,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7d1c0ea74b9bf:0x41c1d5b1ada97f8c!8m2!3d18.9216619!4d72.8322984) - Cafe/bar with food.
+
+## Miscellaneous notes
+
+## Sights to see
+
+
+
