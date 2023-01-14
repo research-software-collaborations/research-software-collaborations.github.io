@@ -6,8 +6,6 @@ title: Information on travel to Pune
 
 # Information on travel to Pune
 
-Coming soon...
-
 ## Institutions in Pune
   * [IISER Pune](https://www.iiserpune.ac.in) - [Physics Department](https://www.iiserpune.ac.in/research/department/physics)
 
