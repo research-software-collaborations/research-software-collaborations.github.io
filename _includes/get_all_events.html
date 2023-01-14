@@ -4,3 +4,4 @@ Collect all the events, merging lists as appropriate.
 
 {%- assign indico_events = site.data.indico["events"] | values -%}
 {%- assign all_events = site.data.events | values |  concat: indico_events | sort: "startdate" | reverse -%}
+
