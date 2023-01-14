@@ -17,7 +17,7 @@ that they are appropriate for multiple options (or any option) for a given attri
 Click the triangle next to each project for more information (if provided by the project mentors).
 
 
-<img src="/assets/images/coming-soon-g994b7410f_1280.png" width="100">
+<img src="/assets/images/coming-soon-monsoon.png" width="100">
 
 <script>  
 function dropdownMenu2() {  
