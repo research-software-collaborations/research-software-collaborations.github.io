@@ -6,4 +6,5 @@ logo: /assets/images/networks/ATLAS-logo.png
 personnel:
   - rafaellopesdesa
   - vimartin
+  - gordonwatts
 ---
