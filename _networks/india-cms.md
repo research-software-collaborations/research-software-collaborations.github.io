@@ -6,4 +6,6 @@ logo: /assets/images/networks/Logo-India-CMS.jpeg
 personnel:
   - kajari
   - brij01
+  - seema-sharma
+  - sourabh-dube
 ---

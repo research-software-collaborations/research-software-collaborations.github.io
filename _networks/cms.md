@@ -7,4 +7,6 @@ personnel:
   - kajari
   - davidlange6
   - pelmer
+  - seema-sharma
+  - sourabh-dube
 ---
