@@ -6,4 +6,5 @@ website: https://iris-hep.org
 personnel:
   - davidlange6
   - pelmer
+  - gordonwatts
 ---
