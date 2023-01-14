@@ -73,6 +73,7 @@ indico:
   paginate: 25
   ids:
     topical: 15964
+    events: 15896
 
 collections:
   institutes:
