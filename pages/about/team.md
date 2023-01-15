@@ -5,14 +5,14 @@ title: HSF-India Collaborators
 ---
 
 {% include institution_list.html %}
-{% assign univs = institution_list | hash_fetch: site.data.universities %}
+{% assign univs = institution_list | hash_fetch: site.institutes %}
 
 <h1>HSF-India Collaborators</h1><br>
 
 <div class="container-fluid">
   <div class="row">
     {% for univ in univs %}
-      {% assign members = univ.personnel | hash_fetch: site.data.people
+      {% assign members = univ.personnel | hash_fetch: site.collaborators
                                          | where_exp:"item", "item.active and item.hidden != true"
                                          | last_name_sort: "name" %}
 
