@@ -19,7 +19,9 @@ title: HSF-India Collaborators
       {% for person in univ.personnel %}
         {% assign collaborator = site.collaborators | where_exp:"collaborator", "collaborator.shortname == person" 
     | first %}
-        {% include standard_person_card.md person=collaborator %}
+        {% if collaborator.active and collaborator.hidden != true %}
+          {% include standard_person_card.md person=collaborator %}
+        {% endif %}
       {% endfor %}
     {% endfor %}
   </div>
