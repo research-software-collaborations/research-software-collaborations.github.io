@@ -16,18 +16,9 @@ title: HSF-India Collaborators
 <div class="container-fluid">
   <div class="row">
     {% for univ in univs %}
-<h2>{{univ.title}}</h2>
-{% comment %}
-      {% assign members = univ.personnel | hash_fetch: site.collaborators
-                                         | where_exp:"item", "item.active and item.hidden != true"
-                                         | last_name_sort: "name" %}
-{% endcomment %}
       {% for person in univ.personnel %}
         {% assign collaborator = site.collaborators | where_exp:"collaborator", "collaborator.shortname == person" 
     | first %}
-        {% comment %}
-        {% assign collaborator = site.collaborators | where:"shortname", person %}
-        {% endcomment %}
         {% include standard_person_card.md person=collaborator %}
       {% endfor %}
     {% endfor %}
