@@ -33,12 +33,6 @@ Professional Appointments:
   - Assistant Professor, University of Illinois Urbana-Champaign 2014 - 2017
   - Lederman Postdoctoral Fellow at Fermi National Lab 2011 - 2014
 
-Awards and Honors:
-  - Outstanding Research Award, UMass Amherst, College of Natural Sciences (2021)
-  - National Science Foundation CAREER Award (2017)
-  - Ranked Excellent Teacher by Students, University of Illinois Urbana-Champaign (2017)
-  - ATLAS Thesis Award (2011)
-
 ### Project interests
 
 Analysis Systems
