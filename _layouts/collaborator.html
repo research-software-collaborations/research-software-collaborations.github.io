@@ -1,5 +1,9 @@
 <!doctype html>
 
+{% if page.title.IsNullOrWhiteSpace %}
+  {%- assign page.title = page.name %}
+{% endif %}
+
 {% include layout_header_navbar.html %}
     <div id="container">
       <div class="container page">
