@@ -25,6 +25,12 @@
             </button>
            {% endif %}
 
+           {% if include.person.website and include.person.website != blank %}
+            <button type="button" class="btn btn-outline-secondary btn-sm">
+              <a href="{{page.website}}"><i class="fas fa-browser"></i></a>
+            </button>
+           {% endif %}
+
            {% if include.person.github-username and include.person.github-username != blank %}
             <button type="button" class="btn btn-outline-secondary btn-sm">
               <a href="https://github.com/{{ include.person.github-username }}"> <span class="fab fa-github"></span></a>
