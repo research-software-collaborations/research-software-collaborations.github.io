@@ -20,6 +20,25 @@
   {{ content }}
 </div>
 
+<h2>Presentations related to HSF-India</h2>
+{% assign prescount = 0 %}
+
+{%- assign presentationlist = page.presentations | default: empty-list | sort: "date" | reverse -%}
+<h4>{{page.name}} - {{page.institution}}</h4>
+{%- if presentationlist.size > 0 -%}
+  <ul>
+    {%- for talk in presentationlist -%}
+      {%- assign prescount = prescount | plus: "1" -%}
+      <li>
+        {%- include print_pres.html talk=talk -%}
+      </li>
+    {%- endfor- %}
+  </ul>
+{%- else -%}
+  <p>No presentations found.</p>
+{%- endif -%}
+
+Total presentations: {{ prescount }}.
 
 {% assign nummembers = page.personnel | size %}
 {% if nummembers > 0 %}
