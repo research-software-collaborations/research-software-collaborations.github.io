@@ -23,6 +23,7 @@
 <h2>Presentations related to HSF-India</h2>
 {% assign prescount = 0 %}
 
+{% comment %}
 {%- assign presentationlist = page.presentations | default: empty-list | sort: "date" | reverse -%}
 <h4>{{page.name}} - {{page.institution}}</h4>
 {%- if presentationlist.size > 0 -%}
@@ -39,6 +40,7 @@
 {%- endif -%}
 
 Total presentations: {{ prescount }}.
+{% endcomment %}
 
 {% assign nummembers = page.personnel | size %}
 {% if nummembers > 0 %}
