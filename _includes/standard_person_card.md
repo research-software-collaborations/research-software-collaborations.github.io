@@ -21,13 +21,13 @@
 
            {% if include.person.e-mail and include.person.e-mail != blank %}
             <button type="button" class="btn btn-outline-secondary btn-sm">
-              <a href="mailto:{{page.e-mail}}"><i class="fas fa-envelope-square"></i></a>
+              <a href="mailto:{{include.person.e-mail}}"><i class="fas fa-envelope-square"></i></a>
             </button>
            {% endif %}
 
            {% if include.person.website and include.person.website != blank %}
             <button type="button" class="btn btn-outline-secondary btn-sm">
-              <a href="{{page.website}}"><i class="fas fa-browser"></i></a>
+              <a href="{{include.person.website}}"><i class="fa-solid fa-browser"></i></a>
             </button>
            {% endif %}
 
