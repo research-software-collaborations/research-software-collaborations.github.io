@@ -9,8 +9,11 @@ title: Information on travel to Kolkata
 Coming soon...
 
 ## Institutions in Kolkata
+  * [Saha Institute of Nuclear Physics](http://www.saha.ac.in/web/index.php)
 
 ## Hotels 
+
+  * [Taj Bengal](https://www.tajhotels.com/en-in/taj/taj-bengal-kolkata/)
 
 ## Places to eat 
 
