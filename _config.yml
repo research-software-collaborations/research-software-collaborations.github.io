@@ -82,6 +82,10 @@ collections:
   networks:
     output: true
     permalink: /:collection/:name
+  collaborators:
+    output: true
+    permalink: /:collection/:name
+
 
 iris-hep:
   extra-focus-areas:
