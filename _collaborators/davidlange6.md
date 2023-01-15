@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collaborator
 active: true
 name: David Lange
 institution: Princeton University

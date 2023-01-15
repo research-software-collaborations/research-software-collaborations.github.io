@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collaborator
 active: true
 e-mail: rclsa@umass.edu
 focus-area:

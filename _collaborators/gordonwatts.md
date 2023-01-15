@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collaborator
 active: true
 name: Gordon Watts
 institution: University of Washington

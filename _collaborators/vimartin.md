@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collaborator
 active: true
 e-mail: vimartin@umass.edu
 institution: University of Massachusetts Amherst

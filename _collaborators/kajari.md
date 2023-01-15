@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collaborator
 active: true
 e-mail: kajari.mazumdar@gmail.com
 institution: Tata Institute of Fundamental Research

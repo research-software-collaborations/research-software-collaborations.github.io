@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collaborator
 active: true
 name: Peter Elmer
 institution: Princeton University
