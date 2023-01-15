@@ -13,7 +13,9 @@
          {% endif %}
          <small>{{ include.person.institution }}</small><br><br>
          </div>
+         <!--
          <div class="card-text mt-auto"><i>{{ include.person.title }}</i></div>
+         -->
          </div>
 
           <div class="footer-buttons">
@@ -27,7 +29,7 @@
 
            {% if include.person.website and include.person.website != blank %}
             <button type="button" class="btn btn-outline-secondary btn-sm">
-              <a href="{{include.person.website}}"><i class="fa-solid fa-browser"></i></a>
+              <a href="{{include.person.website}}"><i class="fas fa-desktop"></i></a>
             </button>
            {% endif %}
 
