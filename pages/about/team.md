@@ -23,9 +23,9 @@ title: HSF-India Collaborators
                                          | last_name_sort: "name" %}
 {% endcomment %}
       {% for person in univ.personnel %}
-        {% include standard_person_card.md person=person %}
+      {% assign collaborator = site.collaborators | where:"id", person}
+        {% include standard_person_card.md person=collaborator %}
       {% endfor %}
-
     {% endfor %}
   </div>
 </div>
