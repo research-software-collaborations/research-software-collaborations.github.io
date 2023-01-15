@@ -23,7 +23,7 @@ title: HSF-India Collaborators
                                          | last_name_sort: "name" %}
 {% endcomment %}
       {% for person in univ.personnel %}
-      {% assign collaborator = site.collaborators | where:"id", person}
+      {% assign collaborator = site.collaborators | where:"id", person %}
         {% include standard_person_card.md person=collaborator %}
       {% endfor %}
     {% endfor %}
