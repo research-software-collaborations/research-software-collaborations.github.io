@@ -16,10 +16,8 @@
          <!--
          <div class="card-text mt-auto"><i>{{ include.person.title }}</i></div>
          -->
-         </div>
 
           <div class="footer-buttons">
-
 
            {% if include.person.e-mail and include.person.e-mail != blank %}
             <button type="button" class="btn btn-outline-secondary btn-sm">
@@ -61,6 +59,6 @@
 -->
 
             </div>
-
+          </div>
        </div>
 
