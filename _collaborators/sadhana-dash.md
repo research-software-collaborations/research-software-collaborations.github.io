@@ -1,4 +1,5 @@
 ---
+layout: default
 active: true
 name: Sadhana Dash
 institution: IIT Bombay

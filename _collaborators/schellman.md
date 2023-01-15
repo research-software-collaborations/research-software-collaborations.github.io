@@ -1,4 +1,5 @@
 ---
+layout: default
 active: true
 e-mail: Heidi.Schellman@oregonstate.edu
 institution: Oregon State University

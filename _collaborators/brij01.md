@@ -1,4 +1,5 @@
 ---
+layout: default
 active: true
 e-mail: brij.jashal@tifr.res.in
 institution: Tata Institute of Fundamental Research

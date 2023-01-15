@@ -1,4 +1,5 @@
 ---
+layout: default
 active: true
 name: Peter Elmer
 institution: Princeton University

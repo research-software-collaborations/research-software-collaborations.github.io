@@ -1,4 +1,5 @@
 ---
+layout: default
 active: true
 name: Seema Sharma
 institution: IISER Pune

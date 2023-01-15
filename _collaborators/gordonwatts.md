@@ -1,4 +1,5 @@
 ---
+layout: default
 active: true
 name: Gordon Watts
 institution: University of Washington
