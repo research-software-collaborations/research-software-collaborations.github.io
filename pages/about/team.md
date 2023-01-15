@@ -12,18 +12,16 @@ title: HSF-India Collaborators
 <div class="container-fluid">
   <div class="row">
     {% for univ in univs %}
+<h2>{{univ.title}}</h2>
 {%- comment -%}
       {% assign members = univ.personnel | hash_fetch: site.collaborators
                                          | where_exp:"item", "item.active and item.hidden != true"
                                          | last_name_sort: "name" %}
-{%- endcomment -%}
-      {% assign members = univ.personnel | site.collaborators
-                                         | where_exp:"item", "item.active and item.hidden != true"
-                                         | last_name_sort: "name" %}
-
       {% for person in members %}
         {% include standard_person_card.md person=person %}
       {% endfor %}
+{%- endcomment -%}
+
     {% endfor %}
   </div>
 </div>
