@@ -73,3 +73,11 @@ different page categories (using our custom frontmatter tag "pagetype").
 {% endfor %}
 </ul>
 
+<br>
+<b>Collaborators:</b>
+<ul>
+{% for post in site.collaborators %}
+  <li><a href="{{post.url}}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
