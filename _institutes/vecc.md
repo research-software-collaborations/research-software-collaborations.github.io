@@ -1,5 +1,5 @@
 ---
-layout: university
+layout: institute
 title: Variable Energy Cyclotron Centre (VECC)
 latitude: 
 longitude: 

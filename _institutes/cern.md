@@ -1,5 +1,5 @@
 ---
-layout: university
+layout: institute
 title: CERN
 latitude: 
 longitude: 

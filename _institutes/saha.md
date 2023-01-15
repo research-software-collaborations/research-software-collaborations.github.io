@@ -1,5 +1,5 @@
 ---
-layout: university
+layout: institute
 title: Saha Institute of Nuclear Physics
 latitude: 
 longitude: 
