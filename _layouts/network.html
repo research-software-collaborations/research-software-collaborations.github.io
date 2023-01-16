@@ -26,12 +26,15 @@
 <h2>Collaborators</h2>
 <div class="container-fluid">
   <div class="row">
-      {% assign members = page.personnel | hash_fetch: site.data.people
-                                         | where_exp:"item", "item.active and item.hidden != true"
-                                         | last_name_sort: "name" %} 
-      {% for person in members %}
-        {% include standard_person_card.md person=person %}
+
+      {% for person in page.personnel %}
+        {% assign collaborator = site.collaborators | where_exp:"collaborator", "collaborator.shortname == person" 
+    | first %}
+        {% if collaborator.active and collaborator.hidden != true %}
+          {% include standard_person_card.md person=collaborator %}
+        {% endif %}
       {% endfor %}
+
   </div>
 </div>
 {% endif %}
