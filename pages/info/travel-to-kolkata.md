@@ -18,6 +18,7 @@ Coming soon...
 ## Places to eat 
 
   * [6 Ballygunge Place](http://6ballygungeplace.in/) [(map)](https://goo.gl/maps/HCczvY51PKKstSkW9) - Bengali restaurant with veg and non-veg buffet.
+  * [Oudh 1590](https://www.oudh1590.com) - Biryani, etc. Multiple locations. "Southern Avenue" (Vivekananda Park) is said to be the original restaurant.
 
 ## Miscellaneous notes
 
