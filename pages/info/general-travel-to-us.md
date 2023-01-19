@@ -1,7 +1,7 @@
 ---
 permalink: info/general-travel-to-us.html
 layout: default
-title: General Information on travel to the US
+title: General Travel Information about the US
 ---
 
 # General Information on travel to the US

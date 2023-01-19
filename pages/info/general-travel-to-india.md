@@ -1,7 +1,7 @@
 ---
 permalink: info/general-travel-to-india.html
 layout: default
-title: General Information on travel to India
+title: General Travel Information about India
 ---
 
 # General Information on travel to India
