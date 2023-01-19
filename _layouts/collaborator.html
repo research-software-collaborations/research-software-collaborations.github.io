@@ -18,16 +18,19 @@
   </div>
 </div>  
 
-  Website: <a href="{{page.website}}">{{page.website}}</a>
+<div>
+Website: <a href="{{page.website}}">{{page.website}}</a>
+Email: <a href="mailto:{{page.e-mail}}">{{page.e-mail}}</a>
+<div>
 
 <div>
   {{ content }}
 </div>
 
+{% comment %}
 <h3>Presentations related to HSF-India</h3>
 {% assign prescount = 0 %}
 
-{% comment %}
 {%- assign presentationlist = page.presentations | default: empty-list | sort: "date" | reverse -%}
 <h4>{{page.name}} - {{page.institution}}</h4>
 {%- if presentationlist.size > 0 -%}
@@ -45,21 +48,6 @@
 
 Total presentations: {{ prescount }}.
 {% endcomment %}
-
-{% assign nummembers = page.personnel | size %}
-{% if nummembers > 0 %}
-<h2>Collaborators</h2>
-<div class="container-fluid">
-  <div class="row">
-      {% assign members = page.personnel | hash_fetch: site.data.people
-                                         | where_exp:"item", "item.active and item.hidden != true"
-                                         | last_name_sort: "name" %} 
-      {% for person in members %}
-        {% include standard_person_card.md person=person %}
-      {% endfor %}
-  </div>
-</div>
-{% endif %}
 
         </main>
       </div>

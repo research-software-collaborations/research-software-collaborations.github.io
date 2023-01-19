@@ -6,4 +6,5 @@ logo: /assets/images/networks/USCMS_SC_logo.png
 personnel:
   - davidlange6
   - pelmer
+  - jpivarski
 ---

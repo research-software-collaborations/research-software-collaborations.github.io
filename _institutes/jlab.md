@@ -1,5 +1,5 @@
 ---
-layout: university
+layout: institute
 title: Jefferson Lab (JLab)
 latitude: 
 longitude: 

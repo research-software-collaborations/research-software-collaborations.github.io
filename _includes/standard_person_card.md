@@ -13,15 +13,21 @@
          {% endif %}
          <small>{{ include.person.institution }}</small><br><br>
          </div>
+         <!--
          <div class="card-text mt-auto"><i>{{ include.person.title }}</i></div>
-         </div>
+         -->
 
           <div class="footer-buttons">
 
-
            {% if include.person.e-mail and include.person.e-mail != blank %}
             <button type="button" class="btn btn-outline-secondary btn-sm">
-              <a href="mailto:{{page.e-mail}}"><i class="fas fa-envelope-square"></i></a>
+              <a href="mailto:{{include.person.e-mail}}"><i class="fas fa-envelope-square"></i></a>
+            </button>
+           {% endif %}
+
+           {% if include.person.website and include.person.website != blank %}
+            <button type="button" class="btn btn-outline-secondary btn-sm">
+              <a href="{{include.person.website}}"><i class="fas fa-desktop"></i></a>
             </button>
            {% endif %}
 
@@ -53,6 +59,6 @@
 -->
 
             </div>
-
+          </div>
        </div>
 

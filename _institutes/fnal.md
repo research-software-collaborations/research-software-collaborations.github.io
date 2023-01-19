@@ -1,5 +1,5 @@
 ---
-layout: university
+layout: institute
 title: Fermi Nationial Accelerator Laboratory (FNAL)
 latitude: 
 longitude: 
