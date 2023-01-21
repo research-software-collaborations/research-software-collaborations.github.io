@@ -15,6 +15,7 @@ module Checks
       @site.collections['collaborators'].docs.each do |mydoc|
         # print person_hash
         # print person_hash['name']
+        print mydoc
         print mydoc.content['name']
         presentations = mydoc.content['presentations']
 
