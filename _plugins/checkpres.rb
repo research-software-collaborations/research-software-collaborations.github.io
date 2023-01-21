@@ -20,7 +20,8 @@ module Checks
         presentations = mydoc.data['presentations']
 
         presentations&.each_with_index do |pres_hash, index|
-          msg = "presentation ##{index} in _data/people/#{mydoc.data['shortname']}.yml"
+          # msg = "presentation ##{index} in _data/people/#{mydoc.data['shortname']}.yml"
+          msg = "presentation ##{index} for #mydoc.data['name']"
 
           ensure_array(presentations[index], 'focus-area')
           ensure_array(presentations[index], 'project')
@@ -45,7 +46,7 @@ module Checks
         end
       end
 
-      @site.data['sorted_presentations'] = get_presentations site.data['people']
+      @site.data['sorted_presentations'] = get_presentations site.collections['collaborators']
     end
 
     private
