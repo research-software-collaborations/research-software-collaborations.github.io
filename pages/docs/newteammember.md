@@ -1,21 +1,22 @@
 ---
 permalink: /docs/newteammember.html
 layout: default
-title: Information for new HSF-India team members
+title: Information for new HSF-India collaborators
 pagetype: doc
 ---
 
-### Things new HSF-India team members need to do
+### Things new HSF-India collaborators should do
 
-New HSF-India team members need to do some number of things to get connected.
-This webpage documents the things that need to be done. If you find there are steps
-not mentioned here, or missing/unclear information, please [contribute an improvement][]!
+New HSF-India collaborators need to do some number of things to get connected.
+This webpage documents the things that need to be done. If you find there 
+are steps not mentioned here, or missing/unclear information, 
+please [contribute an improvement][]!
 
 #### HSF-India website
 
 * Request membership in the [research software collaborations GitHub organization](https://github.com/research-software-collaborations/research-software-collaborations.github.io).
-* Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder][]. It should be 320x240 pixels.
-* Add a "`<your github username>.yml`" file to the [people folder in the website repository][people]. Here is an example:
+* Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder][]. It should be 320x240 pixels and in general should be less than 100kB. 
+* Add a "`<your github username>.yml`" file to the [_collaborators folder in the website repository][_collaborators]. Here is an example:
 
 ```yml
 active: true
@@ -62,12 +63,12 @@ There is a section for presentations in the file you created above. We would
 like to keep track of the presentations made by IRIS-HEP team members, with
 the following criteria:
 
-  * Only presentations related to IRIS-HEP itself should be included.
+  * Only presentations related to HSF-India itself should be included.
   * Any presentation in a "public" meeting should be included. This includes
     presentations made in experiment meetings, even if they are protected such
     that the presentation and meeting links are not world visible.
-  * Presentations in the IRIS-HEP topical meetings should be included.
-  * Minor presentations in internal "working" meetings of IRIS-HEP do not
+  * Presentations in the HSF-India topical meetings should be included.
+  * Minor presentations in internal "working" meetings of HSF-India do not
     need to be added.
   * Presentations, lectures, etc. as part of training events should be included.
   * Posters at workshops and conferences can also be included. You can add "(poster)" at the end of the title. Include a link to a pdf of the poster.
