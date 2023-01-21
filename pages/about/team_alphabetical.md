@@ -4,7 +4,6 @@ layout: people
 title: HSF-India Collaborators
 ---
 
-{% include institution_list.html %}
 {% assign members = site.data.people | values
                                      | where_exp:"item", "item.active and item.hidden != true"
                                      | last_name_sort: "name" %}
