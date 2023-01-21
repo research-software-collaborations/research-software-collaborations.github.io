@@ -17,9 +17,9 @@ module Checks
 
       # @site.data['people'].docs.each do |name, person_hash|
       @site.collections['collaborators'].docs.each do |myperson|
-        # The following is not correct, it should I think be 
+        # The following is not correct, it should I think be
         # the actual filename (to compare with shortname below)
-        # This kind-of disables the check. 
+        # This kind-of disables the check.
         name = myperson.data['shortname']
         # msg = "_data/people/#{name}.yml"
         # msg = "#{myperson.url}"
