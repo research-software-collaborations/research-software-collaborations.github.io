@@ -16,7 +16,7 @@ module Checks
       end
 
       # @site.data['people'].docs.each do |name, person_hash|
-      @site.data['people'].docs.each do |myperson|
+      @site.collections['collaborators'].docs.each do |myperson|
         name = myperson.data['name']
         # msg = "_data/people/#{name}.yml"
         # msg = "#{myperson.url}"
