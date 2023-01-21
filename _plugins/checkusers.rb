@@ -11,8 +11,8 @@ module Checks
       @site = site
 
       people_in_inst = Set.new
-      @site.data['universities'].each do |_inst_name, inst_hash|
-        people_in_inst.merge inst_hash['personnel']
+      @site.collections['institutes'].each do |inst_hash|
+        people_in_inst.merge inst_hash.data.['personnel']
       end
 
       # @site.data['people'].docs.each do |name, person_hash|
