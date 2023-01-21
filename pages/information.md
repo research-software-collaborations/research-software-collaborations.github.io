@@ -1,5 +1,5 @@
 ---
-permalink: /institutes.html
+permalink: /information.html
 layout: default
 title: Information for HSF-India Collaborators
 ---
