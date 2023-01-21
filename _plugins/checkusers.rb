@@ -19,7 +19,8 @@ module Checks
       @site.data['people'].docs.each do |myperson|
         name = myperson.data['name']
         # msg = "_data/people/#{name}.yml"
-        msg = "#{myperson.url}"
+        # msg = "#{myperson.url}"
+        msg = myperson.url.to_s
         print msg
         person = Record.new(msg, person_hash)
 
