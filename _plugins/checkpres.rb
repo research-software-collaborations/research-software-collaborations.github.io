@@ -42,7 +42,7 @@ module Checks
           presentation.print_warnings
 
           # Add the member shortname to every presentation
-          presentations[index]['member'] = name
+          presentations[index]['member'] = mydoc.data['name']
         end
       end
 
