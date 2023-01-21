@@ -37,4 +37,4 @@ He received a Ph.D. in Experimental High Energy Physics from the University of W
 
 ### Project interests
 
-
+  He has strong interests in structures and processes for developing international distributed research software collaborations. His research group at Princeton is involved in developing tools and systems for data analysis as well as innovative algorithms for the trigger and reconstruction in the CMS experiment at the LHC. His group is also a major contributor to the development of training materials and activities to support research software in particle physics.
