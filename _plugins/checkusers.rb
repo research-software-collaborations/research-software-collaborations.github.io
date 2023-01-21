@@ -15,12 +15,12 @@ module Checks
         people_in_inst.merge inst_hash.data['personnel']
       end
 
-      # @site.data['people'].docs.each do |name, person_hash|
       @site.collections['collaborators'].docs.each do |myperson|
         # The following is not correct, it should I think be
         # the actual filename (to compare with shortname below)
         # This kind-of disables the check.
         name = myperson.data['shortname']
+        print "checkusers: working on " + name + "\n"
         # msg = "_data/people/#{name}.yml"
         # msg = "#{myperson.url}"
         msg = myperson.url.to_s
