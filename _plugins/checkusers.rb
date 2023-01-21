@@ -20,9 +20,8 @@ module Checks
         # the actual filename (to compare with shortname below)
         # This kind-of disables the check.
         name = myperson.data['shortname']
-        print 'checkusers: working on #{name} \n'
+        print "checkusers: working on #{name} \n"
         # msg = "_data/people/#{name}.yml"
-        # msg = "#{myperson.url}"
         msg = myperson.url.to_s
         print msg
         person = Record.new(msg, myperson.data)
