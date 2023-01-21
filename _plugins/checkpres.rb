@@ -11,7 +11,6 @@ module Checks
     def generate(site)
       @site = site
 
-      # @site.collections['collaborators'].docs.each do |name, person_hash|
       @site.collections['collaborators'].docs.each do |mydoc|
         presentations = mydoc.data['presentations']
 
