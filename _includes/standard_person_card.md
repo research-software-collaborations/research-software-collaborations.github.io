@@ -3,7 +3,7 @@
 {%- endunless %}
 
        <div class="card" style="width: 12rem;">
-         a href="{{include.person.url}}"><img class="card-img-top" src="{{ include.person.photo }}" alt="Card image cap"></a>
+         <a href="{{include.person.url}}"><img class="card-img-top" src="{{ include.person.photo }}" alt="Card image cap"></a>
          <div class="card-body d-flex flex-column">
          <div class="card-text">
          {% if include.person.website and include.person.website != blank %}
