@@ -12,7 +12,7 @@ module Checks
 
       people_in_inst = Set.new
       @site.collections['institutes'].each do |inst_hash|
-        people_in_inst.merge inst_hash.data.['personnel']
+        people_in_inst.merge inst_hash.data['personnel']
       end
 
       # @site.data['people'].docs.each do |name, person_hash|
