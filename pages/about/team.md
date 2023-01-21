@@ -24,7 +24,7 @@ title: HSF-India Collaborators
 
 {%- comment -%}
 <br>
-<h1>Former Team Members</h1><br>
+<h1>Former Collaborators</h1><br>
 
 <div class="container-fluid">
   <div class="row">
