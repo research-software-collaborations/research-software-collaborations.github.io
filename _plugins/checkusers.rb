@@ -22,7 +22,7 @@ module Checks
         # msg = "#{myperson.url}"
         msg = myperson.url.to_s
         print msg
-        person = Record.new(msg, &myperson)
+        person = Record.new(msg, myperson.data)
 
         person.key 'name', :nonempty
         person.key 'shortname', match: name
