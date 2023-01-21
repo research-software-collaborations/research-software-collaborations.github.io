@@ -30,6 +30,11 @@ presentations:
 
 ### Biography
 
+Peter Elmer is an experimental particle physicist whose area of expertise is developing the software and computing systems needed to operate and produce scientific results from data-intensive high energy physics experiments. His current research focuses on the [Compact Muon Solenoid (CMS)](https://cms.cern) experiment at the [Large Hadron Collider (LHC)](http://home.web.cern.ch/topics/large-hadron-collider) at the [European Laboratory for Particle Physics (CERN)](http://home.web.cern.ch/). In the past he has worked on the [ALEPH experiment](http://home.web.cern.ch/about/experiments/aleph) at CERN and the [BaBar experiment](http://www-public.slac.stanford.edu/babar/) at the [Stanford Linear Accelerator Center (SLAC)](https://www6.slac.stanford.edu/). 
+He is the Executive Director and Principal Investigator for the NSF-funded [Institute for Research and Innovation in Software for High Energy Physics (IRIS-HEP)](http://iris-hep.org/).
+
+He received a Ph.D. in Experimental High Energy Physics from the University of Wisconsin - Madison and is a Senior Research Physicist at Princeton University.
+
 ### Project interests
 
 
