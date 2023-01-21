@@ -21,7 +21,7 @@ module Checks
 
         presentations&.each_with_index do |pres_hash, index|
           # msg = "presentation ##{index} in _data/people/#{mydoc.data['shortname']}.yml"
-          msg = "presentation ##{index} for #mydoc.data['name']"
+          msg = " presentation ##{index} for #{mydoc.data['name']}"
 
           ensure_array(presentations[index], 'focus-area')
           ensure_array(presentations[index], 'project')
@@ -42,7 +42,7 @@ module Checks
           presentation.print_warnings
 
           # Add the member shortname to every presentation
-          presentations[index]['member'] = mydoc.data['name']
+          presentations[index]['member'] = mydoc.data['shortname']
         end
       end
 
@@ -54,7 +54,7 @@ module Checks
     include IrisHep::GetInfoForChecks
 
     def get_presentations(people)
-      presentations = people.flat_map { |_, p| p['presentations'] || [] }
+      presentations = people.docs.flat_map { |_, p| p['presentations'] || [] }
       presentations.sort_by { |p| p['date'] }.reverse!
     end
   end
