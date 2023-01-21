@@ -4,10 +4,10 @@ layout: people
 title: HSF-India Collaborators
 ---
 
-{% assign members = site.data.people | values
+{% assign members = site.collaborators | values
                                      | where_exp:"item", "item.active and item.hidden != true"
                                      | last_name_sort: "name" %}
-{% assign former_members = site.data.people | values
+{% assign former_members = site.collaborators | values
                                   | where_exp: "item", "item.active == nil or item.active == false and item.hidden != true"
                                   | last_name_sort: "name" %}
 
