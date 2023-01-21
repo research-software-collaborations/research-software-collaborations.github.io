@@ -19,7 +19,7 @@ date | name | title | url | meeting | meetingurl | project | focus_area | instit
 <h4>{{univ.title}}</h4>
 <ul>
   {% for talk in sorted_presentations %}
-    {% if site.data.people[talk.member].institution contains univ.title %}
+    {% if site.institutions[talk.member].institution contains univ.title %}
       <li>
         {%- include print_pres.html talk=talk -%}
       </li>
