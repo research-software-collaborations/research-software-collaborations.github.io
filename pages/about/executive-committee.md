@@ -41,9 +41,9 @@ title: PI Team
 -->
   <div class="row">
   {% for member in site.data.orgs.exec-board.personnel  %}
-     {% assign person = site.data.people[member] %}
+     {% assign collaborator = site.data.people[member] %}
         {% if collaborator.active and collaborator.hidden != true %}
-          {% include standard_person_card.md person=person %}
+          {% include standard_person_card.md person=collaborator %}
         {% endif %}
   {% endfor %}
   </div>
