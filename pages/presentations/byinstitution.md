@@ -11,17 +11,8 @@ title: Presentations by Institution
 date | name | title | url | meeting | meetingurl | project | focus_area | institution
 -->
 
-{%- comment -%}
-{% include institution_list.html %}
-{%- endcomment -%}
-
 <h2>Presentations related to HSF-India</h2>
 {% assign prescount = 0 %}
-
-{%- comment -%}
-{% for uniindex in institution_list %}
-  {% assign univ = site.data.universities[uniindex] %}
-{%- endcomment -%}
 
 {% assign univs = site.institutes %}
   {% for univ in univs %}
