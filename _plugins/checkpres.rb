@@ -11,10 +11,12 @@ module Checks
     def generate(site)
       @site = site
 
-      @site.collections['collaborators'].docs.each do |name, person_hash|
-        print person_hash
-        print person_hash['name']
-        presentations = person_hash.data['presentations']
+      # @site.collections['collaborators'].docs.each do |name, person_hash|
+      @site.collections['collaborators'].docs.each do |mydoc|
+        # print person_hash
+        # print person_hash['name']
+	print mydoc.content['name']
+        presentations = mydoc.content['presentations']
 
         presentations&.each_with_index do |pres_hash, index|
           msg = "presentation ##{index} in _data/people/#{name}.yml"
