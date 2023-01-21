@@ -13,7 +13,7 @@ module Checks
 
       @site.collections['collaborators'].docs.each do |name, person_hash|
         print name
-        presentations = person_hash['presentations']
+        presentations = person_hash.data['presentations']
 
         presentations&.each_with_index do |pres_hash, index|
           msg = "presentation ##{index} in _data/people/#{name}.yml"
