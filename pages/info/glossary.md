@@ -19,9 +19,9 @@ to the HSF-India project.
 
   * **DST** - In India, the [Department of Science and Technology](https://dst.gov.in)
 
-  * **IIT** - 
+  * **IIT** - Indian Institutes of Technology, a set of 23 public technical universities - [Wikipedia](https://en.wikipedia.org/wiki/Indian_Institutes_of_Technology)
 
-  * **IISER** -
+  * **IISER** - Indian Institutes of Science Education and Research, a set of 7 institutes in India established from 2010 onwards - [Wikipedia](https://en.wikipedia.org/wiki/Indian_Institutes_of_Science_Education_and_Research)
 
   * **NSF** - In the US, the National Science Foundation, which funds a wide spectrum of basic science research in the US universities, including the HSF-India project.
 
