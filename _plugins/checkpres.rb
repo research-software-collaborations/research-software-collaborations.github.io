@@ -54,8 +54,8 @@ module Checks
     include IrisHep::GetInfoForChecks
 
     def get_presentations(people)
-      presentations = people.docs.data.flat_map { |_, p| p['presentations'] || [] }
-      presentations.sort_by { |p| p['date'] }.reverse!
+#      presentations = people.docs.data.flat_map { |_, p| p['presentations'] || [] }
+#      presentations.sort_by { |p| p['date'] }.reverse!
     end
   end
 end
