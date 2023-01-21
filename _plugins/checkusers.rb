@@ -12,7 +12,8 @@ module Checks
 
       people_in_inst = Set.new
       @site.collections['institutes'].docs.each do |inst_hash|
-        print "University #{inst_hash.data['title']"
+        print "University #{inst_hash.data['title']}"
+        print "University personnel #{inst_hash.data['personnel']}"
         people_in_inst.merge inst_hash.data['personnel']
       end
 
