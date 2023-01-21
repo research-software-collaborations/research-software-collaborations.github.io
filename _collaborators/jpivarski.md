@@ -1,4 +1,5 @@
 ---
+layout: collaborator
 active: true
 institution: Princeton University
 name: Jim Pivarski
