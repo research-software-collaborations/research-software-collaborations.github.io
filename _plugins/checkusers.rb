@@ -36,12 +36,12 @@ module Checks
 
         person.print_warnings
 
-        if person_hash['hidden']
+        if myperson.data['hidden']
           msg = 'is listed in a university and hidden is True'
-          person.raise_err msg if people_in_inst.include? person_hash['shortname']
+          person.raise_err msg if people_in_inst.include? myperson.data['shortname']
         else
           msg = 'is not listed in a university and hidden is not True'
-          person.raise_err msg unless people_in_inst.include? person_hash['shortname']
+          person.raise_err msg unless people_in_inst.include? myperson.data['shortname']
         end
       end
     end
