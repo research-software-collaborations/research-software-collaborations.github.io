@@ -25,4 +25,6 @@ to the HSF-India project.
 
   * **NSF** - In the US, the National Science Foundation, which funds a wide spectrum of basic science research in the US universities, including the HSF-India project.
 
+  * **SINP** - The [Saha Institute of Nuclear Physics](http://www.saha.ac.in/web/index.php)
+
   * **TIFR** - The [Tata Institute of Fundamental Research](https://www.tifr.res.in)
