@@ -20,7 +20,7 @@ module Checks
         presentations = mydoc.data['presentations']
 
         presentations&.each_with_index do |pres_hash, index|
-          msg = "presentation ##{index} in _data/people/#{name}.yml"
+          msg = "presentation ##{index} in _data/people/#{mydoc.data['shortname']}.yml"
 
           ensure_array(presentations[index], 'focus-area')
           ensure_array(presentations[index], 'project')
