@@ -16,8 +16,8 @@ module Checks
         # print person_hash
         # print person_hash['name']
         print mydoc
-        print mydoc.content['name']
-        presentations = mydoc.content['presentations']
+        print mydoc.data['name']
+        presentations = mydoc.data['presentations']
 
         presentations&.each_with_index do |pres_hash, index|
           msg = "presentation ##{index} in _data/people/#{name}.yml"
