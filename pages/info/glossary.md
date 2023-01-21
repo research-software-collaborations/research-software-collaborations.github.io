@@ -23,7 +23,7 @@ to the HSF-India project.
 
   * **IISER** - Indian Institutes of Science Education and Research, a set of 7 institutes in India established from 2010 onwards - [Wikipedia](https://en.wikipedia.org/wiki/Indian_Institutes_of_Science_Education_and_Research)
 
-  * **NSF** - In the US, the National Science Foundation, which funds a wide spectrum of basic science research in the US universities, including the HSF-India project.
+  * **NSF** - In the US, the [National Science Foundation](https://www.nsf.gov), which funds a wide spectrum of basic science research in the US universities, including the HSF-India project.
 
   * **SINP** - The [Saha Institute of Nuclear Physics](http://www.saha.ac.in/web/index.php)
 
