@@ -8,6 +8,7 @@
          <div class="card-text">
          {% if include.person.website and include.person.website != blank %}
             <b><a href="{{ include.person.website }}">{{ include.person.name }}</a></b><br>
+            <b><a href="{{include.person.url}}">{{ include.person.name }}</a></b><br>
          {% else %}
             <b>{{ include.person.name }}</b><br>
          {% endif %}
