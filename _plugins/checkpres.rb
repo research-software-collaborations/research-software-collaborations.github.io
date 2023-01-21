@@ -12,7 +12,8 @@ module Checks
       @site = site
 
       @site.collections['collaborators'].docs.each do |name, person_hash|
-        print name
+        print person_hash
+        print person_hash['name']
         presentations = person_hash.data['presentations']
 
         presentations&.each_with_index do |pres_hash, index|
