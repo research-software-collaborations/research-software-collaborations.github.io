@@ -15,8 +15,12 @@ module Checks
         people_in_inst.merge inst_hash['personnel']
       end
 
-      @site.data['people'].each do |name, person_hash|
-        msg = "_data/people/#{name}.yml"
+      # @site.data['people'].docs.each do |name, person_hash|
+      @site.data['people'].docs.each do |myperson|
+        name = myperson.data['name']
+        # msg = "_data/people/#{name}.yml"
+        msg = "#{myperson.url}"
+        print msg
         person = Record.new(msg, person_hash)
 
         person.key 'name', :nonempty
