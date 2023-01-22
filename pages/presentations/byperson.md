@@ -51,4 +51,4 @@ Total presentations: {{ prescount }}.
   {%- endif -%}
 {%- endfor -%}
 
-Total presentations: {{ prescount }}.
+Total presentations: {{ prescount }}
