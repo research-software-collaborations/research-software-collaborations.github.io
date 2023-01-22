@@ -5,7 +5,7 @@ title: Information for new HSF-India collaborators
 pagetype: doc
 ---
 
-### Things new HSF-India collaborators should do
+### Things HSF-India collaborators should do to connect
 
 New HSF-India collaborators need to do some number of things to get connected.
 This webpage documents the things that need to be done. If you find there 
@@ -16,7 +16,7 @@ please [contribute an improvement][]!
 
 * Request membership in the [research software collaborations GitHub organization](https://github.com/research-software-collaborations/research-software-collaborations.github.io).
 * Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder][]. It should be 320x240 pixels and in general should be less than 100kB. 
-* Add a "`<your github username>.yml`" file to the [_collaborators folder in the website repository][_collaborators]. Here is an example:
+* Add a "`<your github username>.md`" file to the [_collaborators folder in the website repository][_collaborators]. This markdown file has a frontmatter like tthis example:
 
 ```yml
 active: true
@@ -39,7 +39,13 @@ presentations:
     location: Virtual
 ```
 
-* Add your GitHub username to the proper [university file][]. Note that you will *not* show up in the full team page if you are not in a university file!
+Following the frontmatter part, the markdown part of the file is free-form,
+however most people should add a "### Biography" and a "### Project interests"
+section. You can find examples for other people in the [_collaborators][] area.
+
+* Add your GitHub username to the corresponding [_institutes][]. Note that you will *not* show up in the full team page if you are not in of the files there! If your university or institute is missing, please ask the website admins.
+
+* Add your GitHub username to any relevant files in [_networks][]. If you think that an additional network is needed, please ask the website admins.
 
 <!--
 #### Communication
