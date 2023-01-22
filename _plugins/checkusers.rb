@@ -15,7 +15,7 @@ module Checks
         print "University #{inst_hash.data['title']} \n"
         print "University personnel #{inst_hash.data['personnel']} \n"
         print "What? #{inst_hash.data['personnel'].class} \n"
-        people_in_inst.merge(inst_hash.data['personnel']) unless inst_hash.data['personnel'].empty
+        people_in_inst.merge(inst_hash.data['personnel']) unless inst_hash.data['personnel'].nil?
       end
 
       @site.collections['collaborators'].docs.each do |myperson|
