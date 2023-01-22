@@ -67,10 +67,10 @@ presentations:
 #### Presentations
 
 There is a section for presentations in the file you created above. We would
-like to keep track of the presentations made by IRIS-HEP team members, with
+like to keep track of presentations made by HSF-India collaborators, with 
 the following criteria:
 
-  * Only presentations related to HSF-India itself should be included.
+  * Only presentations related to HSF-India itself and projects catalyzed by HSF-India should be included.
   * Any presentation in a "public" meeting should be included. This includes
     presentations made in experiment meetings, even if they are protected such
     that the presentation and meeting links are not world visible.
