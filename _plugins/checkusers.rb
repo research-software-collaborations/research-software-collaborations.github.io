@@ -15,7 +15,7 @@ module Checks
         print "University #{inst_hash.data['title']} \n"
         print "University personnel #{inst_hash.data['personnel']} \n"
         print "What? #{inst_hash.data['personnel'].type} \n"
-        #people_in_inst.merge(inst_hash.data['personnel'])
+        # people_in_inst.merge(inst_hash.data['personnel'])
       end
 
       @site.collections['collaborators'].docs.each do |myperson|
