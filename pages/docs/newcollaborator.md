@@ -25,6 +25,7 @@ please [contribute an improvement][]!
 
 
 * An example of the frontmatter for the _collaborator markdown file is:
+
 ```yml
 active: true
 focus-area:
