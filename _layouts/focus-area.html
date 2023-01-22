@@ -6,6 +6,7 @@
       <div class="container page">
         <main role="main">
 
+{% comment %}
 {% assign page_focus_area = page.name | basename %}
 {% assign sorted = site.pages | where: "pagetype", "project" | where_exp: "item", "item.focus-area contains page_focus_area" | smart_title_sort %}
 {% assign fa_team = site.data.people | where_exp: "item", "item.focus-area contains page_focus_area and item.active and item.hidden != true" | last_name_sort: "name" %}
@@ -33,6 +34,7 @@
 {% if quicklinks.size > 0 %}
   Jump to: {{ quicklinks | join: " - " }}
 {% endif %}
+{% endcomment %}
 
 <div>
 <br>
