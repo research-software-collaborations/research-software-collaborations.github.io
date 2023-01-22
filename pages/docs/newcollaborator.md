@@ -16,7 +16,15 @@ please [contribute an improvement][]!
 
 * You should make a pull request to the [Research Software Collaborations website GitHub repository](https://github.com/research-software-collaborations/research-software-collaborations.github.io). The elements should be:
   * Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/assets/images/team). It should be 320x240 pixels and in general should be less than 100kB. 
-  * Add a "`<your github username>.md`" file to the [_collaborators folder in the website repository](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_collaborators). This markdown file has a frontmatter like this example:
+  * Add a "`<your github username>.md`" file to the [_collaborators folder in the website repository](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_collaborators). See below for an example of the frontmatter.
+  * Following the frontmatter part, the markdown part of the file is free-form,
+    however most people should add a "### Biography" and a "### Project interests"
+    section. You can find examples for other people in the [_collaborators](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_collaborators) area.
+  * Add your GitHub username to the corresponding [_institutes](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_institutes). Note that you will *not* show up in the full team page if you are not in of the files there! If your university or institute is missing, please ask the website admins.
+  * Add your GitHub username to any relevant files in [_networks](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_networks). If you think that an additional network is needed, please ask the website admins.
+
+
+* An example of the frontmatter for the _collaborator markdown file is:
 ```yml
 active: true
 focus-area:
@@ -37,11 +45,7 @@ presentations:
     focus-area: as
     location: Virtual
 ```
-  * Following the frontmatter part, the markdown part of the file is free-form,
-    however most people should add a "### Biography" and a "### Project interests"
-    section. You can find examples for other people in the [_collaborators](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_collaborators) area.
-  * Add your GitHub username to the corresponding [_institutes](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_institutes). Note that you will *not* show up in the full team page if you are not in of the files there! If your university or institute is missing, please ask the website admins.
-  * Add your GitHub username to any relevant files in [_networks](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_networks). If you think that an additional network is needed, please ask the website admins.
+
 
 <!--
 #### Communication
