@@ -1,4 +1,5 @@
 ---
+layout: collaborator
 active: true
 focus-area:
   - HEP
