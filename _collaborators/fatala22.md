@@ -11,6 +11,7 @@ photo: /assets/images/team/Sudhir-Malik.jpg
 shortname: fatala22
 title: 
 website: https://charma.uprm.edu/~malik
+github-username: fatala22
 presentations:
 ---
 ### Biography
