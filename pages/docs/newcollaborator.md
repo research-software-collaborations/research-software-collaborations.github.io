@@ -29,14 +29,13 @@ please [contribute an improvement][]!
 ```yml
 layout: collaborator
 active: true
-focus-area:
-- <primary focus area(s), a list>
 institution: <Your University>
 name: <Your name>
 photo: /assets/images/team/<First name>-<Last name>.jpg
 shortname: <Your GitHub user ID>
 title: <Can be blank - will show a title under your picture>
 website: <Optional, your website>
+github-username: <Your GitHub user ID>
 presentations:
   - title: How to make green eggs and ham
     date: 2018-09-10
