@@ -11,6 +11,7 @@ title:
 website: https://dlange.web.cern.ch
 networks:
   - cms
+  - compiler-research
   - irishep
   - uscms
 presentations:

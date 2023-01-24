@@ -11,6 +11,7 @@ title:
 website: www.vassil.vassilev.info
 networks:
   - cms
+  - compiler-research
   - irishep
   - uscms
 presentations:

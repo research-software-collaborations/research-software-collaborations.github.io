@@ -12,4 +12,5 @@ personnel:
   - jpivarski
   - tulika176
   - fatala22
+  - vvassilev
 ---

@@ -9,4 +9,5 @@ personnel:
   - gordonwatts
   - jpivarski
   - fatala22
+  - vvassilev
 ---
