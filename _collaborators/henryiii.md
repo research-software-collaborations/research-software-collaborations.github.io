@@ -1,5 +1,6 @@
 ---
 active: true
+layout: collaborator
 e-mail: henryfs@princeton.edu
 inspire-id: Henry.F.Schreiner.1
 institution: Princeton University
