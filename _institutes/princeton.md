@@ -9,4 +9,5 @@ personnel:
   - pelmer
   - jpivarski
   - henryiii
+  - vvassilev
 ---
