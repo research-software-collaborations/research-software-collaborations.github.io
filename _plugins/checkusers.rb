@@ -11,13 +11,23 @@ module Checks
       @site = site
 
       people_in_inst = Set.new
-      @site.data['universities'].each do |_inst_name, inst_hash|
-        people_in_inst.merge inst_hash['personnel']
+      @site.collections['institutes'].docs.each do |inst_hash|
+        print "University #{inst_hash.data['title']} \n"
+        print "University personnel #{inst_hash.data['personnel']} \n"
+        print "What? #{inst_hash.data['personnel'].class} \n"
+        people_in_inst.merge(inst_hash.data['personnel']) unless inst_hash.data['personnel'].nil?
       end
 
-      @site.data['people'].each do |name, person_hash|
-        msg = "_data/people/#{name}.yml"
-        person = Record.new(msg, person_hash)
+      @site.collections['collaborators'].docs.each do |myperson|
+        # The following is not correct, it should I think be
+        # the actual filename (to compare with shortname below)
+        # This kind-of disables the check.
+        name = myperson.data['shortname']
+        print "checkusers: working on #{name} \n"
+        # msg = "_data/people/#{name}.yml"
+        msg = myperson.url.to_s
+        print msg
+        person = Record.new(msg, myperson.data)
 
         person.key 'name', :nonempty
         person.key 'shortname', match: name
@@ -28,12 +38,12 @@ module Checks
 
         person.print_warnings
 
-        if person_hash['hidden']
+        if myperson.data['hidden']
           msg = 'is listed in a university and hidden is True'
-          person.raise_err msg if people_in_inst.include? person_hash['shortname']
+          person.raise_err msg if people_in_inst.include? myperson.data['shortname']
         else
           msg = 'is not listed in a university and hidden is not True'
-          person.raise_err msg unless people_in_inst.include? person_hash['shortname']
+          person.raise_err msg unless people_in_inst.include? myperson.data['shortname']
         end
       end
     end

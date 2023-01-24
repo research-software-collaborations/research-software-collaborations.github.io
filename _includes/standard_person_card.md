@@ -3,11 +3,11 @@
 {%- endunless %}
 
        <div class="card" style="width: 12rem;">
-         <img class="card-img-top" src="{{ include.person.photo }}" alt="Card image cap">
+         <a href="{{include.person.url}}"><img class="card-img-top" src="{{ include.person.photo }}" alt="Card image cap"></a>
          <div class="card-body d-flex flex-column">
          <div class="card-text">
          {% if include.person.website and include.person.website != blank %}
-            <b><a href="{{ include.person.website }}">{{ include.person.name }}</a></b><br>
+            <b><a href="{{include.person.url}}">{{ include.person.name }}</a></b><br>
          {% else %}
             <b>{{ include.person.name }}</b><br>
          {% endif %}

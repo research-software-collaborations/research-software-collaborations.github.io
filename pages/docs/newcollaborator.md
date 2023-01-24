@@ -1,32 +1,40 @@
 ---
 permalink: /docs/newteammember.html
 layout: default
-title: Information for new HSF-India team members
+title: Information for new HSF-India collaborators
 pagetype: doc
 ---
 
-### Things new HSF-India team members need to do
+### Things HSF-India collaborators should do to connect
 
-New HSF-India team members need to do some number of things to get connected.
-This webpage documents the things that need to be done. If you find there are steps
-not mentioned here, or missing/unclear information, please [contribute an improvement][]!
+New HSF-India collaborators need to do some number of things to get connected.
+This webpage documents the things that need to be done. If you find there 
+are steps not mentioned here, or missing/unclear information, 
+please [contribute an improvement][]!
 
 #### HSF-India website
 
-* Request membership in the [research software collaborations GitHub organization](https://github.com/research-software-collaborations/research-software-collaborations.github.io).
-* Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder][]. It should be 320x240 pixels.
-* Add a "`<your github username>.yml`" file to the [people folder in the website repository][people]. Here is an example:
+* You should make a pull request to the [Research Software Collaborations website GitHub repository](https://github.com/research-software-collaborations/research-software-collaborations.github.io). The elements should be:
+  * Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/assets/images/team). It should be 320x240 pixels and in general should be less than 100kB. 
+  * Add a "`<your github username>.md`" file to the [_collaborators folder in the website repository](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_collaborators). See below for an example of the frontmatter.
+  * Following the frontmatter part, the markdown part of the file is free-form,
+    however most people should add a "### Biography" and a "### Project interests" section. You can find examples for other people in the [_collaborators](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_collaborators) area. In general the biography can be short if you are including a link to your website (see frontmatter example below) and that has the relevant details. For project interests, all are welcome, but particular emphasis on connections to the current HSF-India themes will help in building collaborations.
+  * Add your GitHub username to the corresponding [_institutes](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_institutes). Note that you will *not* show up in the full team page if you are not in of the files there! If your university or institute is missing, please ask the website admins.
+  * Add your GitHub username to any relevant files in [_networks](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_networks). If you think that an additional network is needed, please ask the website admins.
+
+
+* An example of the frontmatter for the _collaborator markdown file is:
 
 ```yml
+layout: collaborator
 active: true
-focus-area:
-- <primary focus area(s), a list>
 institution: <Your University>
 name: <Your name>
 photo: /assets/images/team/<First name>-<Last name>.jpg
 shortname: <Your GitHub user ID>
 title: <Can be blank - will show a title under your picture>
 website: <Optional, your website>
+github-username: <Your GitHub user ID>
 presentations:
   - title: How to make green eggs and ham
     date: 2018-09-10
@@ -38,7 +46,6 @@ presentations:
     location: Virtual
 ```
 
-* Add your GitHub username to the proper [university file][]. Note that you will *not* show up in the full team page if you are not in a university file!
 
 <!--
 #### Communication
@@ -59,15 +66,15 @@ presentations:
 #### Presentations
 
 There is a section for presentations in the file you created above. We would
-like to keep track of the presentations made by IRIS-HEP team members, with
+like to keep track of presentations made by HSF-India collaborators, with 
 the following criteria:
 
-  * Only presentations related to IRIS-HEP itself should be included.
+  * Only presentations related to HSF-India itself and projects catalyzed by HSF-India should be included.
   * Any presentation in a "public" meeting should be included. This includes
     presentations made in experiment meetings, even if they are protected such
     that the presentation and meeting links are not world visible.
-  * Presentations in the IRIS-HEP topical meetings should be included.
-  * Minor presentations in internal "working" meetings of IRIS-HEP do not
+  * Presentations in the HSF-India topical meetings should be included.
+  * Minor presentations in internal "working" meetings of HSF-India do not
     need to be added.
   * Presentations, lectures, etc. as part of training events should be included.
   * Posters at workshops and conferences can also be included. You can add "(poster)" at the end of the title. Include a link to a pdf of the poster.

@@ -11,12 +11,12 @@ module Checks
     def generate(site)
       @site = site
 
-      # @site.collaborators.each do |name, person_hash|
-      @site.data['people'].each do |name, person_hash|
-        presentations = person_hash['presentations']
+      @site.collections['collaborators'].docs.each do |mydoc|
+        presentations = mydoc.data['presentations']
 
         presentations&.each_with_index do |pres_hash, index|
-          msg = "presentation ##{index} in _data/people/#{name}.yml"
+          # msg = "presentation ##{index} in _data/people/#{mydoc.data['shortname']}.yml"
+          msg = " presentation ##{index} for #{mydoc.data['name']}"
 
           ensure_array(presentations[index], 'focus-area')
           ensure_array(presentations[index], 'project')
@@ -37,11 +37,11 @@ module Checks
           presentation.print_warnings
 
           # Add the member shortname to every presentation
-          presentations[index]['member'] = name
+          presentations[index]['member'] = mydoc.data['shortname']
         end
       end
 
-      @site.data['sorted_presentations'] = get_presentations site.data['people']
+      @site.data['sorted_presentations'] = get_presentations site.collections['collaborators']
     end
 
     private
@@ -49,8 +49,9 @@ module Checks
     include IrisHep::GetInfoForChecks
 
     def get_presentations(people)
-      presentations = people.flat_map { |_, p| p['presentations'] || [] }
-      presentations.sort_by { |p| p['date'] }.reverse!
+      # Disable this for now (the syntax below is not correct)
+      # presentations = people.docs.data.flat_map { |_, p| p['presentations'] || [] }
+      # presentations.sort_by { |p| p['date'] }.reverse!
     end
   end
 end

@@ -9,7 +9,7 @@ title: Presentations by Person
 <h2>Presentations related to HSF-India</h2>
 {% assign prescount = 0 %}
 
-{% assign members = site.data.people | where_exp:"item", "item.active and item.hidden != true"
+{% assign members = site.collections['collaborators'] | where_exp:"item", "item.active and item.hidden != true"
                                      | last_name_sort: "name" %}
 {% for member in members %}
   {%- assign presentationlist = member.presentations | default: empty-list | sort: "date" | reverse -%}
@@ -35,7 +35,7 @@ Total presentations: {{ prescount }}.
 
 {% assign prescount = 0 %}
 
-{% assign members = site.data.people | where_exp: "item", "item.active == nil or item.active == false and item.hidden != true"
+{% assign members = site.collections['collaborators'] | where_exp: "item", "item.active == nil or item.active == false and item.hidden != true"
                                      | last_name_sort: "name" %}
 {% for member in members %}
   {%- assign presentationlist = member.presentations | default: empty-list | sort: "date" | reverse -%}
@@ -51,4 +51,4 @@ Total presentations: {{ prescount }}.
   {%- endif -%}
 {%- endfor -%}
 
-Total presentations: {{ prescount }}.
+Total presentations: {{ prescount }}

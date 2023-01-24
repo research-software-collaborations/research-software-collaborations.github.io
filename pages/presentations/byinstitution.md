@@ -11,17 +11,15 @@ title: Presentations by Institution
 date | name | title | url | meeting | meetingurl | project | focus_area | institution
 -->
 
-{% include institution_list.html %}
-
 <h2>Presentations related to HSF-India</h2>
 {% assign prescount = 0 %}
 
-{% for uniindex in institution_list %}
-  {% assign uni = site.data.universities[uniindex] %}
-<h4>{{uni.name}}</h4>
+{% assign univs = site.institutes %}
+  {% for univ in univs %}
+<h4>{{univ.title}}</h4>
 <ul>
   {% for talk in sorted_presentations %}
-    {% if site.data.people[talk.member].institution contains uni.name %}
+    {% if site.institutes[talk.member].institution contains univ.title %}
       <li>
         {%- include print_pres.html talk=talk -%}
       </li>

@@ -4,11 +4,6 @@ layout: people
 title: HSF-India Collaborators
 ---
 
-{%- comment -%}
-{% include institution_list.html %}
-{% assign institution_list = site.institutes | keys | sort %}
-{% assign univs = institution_list | hash_fetch: site.institutes %}
-{%- endcomment -%}
 {% assign univs = site.institutes %}
 
 <h1>HSF-India Collaborators</h1><br>
@@ -29,7 +24,7 @@ title: HSF-India Collaborators
 
 {%- comment -%}
 <br>
-<h1>Former Team Members</h1><br>
+<h1>Former Collaborators</h1><br>
 
 <div class="container-fluid">
   <div class="row">

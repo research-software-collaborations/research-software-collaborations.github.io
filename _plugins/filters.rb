@@ -74,6 +74,8 @@ module IrisHep
 
     # Sort "First ..., Last" by "last, first, ..."
     def last_name_sort(input, key)
+      return if input.nil?
+
       input.sort_by do |v|
         vals = v[key].downcase.split
         vals[-1..] + vals[0..-2]

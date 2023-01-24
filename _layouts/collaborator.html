@@ -14,14 +14,25 @@
   <img style="height: 250px;" src="{{page.photo}}" alt="Card image cap"> 
   </div>
   <div class="mainpage-core mainpage-container" style="border: 0px solid white; padding: 5px">
-  <h2>{{ page.name }} - {{ page.institution }}</h2>
+  <h2>{{ page.name }}</h2> 
+  <h3><i>{{ page.institution }}</i></h3>
   </div>
 </div>  
 
 <div>
-Website: <a href="{{page.website}}">{{page.website}}</a>
-Email: <a href="mailto:{{page.e-mail}}">{{page.e-mail}}</a>
-<div>
+{% if page.website and page.website != blank %}
+<b>Website:</b> <a href="{{page.website}}">{{page.website}}</a>
+<br>
+{% endif %}
+{% if page.e-mail and page.e-mail != blank %}
+<b>Email:</b> <a href="mailto:{{page.e-mail}}">{{page.e-mail}}</a>
+<br>
+{% endif %}
+{% if page.github-username and page.github-username != blank %}
+<b>GitHub:</b> <a href="https://github.com/{{ page.github-username }}">https://github.com/{{ page.github-username }}</a>
+{% endif %}
+<br><br><br>
+</div>
 
 <div>
   {{ content }}
