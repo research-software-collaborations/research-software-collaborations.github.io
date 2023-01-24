@@ -10,22 +10,30 @@ pagetype: doc
 New HSF-India collaborators need to do some number of things to get connected.
 This webpage documents the things that need to be done. If you find there 
 are steps not mentioned here, or missing/unclear information, 
-please [contribute an improvement][]!
+please [contribute an improvement][repo]!
+
 
 #### HSF-India website
 
-* You should make a pull request to the [Research Software Collaborations website GitHub repository](https://github.com/research-software-collaborations/research-software-collaborations.github.io). The elements should be:
-  * Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/assets/images/team). It should be 320x240 pixels and in general should be less than 100kB. 
-  * Add a "`<your github username>.md`" file to the [_collaborators folder in the website repository](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_collaborators). See below for an example of the frontmatter.
+* You should make a pull request to the [Research Software Collaborations website GitHub repository][repo]. The elements should be:
+  * Add a photo named `First-Last.jpg` or `.png` to the [`assets/images/team` folder][team]. It should be 320x240 pixels and in general should be less than 100kB. 
+  * Add a "`<your github username>.md`" file to the [`_collaborators` folder in the website repository][`_collaborators`]. See below for an example of the frontmatter.
   * Following the frontmatter part, the markdown part of the file is free-form,
-    however most people should add a "### Biography" and a "### Project interests" section. You can find examples for other people in the [_collaborators](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_collaborators) area. In general the biography can be short if you are including a link to your website (see frontmatter example below) and that has the relevant details. For project interests, all are welcome, but particular emphasis on connections to the current HSF-India themes will help in building collaborations.
-  * Add your GitHub username to the corresponding [_institutes](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_institutes). Note that you will *not* show up in the full team page if you are not in of the files there! If your university or institute is missing, please ask the website admins.
-  * Add your GitHub username to any relevant files in [_networks](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_networks). If you think that an additional network is needed, please ask the website admins.
+    however most people should add a "### Biography" and a "### Project interests" section. You can find examples for other people in the [`_collaborators`][] area. In general the biography can be short if you are including a link to your website (see frontmatter example below) and that has the relevant details. For project interests, all are welcome, but particular emphasis on connections to the current HSF-India themes will help in building collaborations.
+  * Add your GitHub username to the corresponding [`_institutes`][]. Note that you will *not* show up in the full team page if you are not in of the files there! If your university or institute is missing, please ask the website admins.
+  * Add your GitHub username to any relevant files in [`_networks`][]. If you think that an additional network is needed, please ask the website admins.
+
+[repo]: https://github.com/research-software-collaborations/research-software-collaborations.github.io
+[`_collaborators`]: https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_collaborators
+[`_institutes`]: https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_institutes
+[`_networks`]: https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/_networks
+[team]: https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/assets/images/team
 
 
 * An example of the frontmatter for the _collaborator markdown file is:
 
 ```yml
+---
 layout: collaborator
 active: true
 institution: <Your University>
@@ -44,6 +52,7 @@ presentations:
     project: greeneggs
     focus-area: as
     location: Virtual
+---
 ```
 
 
