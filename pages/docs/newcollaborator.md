@@ -7,6 +7,11 @@ pagetype: doc
 
 ### Things HSF-India collaborators should do to connect
 
+This page is for HSF-India collaborators, normally faculty or staff that
+will serve as mentors for students on projects. Prospective students do
+not need to add themselves as collaborators. A separate part of the website
+will soon be added for that.
+
 New HSF-India collaborators need to do some number of things to get connected.
 This webpage documents the things that need to be done. If you find there 
 are steps not mentioned here, or missing/unclear information, 
@@ -56,6 +61,10 @@ presentations:
 ```
 
 
+#### Communication
+
+  * To receive announcements regarding the HSF-India project and other activities to build research software collaborations, please subscribe to the [rsc-announcements@googlegroups.com](https://groups.google.com/g/rsc-announcements) mailing list
+
 <!--
 #### Communication
 
@@ -74,9 +83,13 @@ presentations:
 
 #### Presentations
 
-There is a section for presentations in the file you created above. We would
-like to keep track of presentations made by HSF-India collaborators, with 
-the following criteria:
+There is a section for presentations in the file you created above. For
+totally new collaborators this section is likely to be blank, however we
+include info about it here for use as people engage with the HSF-India
+project.
+
+We would like to keep track of presentations made by HSF-India collaborators, 
+with the following criteria:
 
   * Only presentations related to HSF-India itself and projects catalyzed by HSF-India should be included.
   * Any presentation in a "public" meeting should be included. This includes
