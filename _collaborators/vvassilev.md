@@ -21,7 +21,7 @@ presentations:
 
 Dr. Vasil Vassilev is a researcher in the field of software engineering with
 Princeton University. His main research interests are in the field of
-programming languages ​​and systems for processing large amounts of data.
+programming languages and systems for processing large amounts of data.
 
 Vassil is a co-author of the interactive C++ interpreter, Cling, which
 facilitates the processing of scientific data in the field of high energy
@@ -55,5 +55,5 @@ Worked for CERN, Switzerland and FermiLab, USA.
 
 Vassil is interested in collaborating in the area of programming languages,
 automatic differentiation and exascale data science. In addition, he always
-looks for talented students with cool ideas to help them on they way to
-successful professionals.
+looks for talented students with cool ideas to help them on their way to
+becoming successful professionals.
