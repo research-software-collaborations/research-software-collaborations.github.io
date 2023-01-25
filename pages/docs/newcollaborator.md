@@ -63,7 +63,7 @@ presentations:
 
 #### Communication
 
-  * To receive announcements regarding the HSF-India project and other activities to build research software collaborations, please subscribe to the [rsc-announcements@googlegroups.com](https://groups.google.com/g/rsc-announcements) mailing list
+  * To receive announcements regarding the HSF-India project and other activities to build research software collaborations, please subscribe to the [rsc-announcements@googlegroups.com](https://groups.google.com/g/rsc-announcements) mailing list. You will probably have to log in to Google before being able to subscribe. If you have problems, please write the website admins at [rsc-inquiries@googlegroups.com](mailto:rsc-inquiries@googlegroups.com). We can subscribe people by hand if necessary.
 
 <!--
 #### Communication
