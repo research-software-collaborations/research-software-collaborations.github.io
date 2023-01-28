@@ -31,3 +31,14 @@ as the number of items grows.
       * A list of all countries visited in the past 10 years (although
         the form currently seemed to limit it to 20 entries)
 
+Specific notes about obtaining regular visas (non e-visas) in various locations:
+
+  * In Geneva
+    * General information can be found on the [Permanent Mission of India website](https://www.pmindiaun.gov.in/pages/NTA,)
+    * The Consulate General of India in Geneva provides visa services for those residing in the Cantons of Geneva, Vaud, Valais and Neauchatél of Switzerland
+  * In the Netherlands
+    * General information can be found on the [Embassy of India website](https://www.indianembassynetherlands.gov.in/page/visa/) 
+    * They outsource the management of this to an external entity [VFS Global](https://services.vfsglobal.com/nld/en/ind/)
+    * As part of the application for all types of visas they ask for proof of residence in the Netherlands
+  * In France
+    * TBD
