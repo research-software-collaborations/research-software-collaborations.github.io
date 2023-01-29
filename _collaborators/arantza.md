@@ -2,7 +2,7 @@
 layout: collaborator
 active: true
 e-mail: Arantza.Oyanguren@ific.uv.es
-institution: Instituto de Física Corpuscular (IFIC), University of Valencia. 
+institution: Instituto de Física Corpuscular (IFIC), University of Valencia 
 name: Arantza Oyanguren Campos
 photo: "/assets/images/team/Arantza-Oyanguren.jpg"
 shortname: arantza
@@ -14,7 +14,7 @@ networks:
   - AIHUBw
   - COMCHA
   - REFIS
-  
+---
 
 ### Biography
 She is professor at the University of Valencia (Spain) and IFIC team leader of the LHCb experiment at CERN. She is expert on heavy flavor physics and has worked previously in DELPHI, BaBar and Belle II experiments, both in hardware and physics analyses. 
