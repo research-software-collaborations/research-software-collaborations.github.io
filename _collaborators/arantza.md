@@ -5,7 +5,7 @@ e-mail: Arantza.Oyanguren@ific.uv.es
 institution: Instituto de Física Corpuscular (IFIC), University of Valencia. 
 name: Arantza Oyanguren Campos
 photo: "/assets/images/team/Arantza-Oyanguren.jpg"
-shortname: Arantza
+shortname: arantza
 title: Professor
 website: https://webific.ific.uv.es/web/content/oyanguren-campos-arantza
 networks:
