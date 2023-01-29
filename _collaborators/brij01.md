@@ -2,7 +2,7 @@
 layout: collaborator
 active: true
 e-mail: brij@cern.ch
-gitlab-url: bjashal
+gitlab-url: https://gitlab.cern.ch/bjashal
 institution: Tata Institute of Fundamental Research, Mumbai and Instituto de Física Corpuscular, University of Valencia 
 name: Brij Kishor Jashal
 photo: "/assets/images/team/Brij-Kishor-Jashal.jpeg"
