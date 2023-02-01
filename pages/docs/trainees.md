@@ -8,12 +8,15 @@ pagetype: doc
 ### Research Software Trainees
 
   * Description: summer students, semester projects and recent grads (including ``gap year'' before graduate school)
+  * Trainees and Fellows
   * pointer to list of projects
 
-## Who should apply to the Fellows program? 
+# Who should apply to the Fellows program? 
 
-## How to apply
+# How to apply
 
-## Former trainees
+# Fellows
+
+# Former trainees
 
   * Examples from IRIS-HEP and GSoC programs?
