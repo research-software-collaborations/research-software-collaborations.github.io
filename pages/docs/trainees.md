@@ -11,7 +11,7 @@ pagetype: doc
   * Trainees and Fellows
   * pointer to list of projects
 
-### Who should apply to the Fellows program? 
+### Who should apply to the Trainees program? 
 
 ### How to apply
 
