@@ -11,3 +11,8 @@ updates:
       - dependency-name: "actions/*"
         update-types:
           ["version-update:semver-minor", "version-update:semver-patch"]
+
+  - package-ecosystem: gitsubmodule
+    schedule:
+        interval: "daily"
+    directory: /
