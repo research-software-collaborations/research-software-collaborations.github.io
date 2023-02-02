@@ -30,7 +30,6 @@ themselves. HSF-India will provide students, postdocs and early
 career personnel significant experience in international team science
 through engagement in a diverse research community.
 
-
 HSF-India will build international collaborative structures to
 enable innovation in critical software areas for discovery in
 particle, nuclear and astroparticle physics and lay the foundations
@@ -38,7 +37,8 @@ for similar international collaborations across the scientific
 spectrum. It will seed research software collaborations on specific
 projects across its networks in the U.S., Europe and India by
 leveraging an international training network, fellowships and
-software-focused researcher exchanges. HSF-India will iteratively
+software-focused researcher exchanges. Building on pioneering
+efforts by the [HEP Software Foundation (HSF)](https://hepsoftwarefoundation.org), HSF-India will iteratively
 build on these seeds towards a broad and sustainable international
 research software collaboration with three key research themes:
 
