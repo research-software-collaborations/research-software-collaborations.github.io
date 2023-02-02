@@ -37,11 +37,11 @@ var id = 0;
     var selectedCategory = list.options[list.selectedIndex].text;
     {%- if project[item_hash_0] -%}
        var cats = {{ project[item_hash_0] | jsonify }};
-       if ( !( selectedCategory =='---'+item_name+'---' || cats.includes("Any") || cats.includes(selectedCategory) ) ) {
+       if ( !( selectedCategory =='--'+item_name+'--' || cats.includes("Any") || cats.includes(selectedCategory) ) ) {
          show_item = 'none';
        }
   {%- else -%}
-       if ( !( selectedCategory =='---'+item_name+'---' ) ) {
+       if ( !( selectedCategory =='--'+item_name+'--' ) ) {
          show_item = 'none';
        }	 
   {%- endif -%}
@@ -56,7 +56,7 @@ var id = 0;
 {%- assign categories = item_hash[1] | sort -%}
 {%- assign item_id = "option_" | append: item_hash[0] -%}
 <select id = {{item_id}} onchange = "dropdownMenu2()" >  
-<option> ---{{item_hash[0]}}--- </option>  
+<option> --{{item_hash[0]}}-- </option>  
 {%- for category in categories -%}
 {%- assign cat = category  -%}
 <option> {{cat}} </option>  
