@@ -22,13 +22,13 @@ Click the triangle next to each project for more information (if provided by the
 <script>  
 function dropdownMenu2() {  
 
-{%- assign projects = site.data.projects | values -%}
+{%- assign projects = site.data.project_database.projects | values -%}
 var id = 0;
 {%- for project in projects -%}
   var show_item = 'unset';
   var projectDiv = document.getElementById(++id);
 
-  {%- for item_hash in site.data.project_metadata -%}
+  {%- for item_hash in site.data.project_database.project_metadata -%}
     {%- assign item_id = "option_" | append: item_hash[0] -%}
     var list_item = "{{ item_id }}";
     var item_name = "{{ item_hash[0] }}";
@@ -52,7 +52,7 @@ var id = 0;
 }  
 </script>
 
-{%- for item_hash in site.data.project_metadata -%}
+{%- for item_hash in site.data.project_database.project_metadata -%}
 {%- assign categories = item_hash[1] | sort -%}
 {%- assign item_id = "option_" | append: item_hash[0] -%}
 <select id = {{item_id}} onchange = "dropdownMenu2()" >  
@@ -66,7 +66,7 @@ var id = 0;
 
 
 {% assign id = 0 %}
-{%- assign projects = site.data.projects | values -%}
+{%- assign projects = site.data.project_database.projects | values -%}
 {% for project in projects %}
  {%- assign names = project.contacts | join: "," -%}
   {% assign id = id | plus:1 %}
