@@ -92,7 +92,7 @@ These will include:
 
   1. **Training events** that will build upon the curriculum being
      actively developed and used today by the 
-     [HEP Software Foundation (HSF)](https://hepsoftwarefoundation.org)
+     [HEP Software Foundation (HSF)](https://hepsoftwarefoundation.org/workinggroups/training.html)
       and [IRIS-HEP](https://iris-hep.org). This
      will include an introduction to the current analysis, deep learning
      and data science ecosystem, software development/engineering
@@ -105,16 +105,16 @@ These will include:
      software-related projects of various sizes, including those sized
      for summer or semester-long projects as well as larger projects
      which are suitable to be the subject or a part of a student thesis.
-  1. **Fellowship programs** for students that have participated in our
-     training programs, or have equivalent experience. Fellows will
+  1. **Traineeship programs** for students that have participated in our
+     training programs, or have equivalent experience. Trainees will
      be based at their home institute (or elsewhere as convenient) and
      interact remotely with their mentors on software projects. Projects
      will nominally have two mentors, both for practical reasons
      (holidays, busy schedules, etc), and to bring different perspectives,
      from different networks, to the problem. We also aim for projects
-     where two Fellows from different countries work together under
+     where two Trainees from different countries work together under
      the same mentors on a project. We aim to support 10 students per
-     year for a three month fellowship.
+     year for a three month traineeship.
   1. **Researcher exchanges** organized and funded between the U.S. and
      India. While short in-person visits for training events, workshops
      and conferences can reduce barriers to communication, longer
