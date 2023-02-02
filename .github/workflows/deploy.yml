@@ -27,12 +27,10 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
-
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
           submodules: true
-	  
       - name: Prepare to build site
         uses: ./.github/actions/prepare-build-site
 
