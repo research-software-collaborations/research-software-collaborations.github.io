@@ -1,4 +1,0 @@
-[submodule "_data/project_database"]
-	path = _data/project_database
-	url = git@github.com:research-software-collaborations/project_database.git
-	branch = main
