@@ -29,6 +29,18 @@ This will mount your checked out copy of this repo, then build and start the
 jekyll server mapping it to port 4000 on your computer. You can make changes
 locally and view them at http://localhost:4000
 
+## Dealing with the submodule...
+
+There is now a submodule under _data/project_database. This will get updated once per day to the head of the main branch. To do by hand, you can do:
+```
+cd _data/project_database
+git pull 
+cd ..
+git add project_database
+git commit -m 'pick up new commits'
+git push
+```
+
 ## Color codes for Indian Flag
 
 Orange = #FF9933
