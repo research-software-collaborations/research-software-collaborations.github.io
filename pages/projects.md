@@ -68,11 +68,22 @@ var id = 0;
 {% assign id = 0 %}
 {%- assign projects = site.data.project_database.projects | values -%}
 {% for project in projects %}
- {%- assign names = project.contacts | join: "," -%}
+
+  {%- assign namesArr = '' -%}
+  {%- assign emailsArr = '' -%}  
+  {%- for contact in project.contacts -%}
+    {%- assign namesArr = namesArr | append: contact.name %}
+    {%- assign emailsArr = emailsArr | append: contact.email %}
+    {%- if forloop.last == false -%}
+       {% assign namesArr = namesArr | append: "," -%}
+       {% assign emailsArr = emailsArr | append: "," -%}
+    {%- endif -%}
+  {%- endfor -%}
+
   {% assign id = id | plus:1 %}
   <div id="{{id}}">
    {%- capture details -%} {{project.description}} {%- endcapture -%}
-   {%- capture summary -%}{{project.name }}: {{project.shortdescription}}. <a href="mailto:{{names}}">Email the mentors</a>{%- endcapture -%}
+   {%- capture summary -%}{{project.name }}: {{project.shortdescription}}. <a href="mailto:{{emailsArr}}">Email the mentors ({{namesArr}})</a>{%- endcapture -%}
    {%- include details.html -%}
   </div>
 {% endfor %}
