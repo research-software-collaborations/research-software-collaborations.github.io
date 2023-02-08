@@ -54,6 +54,7 @@ var id = 0;
 }  
 </script>
 {%- assign debug = "nothing" -%}
+{%- assign debug = debug | append: page.pulldown_defaults.program -%}
 {%- for item_hash in site.data.project_database.project_metadata -%}
 {%- assign categories = item_hash[1] | sort -%}
 {%- assign item_id = "option_" | append: item_hash[0] -%}
