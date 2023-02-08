@@ -53,12 +53,13 @@ var id = 0;
 
 }  
 </script>
-
+{%- assign debug = "nothing" -%}
 {%- for item_hash in site.data.project_database.project_metadata -%}
 {%- assign categories = item_hash[1] | sort -%}
 {%- assign item_id = "option_" | append: item_hash[0] -%}
 <select id = {{item_id}} onchange = "dropdownMenu2()" >  
 {%- if page.pulldown_defaults and page.pulldown_defaults[item_id] -%}
+{%- assign debug = page.pulldown_defaults[item_id] -%}
 <option> page.pulldown_defaults[{{item_id}}] </option>
 <option> --{{item_hash[0]}}-- </option>
 {%- else -%}
@@ -75,6 +76,7 @@ var id = 0;
 </select>
 {%- endfor -%}
 
+{{debug}}
 
 {% assign id = 0 %}
 {%- assign projects = site.data.project_database.projects | values -%}
