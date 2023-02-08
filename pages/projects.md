@@ -58,9 +58,12 @@ var id = 0;
 {%- assign categories = item_hash[1] | sort -%}
 {%- assign item_id = "option_" | append: item_hash[0] -%}
 <select id = {{item_id}} onchange = "dropdownMenu2()" >  
-{%- if page.pulldown_defaults and page.pulldown_defaults[item_id] -%}
-{%- assign debug = page.pulldown_defaults[item_id] -%}
-<option> page.pulldown_defaults[{{item_id}}] </option>
+{%- if page.pulldown_defaults -%}
+{%- assign debug = "some defaults" -%}
+{%- endif -%}
+{%- if page.pulldown_defaults and page.pulldown_defaults["{{item_id}}"] -%}
+{%- assign debug = page.pulldown_defaults["{{item_id}}"] -%}
+<option> page.pulldown_defaults["{{item_id}}"] </option>
 <option> --{{item_hash[0]}}-- </option>
 {%- else -%}
 <option> --{{item_hash[0]}}-- </option>
