@@ -3,6 +3,8 @@ permalink: /projects.html
 layout: default
 title: Project database
 mermaid: true
+pulldown_defaults:
+  program: IRIS-HEP fellow
 ---
 
 # Open project database
@@ -56,10 +58,19 @@ var id = 0;
 {%- assign categories = item_hash[1] | sort -%}
 {%- assign item_id = "option_" | append: item_hash[0] -%}
 <select id = {{item_id}} onchange = "dropdownMenu2()" >  
-<option> --{{item_hash[0]}}-- </option>  
+{%- if page.pulldown_defaults and page.pulldown_defaults[{{item_id}}] -%}
+<option> page.pulldown_defaults[{{item_id}}] </option>
+<option> --{{item_hash[0]}}-- </option>
+{%- else -%}
+<option> --{{item_hash[0]}}-- </option>
+{%- endif -%}
 {%- for category in categories -%}
 {%- assign cat = category  -%}
+{%- if page.pulldown_defaults and page.pulldown_defaults[{{item_id}}] and page.pulldown_defaults[{{item_id}}] == {{cat}} -%}
+{%- assign dummy = "do nothing" -%}
+{%- else -%}
 <option> {{cat}} </option>  
+{%- endif -%}
 {%- endfor -%}
 </select>
 {%- endfor -%}
