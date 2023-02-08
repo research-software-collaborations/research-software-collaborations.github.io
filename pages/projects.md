@@ -53,20 +53,16 @@ var id = 0;
 
 }  
 </script>
-{%- assign debug = "nothing" -%}
-{%- assign debug = debug | append: page.pulldown_defaults.program -%}
 {%- for item_hash in site.data.project_database.project_metadata -%}
 {%- assign categories = item_hash[1] | sort -%}
 {%- assign item_id = "option_" | append: item_hash[0] -%}
 <select id = {{item_id}} onchange = "dropdownMenu2()" >  
-{%- assign debug = debug | append: item_hash[0] -%}
 {%- if page.pulldown_defaults and page.pulldown_defaults contains item_hash[0] -%}
 {%- for iter in page.pulldown_defaults -%}
 {%- if item_hash[0] == iter[0] -%}
 {%- assign default_val = iter[1] -%}
 {%- endif -%}
 {%- endfor -%}
-{%- assign debug = debug | append: default_val -%}
 <option> {{default_val}} </option>
 <option> --{{item_hash[0]}}-- </option>
 {%- else -%}
@@ -74,7 +70,7 @@ var id = 0;
 {%- endif -%}
 {%- for category in categories -%}
 {%- assign cat = category  -%}
-{%- if page.pulldown_defaults and page.pulldown_defaults contains iter_hash[0] and default_val == cat -%}
+{%- if page.pulldown_defaults and page.pulldown_defaults contains item_hash[0] and default_val == cat -%}
 {%- assign dummy = "do nothing" -%}
 {%- else -%}
 <option> {{cat}} </option>  
@@ -82,8 +78,6 @@ var id = 0;
 {%- endfor -%}
 </select>
 {%- endfor -%}
-
-{{debug}}
 
 {% assign id = 0 %}
 {%- assign projects = site.data.project_database.projects | values -%}
