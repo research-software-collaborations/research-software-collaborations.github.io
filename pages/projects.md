@@ -61,8 +61,8 @@ var id = 0;
 <select id = {{item_id}} onchange = "dropdownMenu2()" >  
 {%- assign debug = debug | append: item_hash[0] -%}
 {%- if page.pulldown_defaults and page.pulldown_defaults contains item_hash[0] -%}
-{%- assign debug = debug | append: page.pulldown_defaults[item_hash[0]] -%}
-<option> {{page.pulldown_defaults[item_hash[0]]}} </option>
+{%- assign debug = debug | append: page.pulldown_defaults[:{{item_hash[0]}}"] -%}
+<option> {{page.pulldown_defaults["{{item_hash[0]}}"]}} </option>
 <option> --{{item_hash[0]}}-- </option>
 {%- else -%}
 <option> --{{item_hash[0]}}-- </option>
