@@ -66,7 +66,7 @@ var id = 0;
 {%- endif -%}
 {%- for category in categories -%}
 {%- assign cat = category  -%}
-{%- if page.pulldown_defaults and page.pulldown_defaults[item_id] and page.pulldown_defaults[item_id] == {{cat}} -%}
+{%- if page.pulldown_defaults and page.pulldown_defaults[item_id] and page.pulldown_defaults[item_id] == "{{cat}}" -%}
 {%- assign dummy = "do nothing" -%}
 {%- else -%}
 <option> {{cat}} </option>  
