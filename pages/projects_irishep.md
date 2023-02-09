@@ -1,24 +1,23 @@
 ---
-permalink: /projects.html
+permalink: /projects_irishep.html
 layout: default
-title: Project database
+title: IRIS-HEP Fellow projects
 mermaid: true
 pulldown_defaults:
+  program: IRIS-HEP fellow
 ---
 
-# Open project database
+# Open projects for IRIS-HEP Fellows (and more)
 
-We want to make finding projects easier for students and advertising projects easier for scientists
-with research opportunities. Today, this is very much a work in progress... eventually you will be able
-to search for perspective project ideas and easily add new project opportunities to this repository.
+This page lists a number of known software R&D projects of interest to IRIS-HEP researchers.
+(This page will be updated from time to time, so check back and reload to see if new projects
+have been added.) Contact the mentors for more information about any of these projects! Be sure
+you have read the [guidelines](https://iris-hep.org/fellows.html).
 
-This page is a prototype project database. Use the menu bars to select projects based on their attributes. Projects with no value
-specified for a given attribute will not be included if a selection is made on that attribute. Projects may instead specify
+You can also find open projects for other programs or of general interest.
+Use the pulldown menus to select projects based on their attributes. Projects may instead specify
 that they are appropriate for multiple options (or any option) for a given attribute.
 Click the triangle next to each project for more information (if provided by the project mentors).
-
-
-<img src="/assets/images/coming-soon-monsoon.png" width="100">
 
 <script>  
 function dropdownMenu2() {  
