@@ -5,6 +5,8 @@ title: Research Software Trainees
 pagetype: doc
 ---
 
+We are currently taking applciations for summer 2023. The application deadline: March 15, 2023.
+
 ## Research Software Trainees
 
   Are you a student or a recent grad interested in growing your software
@@ -81,4 +83,3 @@ selected students to projects that they are excited about.
   * Trainees and Fellows
   * pointer to list of projects
 
-### Benefits of the Trainees program
