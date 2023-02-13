@@ -5,7 +5,7 @@ name: Nishita Desai
 institution: Tata Institute of Fundamental Research
 e-mail: Nishita.Desai@tifr.res.in
 github-username: NishitaDesai
-photo: "/assets/images/team/Nishita-Desai.png"
+photo: "/assets/images/team/Nishita-Desai.jpg"
 shortname: nishitadesai
 title: Ramanujan Fellow
 website: http://theory.tifr.res.in/~desai/
