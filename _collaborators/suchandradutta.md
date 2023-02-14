@@ -4,7 +4,7 @@ active: true
 e-mail: Suchandra.Dutta@cern.ch
 institution: Saha Institute of Nuclear Physics
 name: Suchandra Dutta
-photo: "/assets/images/team/Suchandra-Dutta.jpeg"
+photo: "/assets/images/team/Suchandra-Dutta.jpg"
 github-username: suchandradutta
 shortname: suchandradutta
 title: 
