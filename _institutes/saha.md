@@ -5,5 +5,8 @@ latitude:
 longitude: 
 url: http://www.saha.ac.in/web/
 personnel:
+  - pratikmajumdar
+  - subirsarkar
+  - suchandradutta
 ---
 
