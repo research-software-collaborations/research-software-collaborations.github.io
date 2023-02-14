@@ -1,11 +1,11 @@
 ---
 permalink: /docs/trainees.html
 layout: default
-title: Research Software Trainees
+title: Research Software Trainees and Fellowships
 pagetype: doc
 ---
 
-We are currently taking applciations for summer 2023. The application deadline: March 15, 2023.
+We are currently taking applciations for summer 2023. **The application deadline: March 15, 2023**.
 
 ## Research Software Trainees
 
@@ -28,16 +28,17 @@ and their potential impact on the community.
 Trainees will spend their projects (flexible in length, but typically 3 or 6 months)
 working to build their skills while working on an exciting and topical research software project.
 
-### Who should apply to the Trainees program? 
+### Who should apply to the HSF-India Trainees and Fellowships program? 
 
 Are you interested in building research software skills and gaining experience working as part of
 a research team and contributing to cutting edge
-open source research software projects? Then the HSF-India trainee program could be for you.
+open source research software projects? Then the HSF-India program could be for you.
 
 This program is open to more experienced candidates as well as those new to scientific
 software development. If you reasonably comfortable with basic programming through skills acquired (for example)
-from coursework, dedicated training activities, or prior research activities, you may be well suited for
-one of the limited Fellowship opportunities. If not, we offer trainneeships for less experienced candidates.
+from coursework, dedicated training activities, and have some experience with prior research activities, you may be well suited for
+one of the limited Fellowship opportunities. If not, we offer trainneeships for less experienced candidates that are excited to
+engage with and work in a collaborative research environment.
 
 Prior physics knowledge is helpful, but not required. We will also offer dedicated training
 activities to help you improve specific software skills. Applications from women and members
@@ -47,7 +48,8 @@ of underrepresented groups in STEM activities are particularly encouraged.
 
   We are in the process of gathering research projects. The current
   list of available proejcts can be found [here](http://research-software-collaborations.org/projects).
-  You might have a project and mentor already in mind. In that case, please be sure to include
+  You might have a project and mentor already in mind (which does not need to be among those listed on our projects page).
+  In that case, please be sure to include
   that information in your application.
   
 ### How to apply
@@ -57,14 +59,16 @@ projects, please include that information as part of your application. We aim to
 selected students to projects that they are excited about.
 
    * Deadline: March 15, 2023
+   * Application form: [Please submit applications here](https://forms.gle/TRm29qBNCr6ovYBF6).
    * Application requirements:
       * CV summarizing academic background, work and research experiences, technical skills
       * Copy of recent academic transcripts
       * Statement of interests (1-2 pages maximum)
-      * Letter of recommendation (optional but encouraged)
+      * Letter of recommendation to be sent separately (optional but encouraged)
    * Questions:
-      * Contact us by [email](mailto:rsc-inquiries@google-groups.com)
-      * We have organized two short webinars (ADD CONTACT INFO)
+      * We have organized two short webinars that include Q/A sessions. These are scheduled for
+      March 8 at 4pm IST and March 13 at 6pm IST. Sign up to attend [here](https://forms.gle/Bfxau6rbHmRFnswy8).
+      * Contact us by [email](mailto:rsc-inquiries@google-groups.com) with questions at any time.
 
 ### Fellows
 
@@ -76,10 +80,9 @@ selected students to projects that they are excited about.
   involved with, see the [IRIS-HEP fellows program](https://iris-hep.org/fellows.html)
   and the [HSF Google Summer of Code](https://hepsoftwarefoundation.org/activities/gsoc.html) program pages.
 
-
-  Our Research Software Trainee program offers 
-
-  * Description: summer students, semester projects and recent grads (including ``gap year'' before graduate school)
-  * Trainees and Fellows
-  * pointer to list of projects
-
+### Benefits of HSF-India
+   * Gaining experience working in a unique scientific and collaborative environment
+   * Learning new programming, research and analysis skills that are important for future careers in science and technology
+   * Compensation for trainees:
+   * Compensation for fellows:
+   
