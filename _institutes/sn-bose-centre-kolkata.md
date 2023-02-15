@@ -5,5 +5,6 @@ latitude:
 longitude: 
 url: https://www.bose.res.in
 personnel:
+  - amitabha-lahiri
 ---
 
