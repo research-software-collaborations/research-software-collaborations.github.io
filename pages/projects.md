@@ -23,6 +23,10 @@ Click the triangle next to each project for more information (if provided by the
 <script>  
 function dropdownMenu2() {  
 
+var search_box = document.getElementById("searchprojects");
+var search_box_text = search_box.value;
+
+
 {%- assign projects = site.data.project_database.projects | values -%}
 var id = 0;
 {%- for project in projects -%}
@@ -47,21 +51,23 @@ var id = 0;
        }	 
   {%- endif -%}
   {%- endfor -%}
-  var search_box = document.getElementById("searchprojects");
-  var search_box_text = search_box.value;
-  
+
+  if ( (show_item == 'unset') && (search_box_text.length > 0)  ) {
+     var project_description = {{project["description"] | jsonify }};
+     if ( !(project_description.includes(search_box_text) ) ) {
+       show_item = 'none';
+     }
+  }
+
   projectDiv.style.display = show_item;
 {%- endfor -%}
 
 }  
 </script>
 
-Text search
-<form name="searchprojects" onsubmit="dropdownMenu2()">
-  Enter name: <input type="text">
-  <input type="submit">
-</form>
-
+## Project selection menus 
+<br>
+ 
 {%- for item_hash in site.data.project_database.project_metadata -%}
 {%- assign categories = item_hash[1] | sort -%}
 {%- assign item_id = "option_" | append: item_hash[0] -%}
@@ -87,6 +93,16 @@ Text search
 {%- endfor -%}
 </select>
 {%- endfor -%}
+
+<br>
+<form name="searchprojectsform" onsubmit="dropdownMenu2();return false">
+  Text search: <input type="text" name="name" id="searchprojects"/>
+  <input type="submit">
+</form>
+
+<br>
+
+## Selected projects
 
 {% assign id = 0 %}
 {%- assign projects = site.data.project_database.projects | values -%}
