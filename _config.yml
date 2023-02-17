@@ -75,6 +75,8 @@ indico:
     topical: 15964
     events: 15896
 
+google_analytics: "G-B38RSBKPTR"
+
 collections:
   institutes:
     output: true
