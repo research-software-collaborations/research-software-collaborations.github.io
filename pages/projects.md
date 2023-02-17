@@ -47,11 +47,21 @@ var id = 0;
        }	 
   {%- endif -%}
   {%- endfor -%}
+  var search_box = document.getElementById("searchprojects");
+  var search_box_text = search_box.value;
+  
   projectDiv.style.display = show_item;
 {%- endfor -%}
 
 }  
 </script>
+
+Text search
+<form name="searchprojects" onsubmit="dropdownMenu2()">
+  Enter name: <input type="text">
+  <input type="submit">
+</form>
+
 {%- for item_hash in site.data.project_database.project_metadata -%}
 {%- assign categories = item_hash[1] | sort -%}
 {%- assign item_id = "option_" | append: item_hash[0] -%}
