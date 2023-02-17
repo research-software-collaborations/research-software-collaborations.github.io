@@ -54,7 +54,8 @@ Our program is open to candidates associated with institutions in India and in t
   * [Analysis systems](/analysis_systems.html)
   * [Simulation methods](/simulation.html)
   * [Open science](/open_science.html)
-  Follow the links for more details about each area. Expect projects to be software focused. Some projects
+
+Follow the links for more details about each area. Expect projects to be software focused. Some projects
   will have a large focus on physics algorithms, others on computatonal methods. All aim to result in
   significant contributions to open source software and to build skills and knowledge as a result.
 
