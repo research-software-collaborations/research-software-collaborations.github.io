@@ -48,12 +48,24 @@ Our program is open to candidates associated with institutions in India and in t
 
 ### What kind of research software projects are available?
 
-  We are in the process of gathering research projects. The current
+  We are in the process of gathering research projects. You might have a project and mentor already in mind
+  In that case, please be sure to include that information in your application. Our program will have three
+  broad topical areas
+  * [Analysis systems](/analysis_systems.html)
+  * [Simulation methods](/simulation.html)
+  * [Open science](/open_science.html)
+  Follow the links for more details about each area. Expect projects to be software focused. Some projects
+  will have a large focus on physics algorithms, others on computatonal methods. All aim to result in
+  significant contributions to open source software and to build skills and knowledge as a result.
+
+{% comment %}
+Some old text to add back when we have projects
+The current
   list of available proejcts can be found [here](http://research-software-collaborations.org/projects).
-  You might have a project and mentor already in mind (which does not need to be among those listed on our projects page).
-  In that case, please be sure to include
-  that information in your application.
-  
+(which does not need to be among those listed on our projects page).
+{% endcomment %}
+
+
 ### How to apply
 There is no requirement to establish a research project before applying. Our program will 
 match selected students with mentors and projects. If you have interest in one or more specific
