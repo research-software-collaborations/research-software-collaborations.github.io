@@ -44,6 +44,8 @@ Prior physics knowledge is helpful, but not required. We will also offer dedicat
 activities to help you improve specific software skills. Applications from women and members
 of underrepresented groups in STEM activities are particularly encouraged.
 
+Our program is open to candidates associated with institutions in India and in the US.
+
 ### What kind of research software projects are available?
 
   We are in the process of gathering research projects. The current
@@ -83,6 +85,6 @@ selected students to projects that they are excited about.
 ### Benefits of HSF-India
    * Gaining experience working in a unique scientific and collaborative environment
    * Learning new programming, research and analysis skills that are important for future careers in science and technology
-   * Compensation for trainees:
-   * Compensation for fellows:
+   * Selected fellows will be compensated according to a purchasing power parity (PPP) adjusted stipend 
+   * Selected trainees will receive a token compensation ammount for their participation in the program
    
