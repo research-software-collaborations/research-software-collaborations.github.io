@@ -19,4 +19,4 @@ Use the pulldown menus to select projects based on their attributes. Projects ma
 that they are appropriate for multiple options (or any option) for a given attribute.
 Click the triangle next to each project for more information (if provided by the project mentors).
 
-{{include project_database.md}}
+{% include project_database.md %}
