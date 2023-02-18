@@ -120,8 +120,8 @@ var id = 0;
   {%- endfor -%}
 
   {% assign id = id | plus:1 %}
-  <div id="{{id}}">
-   {%- capture details -%} {{project.description}} {%- endcapture -%}
+  <div id="{{id}}"> 
+   {% assign details = project.description %} 
    {%- capture summary -%}{{project.name }}: {{project.shortdescription}}. <a href="mailto:{{emailsArr}}">Email the mentors ({{namesArr}})</a>{%- endcapture -%}
    {%- include details.html -%}
   </div>
