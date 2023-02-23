@@ -34,8 +34,11 @@ var id = 0;
   {%- endfor -%}
 
   if ( (show_item == 'unset') && (search_box_text.length > 0)  ) {
-     var project_description = {{project["description"] | jsonify }};
-     if ( !(project_description.includes(search_box_text) ) ) {
+     var project_description = {{project["description"]  | jsonify }};
+     var project_short = {{project["shortdescription"] | jsonify }};
+     var project_name = {{project["name"] | jsonify }};
+     var project_search = project_description+' '+project_short+' '+project_name;
+     if ( !(project_search.toLowerCase().includes(search_box_text.toLowerCase()) ) ) {
        show_item = 'none';
      }
   }
