@@ -89,7 +89,8 @@ var id = 0;
 ## Selected projects
 
 {% assign id = 0 %}
-{%- assign projects = site.data.project_database.projects | values -%}
+{%- assign projects = site.data.project_database.projects | values | sort: 'postdate' | reverse -%}
+
 {% for project in projects %}
 
   {%- assign namesArr = '' -%}
