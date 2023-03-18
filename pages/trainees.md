@@ -1,8 +1,7 @@
 ---
-permalink: /docs/trainees.html
+permalink: /trainees.html
 layout: default
 title: Research Software Trainees and Fellowships
-pagetype: doc
 ---
 
 We are currently taking applciations for summer 2023. **The application deadline: March 15, 2023**.
