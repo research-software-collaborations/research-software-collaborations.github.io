@@ -4,7 +4,7 @@ layout: default
 title: Research Software Trainees and Fellowships
 ---
 
-We are currently taking applciations for summer 2023. **The application deadline: March 15, 2023**.
+We are currently taking applciations for summer 2023. **The application deadline: April 15, 2023**.
 
 ## Research Software Trainees
 
@@ -72,7 +72,7 @@ match selected students with mentors and projects. If you have interest in one o
 projects, please include that information as part of your application. We aim to match all
 selected students to projects that they are excited about.
 
-   * Deadline: March 15, 2023
+   * Deadline: April 15, 2023
    * Application form: [Please submit applications here](https://forms.gle/TRm29qBNCr6ovYBF6).
    * Application requirements:
       * CV summarizing academic background, work and research experiences, technical skills
@@ -80,8 +80,8 @@ selected students to projects that they are excited about.
       * Statement of interests (1-2 pages maximum)
       * Letter of recommendation to be sent separately (optional but encouraged)
    * Questions:
-      * We have organized two short webinars that include Q/A sessions. These are scheduled for
-      March 8 at 4pm IST and March 13 at 6pm IST. Sign up to attend [here](https://forms.gle/Bfxau6rbHmRFnswy8).
+      * We will organize two short webinars that include Q/A sessions. Sign up to be noticed
+      of these events [here](https://forms.gle/Bfxau6rbHmRFnswy8).
       * Contact us by [email](mailto:rsc-inquiries@google-groups.com) with questions at any time.
 
 ### Fellows
