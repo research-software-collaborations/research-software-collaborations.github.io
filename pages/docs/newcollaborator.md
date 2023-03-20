@@ -25,7 +25,7 @@ please [contribute an improvement][repo]!
   * Add a "`<your github username>.md`" file to the [`_collaborators` folder in the website repository][`_collaborators`]. See below for an example of the frontmatter.
   * Following the frontmatter part, the markdown part of the file is free-form,
     however most people should add a "### Biography" and a "### Project interests" section. You can find examples for other people in the [`_collaborators`][] area. In general the biography can be short if you are including a link to your website (see frontmatter example below) and that has the relevant details. For project interests, all are welcome, but particular emphasis on connections to the current HSF-India themes will help in building collaborations.
-  * Add your GitHub username to the corresponding [`_institutes`][]. Note that you will *not* show up in the full team page if you are not in of the files there! If your university or institute is missing, please ask the website admins.
+  * Add your GitHub username to the corresponding file in [`_institutes`][]. Note that you will *not* show up in the full team page if you are not in one of the files there! If your university or institute is missing, please ask the website admins.
   * Add your GitHub username to any relevant files in [`_networks`][]. If you think that an additional network is needed, please ask the website admins at [rsc-inquiries@googlegroups.com](mailto:rsc-inquiries@googlegroups.com).
 
 [repo]: https://github.com/research-software-collaborations/research-software-collaborations.github.io
