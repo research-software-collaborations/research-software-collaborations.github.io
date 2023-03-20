@@ -57,4 +57,4 @@ jobs:
           && github.ref == 'refs/heads/master'
           && github.repository == 'research-software-collaborations/research-software-collaborations.github.io'
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v2
