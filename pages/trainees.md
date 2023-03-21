@@ -72,7 +72,7 @@ match selected students with mentors and projects. If you have interest in one o
 projects, please include that information as part of your application. We aim to match all
 selected students to projects that they are excited about.
 
-   * Deadline: April 15, 2023
+   * Deadline: April 16, 2023
    * Application form: [Please submit applications here](https://forms.gle/TRm29qBNCr6ovYBF6).
    * Application requirements:
       * CV summarizing academic background, work and research experiences, technical skills
