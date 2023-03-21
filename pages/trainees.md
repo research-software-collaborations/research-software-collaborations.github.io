@@ -4,7 +4,7 @@ layout: default
 title: Research Software Trainees and Fellowships
 ---
 
-We are currently taking applciations for summer 2023. **The application deadline: April 15, 2023**.
+We are currently taking applciations for summer 2023. **The application deadline: April 16, 2023**.
 
 ## Research Software Trainees
 
