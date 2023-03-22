@@ -97,6 +97,5 @@ selected students to projects that they are excited about.
 ### Benefits of HSF-India
    * Gaining experience working in a unique scientific and collaborative environment
    * Learning new programming, research and analysis skills that are important for future careers in science and technology
-   * Selected fellows will be compensated according to a purchasing power parity (PPP) adjusted stipend 
    * Selected trainees will receive a token compensation ammount for their participation in the program
    
