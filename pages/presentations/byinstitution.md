@@ -29,7 +29,7 @@ date | name | title | url | meeting | meetingurl | project | focus_area | instit
     {% for talk in sorted_presentations %}
       {% if univ.personnel contains talk.member %}
         <li>
-          {%- include print_pres.html talk=talk -%}
+          {%- include print_pres.html talk=talk name=site.collaborators[talk.member].name -%}
         </li>
 
         {% assign prescount = prescount | plus: "1" %}
