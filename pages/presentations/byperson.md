@@ -23,8 +23,6 @@ title: Presentations by Person
         </li>
       {%- endfor- %}
     </ul>
-  {%- else -%}
-    <p>No presentations found.</p>
   {%- endif -%}
 {%- endfor -%}
 
