@@ -86,7 +86,35 @@ selected students to projects that they are excited about.
 
 ### Fellows
 
-  * No one yet - join us! Our application deadline is March 15, 2023
+{% assign trainees = site.pages | where: "pagetype", "trainee"
+                               | last_name_sort: "name"
+                               | reverse %}
+{% assign active-trainees = trainees | select: "active" | where_exp: "item", "item.hidden != true" %}
+{% assign inactive-trainees = trainees | reject: "active" | where_exp: "item", "item.hidden != true" %}
+
+
+{%- if active-trainees.size > 0 %}
+# Current Trainees
+
+<div class="container-fluid">
+  <div class="row">
+    {% for person in active-trainees %}
+      <div class="card" style="width: 12rem;">
+         <img class="card-img-top" src="{{person.photo}}" alt="Card image cap">
+         <div class="card-body d-flex flex-column">
+           <div class="card-text">
+              <b><a href="{{person.permalink}}">{{person.name}}</a></b><br>
+              <small>{{person.institution}}</small><br><br>
+           </div>
+           <div class="card-text mt-auto"><i>
+             {% include fellow_dates.html dates=person.dates %}
+           </i><br></div>
+         </div>
+      </div>
+    {% endfor %}
+  </div>
+  <br>
+</div>
 
 ### Former trainees
 
