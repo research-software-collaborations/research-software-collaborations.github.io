@@ -13,18 +13,17 @@ date | name | title | url | meeting | meetingurl | project | focus_area | instit
 
 <h2>Presentations related to HSF-India</h2>
 
+<div align="left">   
 {% assign univs = site.institutes %}
 {% for univ in univs %}
   {% assign prescount = 0 %}
   {% for talk in sorted_presentations %}
-    {{talk.member}}
     {% if univ.personnel contains talk.member %}
       {% assign prescount = prescount | plus: "1" %}
     {% endif %}
   {% endfor %}
 
   {% if prescount > 0 %}
-  <div align="left">   
   <h4>{{univ.title}}</h4>
   <ul>
     {% for talk in sorted_presentations %}
@@ -36,9 +35,11 @@ date | name | title | url | meeting | meetingurl | project | focus_area | instit
         {% assign prescount = prescount | plus: "1" %}
       {% endif %}
     {% endfor %}
+  </ul>
   {% endif %}
-</ul>
 
 {% endfor %}
 
-Total presentations: {{ prescount }} {{ sorted_presentations.size }} .
+<br>
+Total presentations: {{ sorted_presentations.size }} .
+</div>
