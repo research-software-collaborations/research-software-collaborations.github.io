@@ -15,6 +15,18 @@ networks:
   - irishep
   - uscms
 presentations:
+  - title: Building International Research Software Collaborations in Physics
+    date: 2023-03-23
+    url: https://indico.jlab.org/event/459/contributions/11680/
+    meeting: Computing in High Energy Physics (CHEP)
+    meetingurl: https://indico.jlab.org/event/459
+    location: Norfolk, VA
+  - title: Building International Research Software Collaborations in Physics
+    date: 2023-05-08
+    url: https://indico4.twgrid.org/event/25/contributions/1196/
+    meeting: International Symposium on Grids and Clouds
+    meetingurl: https://indico4.twgrid.org/event/25/
+    location: Taipei, Taiwan
 ---
 
 ### Biography
