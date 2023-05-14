@@ -115,6 +115,7 @@ selected students to projects that they are excited about.
   </div>
   <br>
 </div>
+{%- endif -%}
 
 ### Former trainees
 
