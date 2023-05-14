@@ -3,7 +3,7 @@
 {%- endunless %}
 
 {%- assign talk = include.talk -%}
-{%- assign talk-member = site.data.people[talk.member].name -%}
+{%- assign talk-member = site.collaborators[talk.member].name -%}
 {%- assign prettydate = talk.date | date: "%-d %b %Y" -%}
 
 {%- capture meeting -%}
