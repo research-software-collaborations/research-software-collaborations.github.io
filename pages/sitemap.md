@@ -3,7 +3,7 @@ permalink: /sitemap.html
 layout: default
 title: Sitemap
 ---
-<h3>IRIS-HEP Website Sitemap</h3>
+<h3>HSF-India Website Sitemap</h3>
 
 {% comment %}
 Go through the list of pages and create an index of them, separating by
