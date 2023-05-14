@@ -20,7 +20,7 @@ title: Presentations by Person
       {%- for talk in presentationlist -%}
         {%- assign prescount = prescount | plus: "1" -%}
         <li>
-          {%- include print_pres.html talk=talk -%}
+          {%- include print_pres.html talk=talk name=member.name -%}
         </li>
       {%- endfor- %}
     </ul>
