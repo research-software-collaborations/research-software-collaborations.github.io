@@ -38,6 +38,7 @@ module Checks
 
           # Add the member shortname to every presentation
           presentations[index]['member'] = mydoc.data['shortname']
+          presentations[index]['fullname'] = mydoc.data['name']
         end
       end
 
