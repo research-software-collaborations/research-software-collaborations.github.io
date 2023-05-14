@@ -10,8 +10,9 @@ redirect_from: "/presentations/all"
 
 <h2>Presentations related to HSF-India</h2>
 
+<div align="left">
 {% for pair in groups %}
-  <h4> {{ pair.name }} </h4>
+<h4> {{ pair.name }} </h4>
   <ul>
     {% for talk in pair.items %}
       <li>
@@ -20,5 +21,6 @@ redirect_from: "/presentations/all"
     {% endfor %}
   </ul>
 {% endfor %}
+</div>
 
 Total presentations: {{ site.data['sorted_presentations'].size }}.
