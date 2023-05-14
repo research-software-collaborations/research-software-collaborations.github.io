@@ -1,7 +1,7 @@
 ---
 permalink: /docs/trainee_onboarding.html
 layout: default
-title: Information for onboarding new HSF-India fellows
+title: Information for onboarding new HSF-India Trainees/Fellows
 pagetype: doc
 ---
 
@@ -20,7 +20,7 @@ You need to fill out a Payee Management Form in order to receive payment.
 
 For tax purposes, we need you to answer the following questions:
 1.      Are you a US citizen/permanent resident?
-2.     Will you be physically located in the United States or your home country for the duration of the fellowship?
+2.     Will you be physically located in the United States or your home country for the duration of the project?
 
 Please complete and attach the appropriate form and answer the two questions above in an email message to <rsc-inquires@googlegroups.org>.
 
@@ -35,4 +35,4 @@ Follow the directions found here to create a markdown file for your page:
   <https://research-software-collaborations.org/docs/trainees.html>
 
 More specifically, the values outlined in our [Code of Conduct](https://research-software-collaborations.org/about/code-of-conduct) applies
-equally to all community members in all institute situations online and offline.  As HSF-India members, we expect fellows to be stewards of these values as well.
+equally to all community members in all institute situations online and offline.  As HSF-India members, we expect everyone to be stewards of these values as well.

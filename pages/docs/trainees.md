@@ -16,9 +16,9 @@ You should submit a pull request with the photo, a markdown file with the summar
 
 * Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/assets/images/team). It should be 320x240 pixels and in general should be 150kB or less.
 * Uploaded a short description of your project. This might be the proposal generated for your project to [assets/pdf/trainees folder](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/assets/pdf/trainees). Remember the exact filename as you will need that below.
-* Add a "`<your github username>.md`" file to the [fellows folder in the website repository](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/pages/trainees). To do this, start from the template file found [here](https://github.com/research-software-collaborations/research-software-collaborations.github.io/blob/master/pages/trainees/template.md.txt)
+* Add a "`<your github username>.md`" file to the [trainees folder in the website repository](https://github.com/research-software-collaborations/research-software-collaborations.github.io/tree/master/pages/trainees). To do this, start from the template file found [here](https://github.com/research-software-collaborations/research-software-collaborations.github.io/blob/master/pages/trainees/template.md.txt)
 
-*Please Note*:  In the markdown file you create, ensure you set the “active” attribute to true – (i.e.  active: true).  Otherwise, your entry will not appear on our Fellows page.
+*Please Note*:  In the markdown file you create, ensure you set the “active” attribute to true – (i.e.  active: true).  Otherwise, your entry will not appear on our page.
 
 Be sure to include your project summary in the project_goal field.
 
