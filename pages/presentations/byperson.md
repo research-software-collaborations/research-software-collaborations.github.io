@@ -14,15 +14,17 @@ title: Presentations by Person
 {% for member in members %}
   {%- assign presentationlist = member.presentations | default: empty-list | sort: "date" | reverse -%}
   {%- if presentationlist.size > 0 -%}
-    <h4 align="left">{{member.name}} - {{member.institution}}</h4>
+  <div align="left">
+  <h4>{{member.name}} - {{member.institution}}</h4>
     <ul>
       {%- for talk in presentationlist -%}
         {%- assign prescount = prescount | plus: "1" -%}
-        <li align="left">
+        <li>
           {%- include print_pres.html talk=talk -%}
         </li>
       {%- endfor- %}
     </ul>
+  </div>  
   {%- endif -%}
 {%- endfor -%}
 
