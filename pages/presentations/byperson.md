@@ -13,12 +13,12 @@ title: Presentations by Person
                                      | last_name_sort: "name" %}
 {% for member in members %}
   {%- assign presentationlist = member.presentations | default: empty-list | sort: "date" | reverse -%}
-  <h4>{{member.name}} - {{member.institution}}</h4>
   {%- if presentationlist.size > 0 -%}
+    <h4 align="left">{{member.name}} - {{member.institution}}</h4>
     <ul>
       {%- for talk in presentationlist -%}
         {%- assign prescount = prescount | plus: "1" -%}
-        <li>
+        <li align="left">
           {%- include print_pres.html talk=talk -%}
         </li>
       {%- endfor- %}
