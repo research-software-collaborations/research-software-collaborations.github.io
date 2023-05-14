@@ -11,24 +11,6 @@ different page categories (using our custom frontmatter tag "pagetype").
 {% endcomment %}
 
 <br>
-<b>Focus Area pages:</b>
-<ul>
-{% assign sorted = site.pages | where: 'pagetype', 'focus-area' | sort_natural: 'title' %}
-{% for mypage in sorted %}
-  <li><a href="{{mypage.permalink}}">{{ mypage.title }}</a></li>
-{% endfor %}
-</ul>
-
-<br>
-<b>Project pages:</b>
-<ul>
-{% assign sorted = site.pages | where: 'pagetype', 'project' | sort_natural: 'title' %}
-{% for mypage in sorted %}
-  <li><a href="{{mypage.permalink}}">{{ mypage.title }}</a></li>
-{% endfor %}
-</ul>
-
-<br>
 <b>Documentation pages:</b>
 <ul>
 {% assign sorted = site.pages | where: 'pagetype', 'doc' | sort_natural: 'title' %}
@@ -45,6 +27,16 @@ different page categories (using our custom frontmatter tag "pagetype").
   <li><a href="{{mypage.permalink}}">{{ mypage.title }}</a></li>
 {% endfor %}
 </ul>
+
+<br>
+<b>Focus Area pages:</b>
+<ul>
+{% assign sorted = site.pages | where: 'pagetype', 'focus-area' | sort_natural: 'title' %}
+{% for mypage in sorted %}
+  <li><a href="{{mypage.permalink}}">{{ mypage.title }}</a></li>
+{% endfor %}
+</ul>
+
 
 <br>
 <b>Other pages:</b>
