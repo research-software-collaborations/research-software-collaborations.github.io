@@ -18,11 +18,11 @@ module Checks
           # msg = "presentation ##{index} in _data/people/#{mydoc.data['shortname']}.yml"
           msg = " presentation ##{index} for #{mydoc.data['name']}"
 
-#          ensure_array(presentations[index], 'focus-area')
-#          ensure_array(presentations[index], 'project')
+          #          ensure_array(presentations[index], 'focus-area')
+          #          ensure_array(presentations[index], 'project')
 
-#          local_fa = pres_hash['focus-area']&.to_set
-#          projectless = site.config['iris-hep']['projectless-focus-areas'].to_set
+          #          local_fa = pres_hash['focus-area']&.to_set
+          #          projectless = site.config['iris-hep']['projectless-focus-areas'].to_set
 
           presentation = Record.new(msg, pres_hash)
           presentation.key 'title', :nonempty
@@ -31,8 +31,8 @@ module Checks
           presentation.key 'url'
           presentation.key 'meetingurl', :optional
           presentation.key 'location', :optional
-#          presentation.key 'focus-area', :optional, set: focus_areas
-#          presentation.key 'project', :optional, set: projects unless local_fa && local_fa < projectless
+          #          presentation.key 'focus-area', :optional, set: focus_areas
+          #          presentation.key 'project', :optional, set: projects unless local_fa && local_fa < projectless
 
           presentation.print_warnings
 
