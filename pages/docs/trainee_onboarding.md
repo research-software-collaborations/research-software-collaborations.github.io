@@ -1,5 +1,5 @@
 ---
-permalink: /docs/fellows_onboarding.html
+permalink: /docs/trainee_onboarding.html
 layout: default
 title: Information for onboarding new HSF-India fellows
 pagetype: doc
@@ -15,8 +15,8 @@ There are some additional items needed to complete the onboarding process.
 
 You need to fill out a Payee Management Form in order to receive payment.
 
-*   For US Domestic students - <https://finance.princeton.edu/sites/g/files/toruqf151/files/2019-11/supplier_mgmt.pdf>
-*   For International students - <https://finance.princeton.edu/sites/g/files/toruqf151/files/2020-08/foregn_individual_supplier_mgmt.pdf>
+*   For US Domestic students - <https://finance.princeton.edu/forms/supplierpayee-management>
+*   For International students - <https://finance.princeton.edu/forms/foreign-individual-payeesubstitute-w-8ben>
 
 For tax purposes, we need you to answer the following questions:
 1.      Are you a US citizen/permanent resident?
@@ -32,7 +32,7 @@ Additionally, we also would like to add you to our webpage:
 
 Follow the directions found here to create a markdown file for your page:
 
-  <https://research-software-collaborations.org/docs/trainees>
+  <https://research-software-collaborations.org/docs/trainees.html>
 
 More specifically, the values outlined in our [Code of Conduct](https://research-software-collaborations.org/about/code-of-conduct) applies
 equally to all community members in all institute situations online and offline.  As HSF-India members, we expect fellows to be stewards of these values as well.
