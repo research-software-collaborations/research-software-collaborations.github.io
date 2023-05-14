@@ -50,7 +50,7 @@ module Checks
 
     def get_presentations(people)
       # Disable this for now (the syntax below is not correct)
-      presentations = people.docs.flat_map { |_, p| p['presentations'] || [] }
+      presentations = people.docs.flat_map { | p| p['presentations'] || [] }
       presentations.sort_by { |p| p['date'] }.reverse!
     end
   end
