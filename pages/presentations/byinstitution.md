@@ -12,25 +12,31 @@ date | name | title | url | meeting | meetingurl | project | focus_area | instit
 -->
 
 <h2>Presentations related to HSF-India</h2>
-{% assign prescount = 0 %}
 
 {% assign univs = site.institutes %}
 {% for univ in univs %}
+  {% assign prescount = 0 %}
   {% for talk in sorted_presentations %}
     {{talk.member}}
-  {% endfor %}
-
-<h4>{{univ.title}}</h4>
-<ul>
-  {% for talk in sorted_presentations %}
-    {% if site.institutes[talk.member].institution contains univ.title %}
-      <li>
-        {%- include print_pres.html talk=talk -%}
-      </li>
-
+    {% if univ.personnel contains talk.member %}
       {% assign prescount = prescount | plus: "1" %}
     {% endif %}
   {% endfor %}
+
+  {% if prescount > 0 %}
+  <div align="left">   
+  <h4>{{univ.title}}</h4>
+  <ul>
+    {% for talk in sorted_presentations %}
+      {% if univ.personnel contains talk.member %}
+        <li>
+          {%- include print_pres.html talk=talk -%}
+        </li>
+
+        {% assign prescount = prescount | plus: "1" %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 </ul>
 
 {% endfor %}
