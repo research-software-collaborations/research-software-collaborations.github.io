@@ -31,4 +31,4 @@ date | name | title | url | meeting | meetingurl | project | focus_area | instit
 
 {% endfor %}
 
-Total presentations: {{ prescount }}.
+Total presentations: {{ prescount }} {{ sorted_presentations.size }} .

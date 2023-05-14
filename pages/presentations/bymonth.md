@@ -21,6 +21,7 @@ redirect_from: "/presentations/all"
     {% endfor %}
   </ul>
 {% endfor %}
-</div>
 
+<br>
 Total presentations: {{ site.data['sorted_presentations'].size }}.
+</div>
