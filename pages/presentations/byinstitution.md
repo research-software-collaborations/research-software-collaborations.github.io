@@ -15,7 +15,11 @@ date | name | title | url | meeting | meetingurl | project | focus_area | instit
 {% assign prescount = 0 %}
 
 {% assign univs = site.institutes %}
-  {% for univ in univs %}
+{% for univ in univs %}
+  {% for talk in sorted_presentations %}
+    {{talk.member}}
+  {% endfor %}
+
 <h4>{{univ.title}}</h4>
 <ul>
   {% for talk in sorted_presentations %}
