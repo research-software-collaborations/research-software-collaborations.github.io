@@ -1,6 +1,6 @@
 ---
 layout: fellow
-pagetype: fellow
+pagetype: trainee
 permalink: /trainees/DavidLange.html
 name: David Lange
 title: David Lange - Example Summer Project Name
