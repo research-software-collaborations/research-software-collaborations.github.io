@@ -9,7 +9,7 @@ title: Presentations by Person
 <h2>Presentations related to HSF-India</h2>
 {% assign prescount = 0 %}
 
-{% assign members = site.collections['collaborators'] | where_exp:"item", "item.active and item.hidden != true"
+{% assign members = site.collaborators | where_exp:"item", "item.active and item.hidden != true"
                                      | last_name_sort: "name" %}
 {% for member in members %}
   {%- assign presentationlist = member.presentations | default: empty-list | sort: "date" | reverse -%}
