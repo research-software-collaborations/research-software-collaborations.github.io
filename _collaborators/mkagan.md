@@ -8,7 +8,7 @@ github-username:
 photo: "/assets/images/team/Michael-Kagan.jpeg"
 shortname: mkagan
 title: 
-website: [https://profiles.stanford.edu/michael-kagan](https://profiles.stanford.edu/michael-kagan)
+website: https://profiles.stanford.edu/michael-kagan
 presentations:
 ---
 
