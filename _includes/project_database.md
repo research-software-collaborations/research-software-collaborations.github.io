@@ -8,7 +8,9 @@ var search_box = document.getElementById("searchprojects");
 var search_box_text = search_box.value;
 
 
-{%- assign projects = site.data.project_database.projects | values -%}
+
+{%- assign projects = site.data.project_database.projects | values | sort: 'postdate' | reverse -%}
+
 var id = 0;
 {%- for project in projects -%}
   var show_item = 'unset';
