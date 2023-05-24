@@ -20,8 +20,8 @@ The following exchanges are eligible:
   * A researcher based in India (e.g., employed by an institution in India) to work for 1-3 months with a US-based researcher (including researchers at CERN affiliated with a US institution)
   * A researcher based in USA to work for 1-3 months with an India-based researcher
 
-### Support for accepted applications 
-  * Up to three months subsistence support for local costs. These will vary depending on location. Please estimate the needs for your project in application. Talk to us for guidance in case of doubt.
+### Support offered for accepted applications 
+  * Up to three months reasonable support for local costs. These will vary depending on location. Please estimate the needs for your project in application. Talk to us for guidance in case of doubt.
   * Transportation to/from research exchange location
   * Travel support for mentor reverse visit at end of research exchange period 
 
