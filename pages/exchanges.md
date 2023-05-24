@@ -30,7 +30,7 @@ The following exchanges are eligible:
   * In most cases both the required visa arrangement and housing take time to arrange. Please allow for at least one month of review/approval time in addition to the time needed for these arrangements. We can help you and your host with any accumulated knowledge we have on logistics from our personal experience as well as other exchanges.
 
 ### Application format
-  * The application should be a joint proposal from both involved researchers
+  * The application should be a joint proposal from both involved researchers and should be supported by both research groups.
   * Needed components
     * CV of each researcher
     * Project statement including high-level science goals and need
