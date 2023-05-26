@@ -1,8 +1,8 @@
 ---
 layout: institute
 title: University of Washington
-latitude: 
-longitude: 
+latitude:
+longitude:
 url: https://phys.washington.edu
 personnel:
   - gordonwatts

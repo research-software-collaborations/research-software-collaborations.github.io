@@ -6,7 +6,7 @@ institution: University of Massachusetts Amherst
 e-mail: vimartin@umass.edu
 photo: "/assets/images/team/outschoorn-verena-b.jpeg"
 shortname: vimartin
-title: 
+title:
 website: https://www.physics.umass.edu/people/verena-martinez-outschoorn
 networks:
   - atlas
@@ -26,7 +26,7 @@ presentations:
 Education:
   - Ph.D. Harvard University 2011
   - B.A. Harvard University 2005
- 
+
 Professional Appointments:
   - Associate Professor, University of Massachusetts Amherst 2020 - Present
   - Assistant Professor, University of Massachusetts Amherst 2017 - 2020
@@ -36,8 +36,8 @@ Professional Appointments:
 ### Project interests
 
 Analysis Systems
- - Analysis tools 
- - Analysis facilities 
+ - Analysis tools
+ - Analysis facilities
 
 Simulation Techniques
  - Simulation based inference

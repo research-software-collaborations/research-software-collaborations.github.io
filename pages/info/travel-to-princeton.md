@@ -8,11 +8,11 @@ title: Information on travel to Princeton University
 
 ### General Notes
 
-General information about traveling to and visiting Princeton University can be found on the ["visiting campus" webpages](http://www.princeton.edu/main/visiting/). 
+General information about traveling to and visiting Princeton University can be found on the ["visiting campus" webpages](http://www.princeton.edu/main/visiting/).
 
 ### Travel by Train
 
-From Newark Liberty International (EWR) airport, John F. Kennedy International Airport (JFK) and from many other locations along the east coast (e.g. Boston, NYC, Washington DC and Baltimore), it is possible to travel to Princeton by train. 
+From Newark Liberty International (EWR) airport, John F. Kennedy International Airport (JFK) and from many other locations along the east coast (e.g. Boston, NYC, Washington DC and Baltimore), it is possible to travel to Princeton by train.
 Note that there are two train stations you will need to know:
 
   * The major train station closest to Princeton is ["Princeton Junction Station" (PJC)](https://en.wikipedia.org/wiki/Princeton_Junction_station). This is served by [New Jersey Transit](http://www.njtransit.com) on the ["Northeast Corridor Line"](https://en.wikipedia.org/wiki/Northeast_Corridor_Line). PJC also has some limited direct service by Amtrak.
@@ -24,7 +24,7 @@ If you are coming on Amtrak, most trains do not stop at Princeton Junction (with
 
 ### Travel by Air
 
-The closest and most convenient airport to come to Princeton is Newark Liberty International (EWR). Most participants will find that the best solution for domestic flights within the US. This is the recommended airport unless the cost is significantly higher than other alternatives. From there it is convenient to take the train as described above. 
+The closest and most convenient airport to come to Princeton is Newark Liberty International (EWR). Most participants will find that the best solution for domestic flights within the US. This is the recommended airport unless the cost is significantly higher than other alternatives. From there it is convenient to take the train as described above.
 
 Another option is flying into John F. Kennedy International Airport (JFK) or LaGuardia International Airport (LGA) at the cost of additional travel time. From JFK, the easiest is probably to the Airtrain to Jamaica Station and then take the [Long Island Rail Road (LIRR)](https://new.mta.info/agency/long-island-rail-road) or to New York Penn Station. Alternatively there is the [subway](http://www.nysubway.com/airport/jfk.html) or a bus ([NYC Airporter](https://www.nycairporter.com) with service from JFK to NYC Penn Station. From NYC Penn Station, you can take the train to Princeton as described above.
 
@@ -34,7 +34,7 @@ In general long distance taxis will be costly and should be avoided. Uber and Ly
 
 ## Local Princeton Information
 
-### Accommodation - 
+### Accommodation -
 
   * [Nassau Inn](https://nassauinn.com) - Large hotel located in Palmer Square, just across Nassau Street from campus. (Walking distance.)
   * [Peacock Inn](https://www.peacockinn.com) - Small hotel within walking distance of campus.

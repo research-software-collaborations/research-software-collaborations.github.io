@@ -22,4 +22,4 @@ Nishita Desai is a particle physics phenomenologist working at Tata Institute of
 N. Desai is interested in:
 * Re-interpretation of experiemental analyses, particularly NN/ML-based analyses
 * Likelihoods published with pyhf
-* OpenData 
+* OpenData

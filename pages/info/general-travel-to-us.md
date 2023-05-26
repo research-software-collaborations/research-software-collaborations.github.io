@@ -11,6 +11,6 @@ and within the US by non-US people.
 
 Contributions are welcome. Please feel free to just add additional items
 to the following list. We will eventually group them up into categories
-as the number of items grows. 
+as the number of items grows.
 
   * Coming soon...

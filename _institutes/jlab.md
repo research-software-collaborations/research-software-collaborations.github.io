@@ -1,8 +1,8 @@
 ---
 layout: institute
 title: Jefferson Lab (JLab)
-latitude: 
-longitude: 
+latitude:
+longitude:
 url: https://www.jlab.org
 personnel:
 ---

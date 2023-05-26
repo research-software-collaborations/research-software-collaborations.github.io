@@ -1,8 +1,8 @@
 
 <img src="/assets/images/coming-soon-monsoon.png" width="100">
 
-<script>  
-function dropdownMenu2() {  
+<script>
+function dropdownMenu2() {
 
 var search_box = document.getElementById("searchprojects");
 var search_box_text = search_box.value;
@@ -31,7 +31,7 @@ var id = 0;
   {%- else -%}
        if ( !( selectedCategory =='--'+item_name+'--' ) ) {
          show_item = 'none';
-       }	 
+       }
   {%- endif -%}
   {%- endfor -%}
 
@@ -48,16 +48,16 @@ var id = 0;
   projectDiv.style.display = show_item;
 {%- endfor -%}
 
-}  
+}
 </script>
 
-## Project selection menus 
+## Project selection menus
 <br>
- 
+
 {%- for item_hash in site.data.project_database.project_metadata -%}
 {%- assign categories = item_hash[1] | sort -%}
 {%- assign item_id = "option_" | append: item_hash[0] -%}
-<select id = {{item_id}} onchange = "dropdownMenu2()" >  
+<select id = {{item_id}} onchange = "dropdownMenu2()" >
 {%- if page.pulldown_defaults and page.pulldown_defaults contains item_hash[0] -%}
 {%- for iter in page.pulldown_defaults -%}
 {%- if item_hash[0] == iter[0] -%}
@@ -74,7 +74,7 @@ var id = 0;
 {%- if page.pulldown_defaults and page.pulldown_defaults contains item_hash[0] and default_val == cat -%}
 {%- assign dummy = "do nothing" -%}
 {%- else -%}
-<option> {{cat}} </option>  
+<option> {{cat}} </option>
 {%- endif -%}
 {%- endfor -%}
 </select>
@@ -96,7 +96,7 @@ var id = 0;
 {% for project in projects %}
 
   {%- assign namesArr = '' -%}
-  {%- assign emailsArr = '' -%}  
+  {%- assign emailsArr = '' -%}
   {%- for contact in project.contacts -%}
     {%- assign namesArr = namesArr | append: contact.name %}
     {%- assign emailsArr = emailsArr | append: contact.email %}
@@ -107,8 +107,8 @@ var id = 0;
   {%- endfor -%}
 
   {% assign id = id | plus:1 %}
-  <div style="margin-bottom:4px;" id="{{id}}"> 
-   {% assign details = project.description %} 
+  <div style="margin-bottom:4px;" id="{{id}}">
+   {% assign details = project.description %}
    {%- capture summary -%}{{project.name }}: {{project.shortdescription}}. <a href="mailto:{{emailsArr}}">Email the mentors ({{namesArr}})</a>{%- endcapture -%}
    {%- include details.html -%}
   </div>

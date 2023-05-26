@@ -6,9 +6,9 @@ institution: S. N. Bose National Centre for Basic Sciences
 name: Amitabha Lahiri
 photo: "/assets/images/team/Amitabha-Lahiri.jpeg"
 shortname: amitabha-lahiri
-title: 
+title:
 website: https://bose.res.in/~amitabha/HSF/
-github-username: 
+github-username:
 networks:
 presentations:
 ---

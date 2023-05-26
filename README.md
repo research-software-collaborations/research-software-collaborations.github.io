@@ -40,16 +40,16 @@ git checkout -b my_new_idea
 git push -u myrepo my_new_idea
 ```
 
-  * make your edits and test according to one of the recipes above. 
+  * make your edits and test according to one of the recipes above.
   * Navigate to http://localhost:4000/projects to see the results
-  * eventually push to your repo and make a pull request to https://github.com/research-software-collaborations/project_database 
-   
+  * eventually push to your repo and make a pull request to https://github.com/research-software-collaborations/project_database
+
 ## Maintaining with the project_database submodule...
 
 There is now a submodule under _data/project_database. This will get updated once per day to the head of the main branch. To do by hand, you can do:
 ```
 cd _data/project_database
-git pull 
+git pull
 cd ..
 git add project_database
 git commit -m 'pick up new commits'

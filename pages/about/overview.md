@@ -91,7 +91,7 @@ geographically distributed) “many to many” relationships is required.
 These will include:
 
   1. **Training events** that will build upon the curriculum being
-     actively developed and used today by the 
+     actively developed and used today by the
      [HEP Software Foundation (HSF)](https://hepsoftwarefoundation.org/workinggroups/training.html)
       and [IRIS-HEP](https://iris-hep.org). This
      will include an introduction to the current analysis, deep learning
@@ -130,8 +130,8 @@ These will include:
 
 The HSF-India organizational structure will include reporting to
 NSF, and a steering board. The NSF reporting will be handled primarily
-by the PI-team consisting of [David Lange](https://dlange.web.cern.ch/) 
-(Princeton University), [Peter Elmer](https://elmer.scholar.princeton.edu) 
+by the PI-team consisting of [David Lange](https://dlange.web.cern.ch/)
+(Princeton University), [Peter Elmer](https://elmer.scholar.princeton.edu)
 (Princeton University), [Rafael Coelho Lopes de Sa](https://www.physics.umass.edu/people/rafael-lopes-de-sa)
 (University of Massachusetts, Amherst), [Verena Martinez Outschoorn](https://www.physics.umass.edu/people/verena-martinez-outschoorn)
 (University of Massachusetts, Amherst), and [Heidi Schellman](https://physics.oregonstate.edu/heidi-schellman) (Oregon

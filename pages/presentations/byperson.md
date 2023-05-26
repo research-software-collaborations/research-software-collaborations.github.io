@@ -24,7 +24,7 @@ title: Presentations by Person
         </li>
       {%- endfor- %}
     </ul>
-  </div>  
+  </div>
   {%- endif -%}
 {%- endfor -%}
 

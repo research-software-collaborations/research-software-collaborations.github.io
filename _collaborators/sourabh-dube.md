@@ -7,7 +7,7 @@ e-mail: sdube@iiserpune.ac.in
 github-username: sdube
 photo: "/assets/images/team/sourabh-dube.jpeg"
 shortname: sourabh-dube
-title: 
+title:
 website: http://sites.iiserpune.ac.in/~sdube/
 presentations:
 ---
@@ -20,7 +20,7 @@ He obtained his Ph.D from Rutgers, the State University of New Jersey and was a 
 
 ### Project interests
 
-His group works on searches in multilepton final states, with a focus on being as model-independent as possible. He has worked on ensuring that searches at colliders provide sufficient information such that the results remain useful for future interpretations.  His research interests include the use of multivariate algorithms such as neural networks and dimensionality reduction algorithms in BSM searches. 
+His group works on searches in multilepton final states, with a focus on being as model-independent as possible. He has worked on ensuring that searches at colliders provide sufficient information such that the results remain useful for future interpretations.  His research interests include the use of multivariate algorithms such as neural networks and dimensionality reduction algorithms in BSM searches.
 
 He is also interested in scientific outreach in society, for science in general as well as experimental particle physics.
 
