@@ -29,6 +29,20 @@ This will mount your checked out copy of this repo, then build and start the
 jekyll server mapping it to port 4000 on your computer. You can make changes
 locally and view them at http://localhost:4000
 
+## Testing a new project or other development in the ```project_database``` repo
+  * Make a fork of https://github.com/research-software-collaborations/project_database for your changes
+  * Create a working area
+```
+git clone git@github.com:research-software-collaborations/research-software-collaborations.github.io.git
+cd research-software-collaborations.github.io/project_database
+git remote add myrepo git-URL-of-your-fork
+git checkout -b my_new_idea
+git push -u myrepo my_new_idea
+```
+
+  * make your edits and test according to one of the recipes above.
+  * eventually push to your repo and make a pull request to https://github.com/research-software-collaborations/project_database 
+
 ## Dealing with the submodule...
 
 There is now a submodule under _data/project_database. This will get updated once per day to the head of the main branch. To do by hand, you can do:
