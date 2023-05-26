@@ -7,7 +7,7 @@ e-mail: tulika@hep.wisc.edu
 github-username: tulika176
 photo: "/assets/images/team/Tulika-Bose.jpeg"
 shortname: tulika176
-title: 
+title:
 website: https://www.hep.wisc.edu/tulikabose/
 presentations:
 ---

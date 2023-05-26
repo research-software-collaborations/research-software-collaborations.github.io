@@ -20,6 +20,6 @@ mentors:
 proposal: /assets/pdf/DavidLange.pdf
 presentations:
 github-username:
-linkedin-profile: 
+linkedin-profile:
 current_status: >
 ---

@@ -1,8 +1,8 @@
 ---
 layout: institute
 title: CERN
-latitude: 
-longitude: 
+latitude:
+longitude:
 url: https://home.web.cern.ch
 personnel:
   - hegner

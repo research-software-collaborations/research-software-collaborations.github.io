@@ -36,7 +36,7 @@ David Lange is a research scientist in the Department of Physics at Princeton Un
 ### Project interests
 
 D. Lange has a broad range of interests and projects that are suitable for collaboration. These include:
-* Application optimization 
+* Application optimization
 * Language and toolkit interoperability
 * Modernizing event reconstruction workflows
 

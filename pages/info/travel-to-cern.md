@@ -20,7 +20,7 @@ Coming soon...
 
 ### WiFi at CERN
 
-You should be able to connect to "eduroam" from most places at CERN. 
+You should be able to connect to "eduroam" from most places at CERN.
 
 ### Restaurants at CERN
 

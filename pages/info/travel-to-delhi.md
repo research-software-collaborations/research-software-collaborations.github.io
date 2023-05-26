@@ -10,9 +10,9 @@ Coming soon...
 
 ## Institutions in New Delhi
 
-## Hotels 
+## Hotels
 
-## Places to eat 
+## Places to eat
 
 ## Miscellaneous notes
 

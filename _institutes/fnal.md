@@ -1,8 +1,8 @@
 ---
 layout: institute
 title: Fermi Nationial Accelerator Laboratory (FNAL)
-latitude: 
-longitude: 
+latitude:
+longitude:
 url: https://www.fnal.gov
 personnel:
 ---

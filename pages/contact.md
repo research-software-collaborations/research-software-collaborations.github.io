@@ -9,4 +9,4 @@ title: Contact Information
 
 ### Public mailing lists
   * To receive announcements regarding the HSF-India project and other activities to build research software collaborations, please subscribe to the [rsc-announcements@googlegroups.com](https://groups.google.com/g/rsc-announcements) mailing list
-  
+

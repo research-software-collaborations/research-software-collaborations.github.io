@@ -12,7 +12,7 @@ title: HSF-India Collaborators
   <div class="row">
     {% for univ in univs %}
       {% for person in univ.personnel %}
-        {% assign collaborator = site.collaborators | where_exp:"collaborator", "collaborator.shortname == person" 
+        {% assign collaborator = site.collaborators | where_exp:"collaborator", "collaborator.shortname == person"
     | first %}
         {% if collaborator.active and collaborator.hidden != true %}
           {% include standard_person_card.md person=collaborator %}

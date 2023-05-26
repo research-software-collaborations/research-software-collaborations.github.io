@@ -24,10 +24,10 @@ HSF-India must be included.
 
 ## Referencing HSF-India in Publications
 
-If you need to reference/cite the HSF-India project in a Publication 
-(independent from the required acknowledgement of funding support as 
-described above) you have several non-exclusive choices: you can reference 
-the NSF award number as above (OISE-2201990), you can reference the website: 
+If you need to reference/cite the HSF-India project in a Publication
+(independent from the required acknowledgement of funding support as
+described above) you have several non-exclusive choices: you can reference
+the NSF award number as above (OISE-2201990), you can reference the website:
 The BibTex entries for this would be:
 
 ```

@@ -7,7 +7,7 @@ e-mail: gwatts@uw.edu
 github-username: gordonwatts
 photo: "/assets/images/team/Gordon-Watts.jpg"
 shortname: gordonwatts
-title: 
+title:
 website: https://phys.washington.edu/people/gordon-watts
 presentations:
 ---
@@ -23,4 +23,4 @@ G. Watts has a broad range of interests and projects that are suitable for colla
 
 * [ServiceX](https://iris-hep.org/projects/servicex.html) - High speed delivery of data using a distributed cloud-native architecture. The data is translated from experiment's custom formats into columnar data suitable for `awkward` array consumption or Root Data Frame consumption. This work involves cloud native tools, like Kubernetes, as well as python, and C++.
 * [func_adl](https://iris-hep.org/projects/func-adl.html) is an embeded SQL-like language in python modeled after C#'s LINQ. The complete tool line can translate from the python to C++ or python `numpy` and `awkward` array manipulations to select the data. Used in the backend of ServiceX to select the data to be distributed.
-*  Other Analysis Projects - a lot of exploratory work in using python infrastrucure and the language to enable a physicsist to quickly analyze the PB of data expected in the HL-LHC era. There are many challenges and a lot of room for innovation in this space. 
+*  Other Analysis Projects - a lot of exploratory work in using python infrastrucure and the language to enable a physicsist to quickly analyze the PB of data expected in the HL-LHC era. There are many challenges and a lot of room for innovation in this space.

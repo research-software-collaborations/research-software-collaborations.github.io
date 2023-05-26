@@ -10,7 +10,7 @@ A significant amount of jargon and acronyms are used in presentations and
 discussions about High Energy Physics, including in the software and
 computing area. A list of general acronyms in that category can be found
 on the [IRIS-HEP Glossary page](https://iris-hep.org/glossary.html) and
-the [IRIS-HEP Collaborations and Related Projects page](https://iris-hep.org/collaborations). On this page we include various acronyms specifically relevant 
+the [IRIS-HEP Collaborations and Related Projects page](https://iris-hep.org/collaborations). On this page we include various acronyms specifically relevant
 to the HSF-India project.
 
   * **DAE** - In India, the [Department of Atomic Energy](https://dae.gov.in)

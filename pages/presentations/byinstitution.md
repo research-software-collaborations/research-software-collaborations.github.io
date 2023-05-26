@@ -13,7 +13,7 @@ date | name | title | url | meeting | meetingurl | project | focus_area | instit
 
 <h2>Presentations related to HSF-India</h2>
 
-<div align="left">   
+<div align="left">
 {% assign univs = site.institutes %}
 {% for univ in univs %}
   {% assign prescount = 0 %}

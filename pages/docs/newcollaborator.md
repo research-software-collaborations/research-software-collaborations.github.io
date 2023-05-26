@@ -13,15 +13,15 @@ not need to add themselves as collaborators. A separate part of the website
 will soon be added for that.
 
 New HSF-India collaborators need to do some number of things to get connected.
-This webpage documents the things that need to be done. If you find there 
-are steps not mentioned here, or missing/unclear information, 
+This webpage documents the things that need to be done. If you find there
+are steps not mentioned here, or missing/unclear information,
 please [contribute an improvement][repo]!
 
 
 #### HSF-India website
 
 * You should make a pull request to the [Research Software Collaborations website GitHub repository][repo]. The elements should be:
-  * Add a photo named `First-Last.jpg` or `.png` to the [`assets/images/team` folder][team]. It should be 320x240 pixels and in general should be less than 100kB. 
+  * Add a photo named `First-Last.jpg` or `.png` to the [`assets/images/team` folder][team]. It should be 320x240 pixels and in general should be less than 100kB.
   * Add a "`<your github username>.md`" file to the [`_collaborators` folder in the website repository][`_collaborators`]. See below for an example of the frontmatter.
   * Following the frontmatter part, the markdown part of the file is free-form,
     however most people should add a "### Biography" and a "### Project interests" section. You can find examples for other people in the [`_collaborators`][] area. In general the biography can be short if you are including a link to your website (see frontmatter example below) and that has the relevant details. For project interests, all are welcome, but particular emphasis on connections to the current HSF-India themes will help in building collaborations.
@@ -88,7 +88,7 @@ totally new collaborators this section should likely be left blank, however we
 include info about it here for use later as people engage with the HSF-India
 project.
 
-We would like to keep track of presentations made by HSF-India collaborators, 
+We would like to keep track of presentations made by HSF-India collaborators,
 with the following criteria:
 
   * Only presentations related to HSF-India itself and projects catalyzed by HSF-India should be included.

@@ -54,7 +54,7 @@
           {% if include.person.twitter and include.person.twitter != blank %}
             <button type="button" class="btn btn-outline-secondary btn-sm">
               <a href="{{ include.person.twitter }}"><i class="fab fa-twitter"></i></a>
-            </button> 
+            </button>
            {% endif %}
 -->
 

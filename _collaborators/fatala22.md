@@ -9,13 +9,13 @@ institution: University of Puerto Rico Mayaguez (UPRM)
 name: Sudhir Malik
 photo: /assets/images/team/Sudhir-Malik.jpg
 shortname: fatala22
-title: 
+title:
 website: https://charma.uprm.edu/~malik
 github-username: fatala22
 presentations:
 ---
 ### Biography
-Sudhir Malik is a Professor of Physics at UPRM. Malik is appointed as a member of the High Energy 
+Sudhir Malik is a Professor of Physics at UPRM. Malik is appointed as a member of the High Energy
 Physics Advisory Panel (2022-2025) to DOE and NSF. Malik is also elected as the U.S. CMS Collaboration
 Board Deputy Chair (2022-2024) and chairs the U.S. CMS Diversity, Inclusion and Equity Committee. In
 2020 Malik served on SESAPS Pegram Award Committee. Malik co-led two Snowmass21 Community

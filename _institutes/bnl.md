@@ -1,8 +1,8 @@
 ---
 layout: institute
 title: Brookhaven National Laboratory (BNL)
-latitude: 
-longitude: 
+latitude:
+longitude:
 url: https://www.bnl.gov/world/
 personnel:
 ---

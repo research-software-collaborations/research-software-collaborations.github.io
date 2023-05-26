@@ -7,7 +7,7 @@ e-mail: benedikt.hegner@cern.ch
 github-username: hegner
 photo: "/assets/images/team/Benedikt-Hegner.png"
 shortname: hegner
-title: 
+title:
 presentations:
 
 ---

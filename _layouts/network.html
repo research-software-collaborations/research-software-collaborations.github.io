@@ -7,12 +7,12 @@
 
 <div class="row" style="display: flex; margin-bottom: 3.5em; margin-top: 3.5em;">
   <div class="card" style="border: 0px solid white; padding: 5px">
-  <img style="height: 85px;" src="{{page.logo}}" alt="Card image cap"> 
+  <img style="height: 85px;" src="{{page.logo}}" alt="Card image cap">
   </div>
   <div class="mainpage-core mainpage-container" style="border: 0px solid white; padding: 5px">
   <h2>{{ page.title }}</h2>
   </div>
-</div>  
+</div>
 
 <div>
   Website: <a href="{{page.website}}">{{page.website}}</a>
@@ -30,7 +30,7 @@
   <div class="row">
 
       {% for person in page.personnel %}
-        {% assign collaborator = site.collaborators | where_exp:"collaborator", "collaborator.shortname == person" 
+        {% assign collaborator = site.collaborators | where_exp:"collaborator", "collaborator.shortname == person"
     | first %}
         {% if collaborator.active and collaborator.hidden != true %}
           {% include standard_person_card.md person=collaborator %}

@@ -11,7 +11,7 @@ We do not currently have an open call. Contact us if you are interested and have
   Are you a student or a recent grad interested in growing your software
 skills by working on real open source research software projects used
 by scientific researchers around the world? Would you like to work with
-mentors actively involved in one of these open source projects? 
+mentors actively involved in one of these open source projects?
 
 People are the key to successful software. The HSF-India project aims to promote the
 development of international research software collaborations in physics
@@ -27,7 +27,7 @@ and their potential impact on the community.
 Trainees will spend their projects (flexible in length, but typically 3 or 6 months)
 working to build their skills while working on an exciting and topical research software project.
 
-### Who should apply to the HSF-India Trainees and Fellowships program? 
+### Who should apply to the HSF-India Trainees and Fellowships program?
 
 Are you interested in building research software skills and gaining experience working as part of
 a research team and contributing to cutting edge
@@ -67,7 +67,7 @@ The current
 
 
 ### How to apply
-There is no requirement to establish a research project before applying. Our program will 
+There is no requirement to establish a research project before applying. Our program will
 match selected students with mentors and projects. If you have interest in one or more specific
 projects, please include that information as part of your application. We aim to match all
 selected students to projects that they are excited about.
@@ -127,4 +127,4 @@ selected students to projects that they are excited about.
    * Gaining experience working in a unique scientific and collaborative environment
    * Learning new programming, research and analysis skills that are important for future careers in science and technology
    * Selected trainees will receive a token compensation ammount for their participation in the program
-   
+
