@@ -2,7 +2,7 @@
 layout: fellow
 pagetype: trainee
 permalink: /trainees/ChitraksheeYede.html
-name: Chitrakshee Yede
+myname: Chitrakshee Yede
 title: Chitrakshee Yede - HSF India Trainee
 active: true
 dates:
