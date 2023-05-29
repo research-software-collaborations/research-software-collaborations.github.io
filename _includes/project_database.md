@@ -1,6 +1,3 @@
-
-<img src="/assets/images/coming-soon-monsoon.png" width="100">
-
 <script>
 function dropdownMenu2() {
 
