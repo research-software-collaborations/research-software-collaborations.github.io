@@ -106,7 +106,11 @@ var id = 0;
   {%- assign menteeInfo = '' -%}
   {%- for contact in project.mentees -%}
     {%- if forloop.first == true -%}
-       {% assign menteeInfo = menteeInfo | append: 'Mentees:' -%}
+       {%- if forloop.last == true -%}
+          {% assign menteeInfo = menteeInfo | append: 'Mentee: ' -%}
+       {%- else -%}	  
+          {% assign menteeInfo = menteeInfo | append: 'Mentees: ' -%}
+       {%- endif -%}
     {%- endif -%}
     {%- assign menteeInfo = menteeInfo | append: '<a href="' -%}
     {%- assign menteeInfo = menteeInfo | append: contact.link -%}
