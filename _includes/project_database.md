@@ -103,6 +103,17 @@ var id = 0;
     {%- endif -%}
   {%- endfor -%}
 
+  {%- assign menteeInfo = '' -%}
+  {%- for contact in project.mentees -%}
+    {%- if forloop.first == true -%}
+       {% assign menteeInfo = menteeInfo | append: "Mentees:" -%}
+    {%- endif -%}
+    {%- assign menteeInfo = menteeInfo | append: "<a href={{contact.link}}>{{contact.name}}</a>" %}
+    {%- if forloop.last == false -%}
+       {% assign menteeInfo = menteeInfo | append: "," -%}
+    {%- endif -%}
+  {%- endfor -%}
+
   {% assign id = id | plus:1 %}
   <div style="margin-bottom:4px;" id="{{id}}">
    {% assign details = project.description %}
