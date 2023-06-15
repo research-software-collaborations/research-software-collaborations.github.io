@@ -51,6 +51,7 @@ exclude:
   - bin
   - .github
   - Rakefile
+  - pages/trainees/template.md.txt
 
 sass:
   sass_dir: _sass
