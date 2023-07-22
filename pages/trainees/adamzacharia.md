@@ -14,12 +14,12 @@ website: https://www.adamzacharia.com/
 e-mail: adamzachariaanil20@iisertvm.ac.in
 project_title: Correlation Function Analysis
 project_goal: >
- The primary objective of this project is to design and implement a versatile software layer that can effectively
-perform fits and solve system of equations. By building upon existing frameworks in lattice QCD, this
-software layer will enable researchers to extract multiple form-factors with ease and efficiency.
+  The primary objective of this project is to design and implement a versatile software layer that can effectively
+  perform fits and solve system of equations. By building upon existing frameworks in lattice QCD, this
+  software layer will enable researchers to extract multiple form-factors with ease and efficiency.
 mentors:
-- Archana Radhakrishnan (TIFR) and 
-Brij Kishor Jashal (TIFR)
+- Archana Radhakrishnan (TIFR) 
+- Brij Kishor Jashal (TIFR)
 proposal: /assets/pdf/Correlation_Function_Analysis.pdf
 presentations:
 github-username: adamzacharia
