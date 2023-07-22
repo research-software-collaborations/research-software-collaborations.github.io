@@ -1,14 +1,14 @@
 ---
 layout: fellow
 pagetype: trainee
-permalink: /trainees/DavidLange.html
+permalink: /trainees/AdamZachariAnil.html
 myname: Adam Zacharia Anil
 title: Adam Zacharia Anil - Correlation Function Analysis
 active: true
 dates:
   start: 2023-07-01
   end: 2023-12-01
-photo: /assets/images/team/Adam-Anil.jpg
+photo: /assets/images/team/Adam-Anil.png
 institution: Indian Institute of Science Education and Research, Thiruvananthapuram
 website: https://www.adamzacharia.com/
 e-mail: adamzachariaanil20@iisertvm.ac.in
