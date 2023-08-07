@@ -96,7 +96,7 @@ selected students to projects that they are excited about.
 {%- if active-trainees.size > 0 %}
 # Current Trainees
 
-<div class="container-fluid">
+<div id="current" class="container-fluid">
   <div class="row">
     {% for person in active-trainees %}
       <div class="card" style="width: 12rem;">
