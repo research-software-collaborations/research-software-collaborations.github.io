@@ -8,3 +8,29 @@
   Our 2023 program is underway.
   <a href="/trainees.html">More information about the participants and their research</a>.
 </p>
+
+
+{% assign trainees = site.pages | where: "pagetype", "trainee"
+                               | last_name_sort: "name"
+                               | reverse %}
+
+{%- if trainees.size > 0 %}
+
+{% assign n_train = trainees.size %}
+{% assign total_width = 100 %}
+
+{% assign pic_width = total_width | divided_by: n_train %}
+{% assign pic_width_str = pic_width | string %}
+
+<div id="current" class="container-fluid">
+  <div class="row">
+    {% for person in trainees %}
+      <div class="card" style="width: {{pic_width_str}}%;">
+         <img class="card-img-top" src="{{person.photo}}" alt="Card image cap">
+      </div>
+    {% endfor %}
+  </div>
+  <br>
+</div>
+{%- endif -%}
+
