@@ -16,8 +16,9 @@ learn new programming, research and analysis skills that are important for futur
 
 Are you interested in building research software skills and gaining experience working as part of
 a research team and contributing to cutting edge
-open source research software projects? Then the HSF-India program could be for you. Find more information
-[here](/trainee_program.html) 
+open source research software projects? Then the HSF-India program could be for you. Find more information about our
+progrma and how to appy
+[here](/trainee_program.html). 
 
 
 {% assign trainees = site.pages | where: "pagetype", "trainee"
