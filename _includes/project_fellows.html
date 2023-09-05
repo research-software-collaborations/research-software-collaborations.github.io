@@ -24,9 +24,7 @@
 <div id="current" class="container-fluid">
   <div class="row">
     {% for person in trainees %}
-      <div class="card" style="width: {{pic_width}}%;">
-         <img class="card-img-top" src="{{person.photo}}" alt="Card image cap">
-      </div>
+         <img style="width: {{pic_width}}%; src="{{person.photo}}" alt="Card image cap">
     {% endfor %}
   </div>
   <br>
