@@ -22,7 +22,7 @@
 {% assign pic_width = total_width | divided_by: n_train %}
 
 <div id="current" class="container-fluid">
-  <div class="row">
+  <div class="row" style="align: center">
     {% for person in trainees %}
          <img style="width: {{pic_width}}%; height:auto;" src="{{person.photo}}" alt="Card image cap">
     {% endfor %}
