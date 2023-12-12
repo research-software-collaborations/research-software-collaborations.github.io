@@ -32,8 +32,8 @@ The following exchanges are eligible:
 ### Application process and format
   * Final applications are a joint proposal from both involved researchers and should be supported by both research groups. In case you are interested but do not already have an exchange idea to propose, we are able to assist you in identifying potential opportunities that match your interests and have examples of interested host researchers. In this case, start by expressing your interest in the program and we can work with you from there.
   * Needed components
-    * CV of each researcher
-    * Project statement including high-level science goals and need
+    * Brief CV of each researcher
+    * Project statement including high-level science goals and need (approximately 1 page)
     * Summary of local support infrastructure for visiting researcher
     * Estimated budget need, any timing constraints, etc
 
