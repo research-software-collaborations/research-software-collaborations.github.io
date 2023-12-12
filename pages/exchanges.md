@@ -11,9 +11,9 @@ development of international research software collaborations in physics
 by providing opportunities for early career researchers (postdocs, young faculty/staff, senior PhD students)
 to establish an extended research exchange (e.g., 1-3 months) to work with other experts in
 particle physics, nuclear physics and astroparticle physics,
-as well as from the computational and data Science communitues. These research exchanges aim
+as well as from the computational and data science communities. These research exchanges aim
 to achieve specific software deliverables and foster a longer term research collaboration. Our team
-has experienced first hand how these short changes can impact research outcomes and careers long term.
+has experienced firsthand how these short exchanges can impact research outcomes and careers long term.
 
 ### Eligibility
 The following exchanges are eligible:
@@ -26,7 +26,7 @@ The following exchanges are eligible:
   * Travel support for mentor reverse visit at end of research exchange period
 
 ### Timeline
-  * We review applications quarterly (January 1, April 1, July 1, October 1) and are receptive to applications at any time.
+  * We review applications quarterly (January 15, April 15, July 15, October 15) and are receptive to applications at any time.
   * In most cases both the required visa arrangement and housing take time to arrange. Please allow for at least one month of review/approval time in addition to the time needed for these arrangements. We can help you and your host with any accumulated knowledge we have on logistics from our personal experience as well as other exchanges.
 
 ### Application process and format
