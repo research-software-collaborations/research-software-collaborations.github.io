@@ -67,8 +67,7 @@ The current
 
 
 ### How to apply
-There is no requirement to establish a research project before applying. Our program will
-match selected students with mentors and projects. If you have interest in one or more specific
+There is no requirement to establish a research project before applying, however having a mentor and potential topic area of mutual interest is beneficial. Our program will match selected students with mentors and projects, however the number of co-mentor teams will be limited. If you have interest in one or more specific
 projects, please include that information as part of your application. We aim to match all
 selected students to projects that they are excited about.
 
