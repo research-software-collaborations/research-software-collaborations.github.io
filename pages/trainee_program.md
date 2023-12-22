@@ -72,16 +72,14 @@ match selected students with mentors and projects. If you have interest in one o
 projects, please include that information as part of your application. We aim to match all
 selected students to projects that they are excited about.
 
-   * Deadline: April 16, 2023
-   * Application form: [Please submit applications here](https://forms.gle/TRm29qBNCr6ovYBF6).
+   * Deadline: April 1, 2024
+   * Application form: [Please submit applications here](https://docs.google.com/forms/d/e/1FAIpQLSe56nh_uxU_1ge4zJihp6qzau6Cy5jIWerNxz4D3lhpynQGbw/viewform?usp=sf_link).
    * Application requirements:
       * CV summarizing academic background, work and research experiences, technical skills
       * Copy of recent academic transcripts
       * Statement of interests (1-2 pages maximum)
       * Letter of recommendation to be sent separately (optional but encouraged)
    * Questions:
-      * We will organize two short webinars that include Q/A sessions. Sign up to be noticed
-      of these events [here](https://forms.gle/Bfxau6rbHmRFnswy8).
       * Contact us by [email](mailto:rsc-inquiries@google-groups.com) with questions at any time.
 
 
