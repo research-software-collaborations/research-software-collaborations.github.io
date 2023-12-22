@@ -4,7 +4,7 @@ layout: default
 title: Research Software Trainees and Fellowships Program
 ---
 
-We do not currently have an open call. Contact us if you are interested and have a project/mentor idea that fits our program.
+We are looking for summer 2024 projects. Contact us if you are interested and have a project/mentor idea that fits our program. We are happy to discuss project ideas with you.
 
 ## Research Software Trainees
 
