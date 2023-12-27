@@ -8,6 +8,7 @@ focus-area:
 institution: University of Puerto Rico Mayaguez (UPRM)
 name: Sudhir Malik
 photo: /assets/images/team/Sudhir-Malik.jpg
+e-mail: malik@fnal.gov
 shortname: fatala22
 title:
 website: https://charma.uprm.edu/~malik

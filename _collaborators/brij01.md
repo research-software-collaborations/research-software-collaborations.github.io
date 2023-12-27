@@ -31,6 +31,6 @@ He has been in the lead role of managing the national computing centre for High 
 He is also a member of [WLCG Grid Deployment Board](https://wlcg.web.cern.ch/collaboration/management/grid-deployment-board) representing India.
 In addition, He is currently a Level-2 convener of Monitoring & Analytics group under CMS Offline and Software computing. This group is responsible for analysis, processing and dissemination of complex monitoring datasets of multiple sources from CMS computing services, processes and infrastructure
 
-His research at [LHCb](https://lhcb-outreach.web.cern.ch/) experiment has been focused on Study of rare radiative b decays, rrigger strategies for long living particles, Real Time Analysis, High Level Trigger (HLT) rrameworks and algorithms on Hybrid computing architectures.
+His research at [LHCb](https://lhcb-outreach.web.cern.ch/) experiment has been focused on Study of rare radiative b decays, trigger strategies for long living particles, Real Time Analysis, High Level Trigger (HLT) frameworks and algorithms on Hybrid computing architectures.
 
 
