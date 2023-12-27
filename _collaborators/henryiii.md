@@ -32,3 +32,5 @@ developer for IRIS-HEP. He is also the author of Modern CMake and a variety of
 CMake, GPU, and Python training courses and classes. He is also a convener for
 the HSF Software Developer Tools and Packaging group.
 
+### Project interests
+

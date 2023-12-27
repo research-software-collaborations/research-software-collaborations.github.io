@@ -34,3 +34,6 @@ Malik is actively engaged in HEP outreach Quarknet  program. Malik has establish
 several physics, computer science and engineering Undergrad and Master students at UPRM and actively
 engages with K-12 students and teachers in Puerto Rico in STEM activities. Malik serves as a member of
 the Strategic Planning Committee of UPRM.
+
+### Project interests
+
