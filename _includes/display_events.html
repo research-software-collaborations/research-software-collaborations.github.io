@@ -16,7 +16,7 @@ ongoing events don't get prematurely flagged as recent.
 This will select events in the future. Instead we will take the last 5 events..
 {% assign selected_events = all_events | where_day_range: "startdate", 6 | where_exp: "item", "item.skipfrontpage != true" | reverse %}
 {% endcomment %}
-{% assign selected_events = all_events | where_exp: "item", "item.skipfrontpage != true" | reverse %}
+{% assign selected_events = all_events | sort: "startdate" | where_exp: "item", "item.skipfrontpage != true" | reverse %}
 
   {% for event in selected_events limit:5 %}
       <a href="{{event.meetingurl}}">
