@@ -16,5 +16,5 @@ has been or could be established.
   * Machine learning / Artificial Intelligence - methods for data analysis, data processing and simulation
   * High performance computing 
   * Interactive computing: Development of LLVM compiler toolchain and interoperability 
-  * Probabilistic programming / Automatic differentiation methods
+  * Probabilistic programming / Automatic differentiation methods. Developing differentiable pipelines with HEP tools; replacing tranditional tools and techniques with those better suited for optimization techniques 
   * Software for heterogeneous computing environments (eg, techniques and algorithms appropriate for efficiently using GPUs) 
