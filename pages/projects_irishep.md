@@ -5,6 +5,7 @@ title: IRIS-HEP Fellow projects
 mermaid: true
 pulldown_defaults:
   program: IRIS-HEP fellow
+  status: Available
 ---
 
 # Open projects for IRIS-HEP Fellows (and more)
