@@ -132,7 +132,9 @@ var id = 0;
   </div>
 {% endfor %}
 
-
+<script>
+dropDownMenu2();
+</script>
 
 
 
