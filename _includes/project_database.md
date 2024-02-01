@@ -132,7 +132,13 @@ var id = 0;
   </div>
 {% endfor %}
 
-<body onLoad="dropDownMenu2()">
+<script type="text/javascript">
+        function initializeForm() {
+            dropDownMenu2();
+        }
+        window.onload = initializeForm
+</script>
+
 
 
 
