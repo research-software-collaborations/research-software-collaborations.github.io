@@ -132,6 +132,9 @@ var id = 0;
   </div>
 {% endfor %}
 
-
-
+<script>
+   window.onload = function () {
+     dropdownMenu2();
+   };
+</script>
 
