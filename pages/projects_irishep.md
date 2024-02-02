@@ -1,6 +1,6 @@
 ---
 permalink: /projects_irishep.html
-layout: project_database_layout
+layout: default
 title: IRIS-HEP Fellow projects
 mermaid: true
 pulldown_defaults:
