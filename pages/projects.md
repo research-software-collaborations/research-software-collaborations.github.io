@@ -4,6 +4,7 @@ layout: default
 title: Project database
 mermaid: true
 pulldown_defaults:
+  status: Available
 ---
 
 # Open project database
