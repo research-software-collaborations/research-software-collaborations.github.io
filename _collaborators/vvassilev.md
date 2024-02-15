@@ -46,14 +46,35 @@ Science. Authored the C/C++ automatic differentiation library, Clad, which
 enables efficient syntheses of derivatives and gradients.
 
 Currently a Research Software Engineer with Princeton University, leading the
-efforts in interactive C++ [compiler-research.org](https://compiler-research.org)
-( [OAC-1931408](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1931408&HistoricalAwards=false) ).
+efforts in compiler-based automatic differentiation with C++
+[compiler-research.org](https://compiler-research.org)
+( [OAC-2311471](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2311471) ).
 Worked for CERN, Switzerland and FermiLab, USA.
 
 
 ### Project interests
 
+Vassil runs the [compiler-research.org](https://compiler-research.org) initiative
+which primarily focuses on establishing a dynamic and collaborative hub,
+bringing together researchers, practitioners, and educators united by their
+enthusiasm for foundational software tools. The group interests are in
+interpretative C/C++/CUDA, automatic differentiation tools, and C++ language
+interoperability with Python. Members of the group develop the first
+C++11-complient interpreter [Cling](https://github.com/root-project/cling/), its
+successor [ClangRepl](https://clang.llvm.org/docs/ClangRepl.html) and the
+pioneering compiler-based source transformation automatic differentiation tool
+[Clad](https://github.com/vgvassilev/clad).
+
+
+Their impact extends to the [LLVM](https://llvm.org/) project, with
+contributions that enhance the landscape of compiler technology. Moreover, the
+group plays a pivotal role in maintaining core infrastructure for exascale data
+analysis within the high energy physics domain, courtesy of their involvement in
+the [ROOT](https://root.cern/) project.
+
 Vassil is interested in collaborating in the area of programming languages,
 automatic differentiation and exascale data science. In addition, he always
 looks for talented students with cool ideas to help them on their way to
 becoming successful professionals.
+
+Learn more at [compiler-research.org](https://compiler-research.org).
