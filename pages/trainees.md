@@ -16,7 +16,7 @@ learn new programming, research and analysis skills that are important for futur
 
 We maintain a list currently open available ideas can be found [here](http://research-software-collaborations.org/projects).
 Get inspired by these and contact us with questions. To add your own project idea, please see
-the instructions [in our GitHub](https://github.com/research-software-collaborations/project_database?tab=readme-ov-file#adding-a-new-project)
+the instructions [in our GitHub](https://github.com/research-software-collaborations/project_database?tab=readme-ov-file#adding-a-new-project).
 
 Are you interested in building research software skills and gaining experience working as part of
 a research team and contributing to cutting edge
