@@ -54,17 +54,12 @@ Our program is open to candidates associated with institutions in India and in t
   * [Simulation methods](/simulation.html)
   * [Open science](/open_science.html)
 
+however other project proposals are encouraged.
 Follow the links for more details about each area. Expect projects to be software focused. Some projects
   will have a large focus on physics algorithms, others on computatonal methods. All aim to result in
   significant contributions to open source software and to build skills and knowledge as a result.
 
-{% comment %}
-Some old text to add back when we have projects
-The current
-  list of available proejcts can be found [here](http://research-software-collaborations.org/projects).
-(which does not need to be among those listed on our projects page).
-{% endcomment %}
-
+A list currently open available ideas can be found [here](http://research-software-collaborations.org/projects).
 
 ### How to apply
 There is no requirement to establish a research project before applying, however having a mentor and potential topic area of mutual interest is beneficial. Our program will match selected students with mentors and projects, however the number of co-mentor teams will be limited. If you have interest in one or more specific
