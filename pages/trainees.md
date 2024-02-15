@@ -14,6 +14,10 @@ as well as from the Computational/Data Science community.
 Our program aims to help students to gain experience working in a unique scientific and collaborative environment and to
 learn new programming, research and analysis skills that are important for future careers in science and technology.
 
+We maintain a list currently open available ideas can be found [here](http://research-software-collaborations.org/projects).
+Get inspired by these and contact us with questions. To add your own project idea, please see
+the instructions [in our GitHub](https://github.com/research-software-collaborations/project_database?tab=readme-ov-file#adding-a-new-project)
+
 Are you interested in building research software skills and gaining experience working as part of
 a research team and contributing to cutting edge
 open source research software projects? Then the HSF-India program could be for you. Find more information about our
