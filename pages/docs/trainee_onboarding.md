@@ -22,7 +22,7 @@ For tax purposes, we need you to answer the following questions:
 1.      Are you a US citizen/permanent resident?
 2.     Will you be physically located in the United States or your home country for the duration of the project?
 
-Please complete and attach the appropriate form and answer the two questions above in an email message to <rsc-inquires@googlegroups.org>.
+Please complete and attach the appropriate form and answer the two questions above in an email message to <rsc-inquires@googlegroups.com>.
 
 #### HSF-India Web Site <i class="fas fa-link"></i>
 
