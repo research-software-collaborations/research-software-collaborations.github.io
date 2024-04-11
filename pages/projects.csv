@@ -2,7 +2,8 @@
 permalink: /projects.csv
 layout: none
 ---
-Project Name, Mentor Names, Mentor emails 
+{%- assign nl = "\r\n" -%}
+Project Name, Mentor Names, Mentor emails {{nl}} 
 {%- assign id = 0 -%}
 {%- assign projects = site.data.project_database.projects | values | sort: 'postdate' | reverse -%}
 {%- for project in projects -%}
