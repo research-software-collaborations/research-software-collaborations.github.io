@@ -16,6 +16,8 @@ const dropdownMenu3 = () => {
      var projectDiv = document.getElementById(++id);
      var show_item =  projectDiv.style.display;
      if ( show_item == 'unset' ) {
+       {% assign namesArr = "" -%}
+       {% assign emailsArr = ""  -%}
        {%- for contact in project.contacts -%}
          {%- assign namesArr = namesArr | append: contact.name %}
          {%- assign emailsArr = emailsArr | append: contact.email %}
