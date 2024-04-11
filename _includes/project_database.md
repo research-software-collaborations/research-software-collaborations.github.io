@@ -9,9 +9,7 @@ function dud() {
             {% assign emailsArr = emailsArr | append: "," -%}
          {%- endif -%}
         {%- endfor -%}
-       content = content + project_name + '"' + ', "' + namesArr + '"' + ', "' + emailsArr +'"\n';
-
-
+       var content = content + project_name + '"' + ', "' + namesArr + '"' + ', "' + emailsArr +'"\n';
 }
 
 const dropdownMenu3 = () => {
@@ -28,7 +26,7 @@ const dropdownMenu3 = () => {
      if ( show_item == 'unset' ) {
        {%- assign namesArr = '' -%}
        {%- assign emailsArr = '' -%}
-       content = content + project_name + ', ' + namesArr + ', ' + emailsArr +'\n';
+       content = content + project_name + ', ' + "{{namesArr}}" + ', ' + "{{emailsArr}}" +'\n';
      }
    {%- endfor -%}
 
