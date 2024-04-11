@@ -2,9 +2,8 @@
 permalink: /projects.csv
 layout: none
 ---
-{%- assign nl = "\r\n" -%}
-Project Name, Mentor Names, Mentor emails {{nl}} 
-
+{%- capture content -%}
+Project Name, Mentor Names, Mentor emails
 {%- assign id = 0 -%}
 {%- assign projects = site.data.project_database.projects | values | sort: 'postdate' | reverse -%}
 {%- for project in projects -%}
@@ -19,6 +18,6 @@ Project Name, Mentor Names, Mentor emails {{nl}}
     {%- endif -%}
   {%- endfor -%}
   {% assign id = id | plus:1 -%}
-  "{{project.name }}","{{namesArr}}","{{emailsArr}}\n"
-
+  \"{{project.name }}\",\"{{namesArr}}\",\"{{emailsArr}}\"
 {%- endfor -%}
+{{ content | markdownify | strip_html }}
