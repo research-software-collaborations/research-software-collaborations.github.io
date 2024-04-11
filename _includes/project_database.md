@@ -85,7 +85,7 @@ var id = 0;
 
 <br>
 
-<a href="/projects.csv" title="Download" download>Download</a>
+<a href="/projects.csv" title="Download" download>Download selected project CSV</a>
 <br>
 
 ## Selected projects

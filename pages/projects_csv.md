@@ -1,7 +1,8 @@
 ---
 permalink: /projects.csv
+layout: none
 ---
-
+{%- capture content -%}
 Project Name, Mentor Names, Mentor emails <br>
 {%- assign id = 0 -%}
 {%- assign projects = site.data.project_database.projects | values | sort: 'postdate' | reverse -%}
@@ -21,3 +22,6 @@ Project Name, Mentor Names, Mentor emails <br>
   \"{{project.name }}\",\"{{namesArr}}\",\"{{emailsArr}}\"
   <br>
 {%- endfor -%}
+{%- endcapture -%}
+
+{{ content | markdownify | strip_html }}
