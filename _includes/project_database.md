@@ -3,9 +3,21 @@
 const dropdownMenu3 = () => {
    const link = document.createElement("a");
    const content = 'hi there';
+
+   var id = 0;
+   {%- for project in projects -%}
+     var projectDiv = document.getElementById(++id);
+     var show_item =  projectDiv.style.display;
+
+     if ( (show_item == 'unset') ) {
+        content = content + " 1 \n";
+     }
+
+  {%- endfor -%}
+
    const file = new Blob([content], { type: 'text/plain' });
    link.href = URL.createObjectURL(file);
-   link.download = "sample.txt";
+   link.download = "projects.csv";
    link.click();
    URL.revokeObjectURL(link.href);
 }
