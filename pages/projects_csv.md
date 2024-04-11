@@ -18,9 +18,9 @@ Project Name, Mentor Names, Mentor emails
        {%- assign emailsArr = emailsArr | append: ", " -%}
     {%- endif -%}
   {%- endfor -%}
-  {% assign id = id | plus:1 -%}
-  \"{{project.name }}\",\"{{namesArr}}\",\"{{emailsArr}}\"
-  <br>
+{% assign id = id | plus:1 -%}
+\"{{project.name }}\",\"{{namesArr}}\",\"{{emailsArr}}\"
+<br>
 {%- endfor -%}
 {%- endcapture -%}
 {{ content | markdownify | strip_html }}
