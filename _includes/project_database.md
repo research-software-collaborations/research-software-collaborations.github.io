@@ -1,14 +1,6 @@
 <script>
 
 function dud() {
-       {%- for contact in project.contacts -%}
-         {%- assign namesArr = namesArr | append: contact.name %}
-         {%- assign emailsArr = emailsArr | append: contact.email %}
-         {%- if forloop.last == false -%}
-            {% assign namesArr = namesArr | append: "," -%}
-            {% assign emailsArr = emailsArr | append: "," -%}
-         {%- endif -%}
-        {%- endfor -%}
        var content = content + project_name + '"' + ', "' + namesArr + '"' + ', "' + emailsArr +'"\n';
 }
 
@@ -24,9 +16,17 @@ const dropdownMenu3 = () => {
      var projectDiv = document.getElementById(++id);
      var show_item =  projectDiv.style.display;
      if ( show_item == 'unset' ) {
+       {%- for contact in project.contacts -%}
+         {%- assign namesArr = namesArr | append: contact.name %}
+         {%- assign emailsArr = emailsArr | append: contact.email %}
+         {%- if forloop.last == false -%}
+            {% assign namesArr = namesArr | append: "," -%}
+            {% assign emailsArr = emailsArr | append: "," -%}
+         {%- endif -%}
+        {%- endfor -%}
        {%- assign namesArr = '' -%}
        {%- assign emailsArr = '' -%}
-       content = content + project_name + ', ' + "{{namesArr}}" + ', ' + "{{emailsArr}}" +'\n';
+       content = content + '"' + project_name + '", "' + "{{namesArr}}" + '", "' + "{{emailsArr}}" +'"\n';
      }
    {%- endfor -%}
 
