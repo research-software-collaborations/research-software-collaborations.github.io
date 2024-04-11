@@ -24,8 +24,6 @@ const dropdownMenu3 = () => {
             {% assign emailsArr = emailsArr | append: "," -%}
          {%- endif -%}
         {%- endfor -%}
-       {%- assign namesArr = '' -%}
-       {%- assign emailsArr = '' -%}
        content = content + '"' + project_name + '", "' + "{{namesArr}}" + '", "' + "{{emailsArr}}" +'"\n';
      }
    {%- endfor -%}
