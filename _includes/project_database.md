@@ -85,6 +85,9 @@ var id = 0;
 
 <br>
 
+<a href="/projects.csv" title="Download" download>Download</a>
+<br>
+
 ## Selected projects
 
 {% assign id = 0 %}

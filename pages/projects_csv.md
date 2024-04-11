@@ -1,5 +1,5 @@
 ---
-permalink: /projects_csv.html
+permalink: /projects.csv
 ---
 
 Project Name, Mentor Names, Mentor emails <br>
