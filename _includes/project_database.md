@@ -15,10 +15,9 @@ const dropdownMenu3 = () => {
      var projectDiv = document.getElementById(++id);
      var show_item =  projectDiv.style.display;
      if ( show_item == 'unset' ) {
-        var pname = project["name"];
 	var ppeople = ' dunno';
 	var pemails = ' dunno';
-        content = content + pname + ', ' + ppeople + ', ' + pemails + '\n';
+        content = content + project_name + ', ' + ppeople + ', ' + pemails + '\n';
      }
    {%- endfor -%}
 
