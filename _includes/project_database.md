@@ -5,7 +5,7 @@ function dud() {
 
 const dropdownMenu3 = () => {
    const link = document.createElement("a");
-   const content = 'hi there';
+   var content = 'hi there';
 
    {%- assign projects = site.data.project_database.projects | values | sort: 'postdate' | reverse -%}
 
