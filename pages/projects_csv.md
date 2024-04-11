@@ -23,4 +23,4 @@ Project Name, Mentor Names, Mentor emails
 <br>
 {%- endfor -%}
 {%- endcapture -%}
-{{ content | markdownify | strip_html }}
+{{ content | strip_html }}
