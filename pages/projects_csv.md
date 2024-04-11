@@ -1,3 +1,5 @@
+permalink: /projects_csv.html
+---
 
 {% assign id = 0 %}
 {%- assign projects = site.data.project_database.projects | values | sort: 'postdate' | reverse -%}
