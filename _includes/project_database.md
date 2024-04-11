@@ -1,7 +1,7 @@
 <script>
 
 function dropdownMenu3() {
-   const content = "hi there";
+   const content = 'hi there';
    const file = new Blob([content], { type: 'text/plain' });
    link.href = URL.createObjectURL(file);
    link.download = "sample.txt";
@@ -91,14 +91,14 @@ var id = 0;
   <input type="submit">
 </form>
 
+<br>
+
 <form name="downloadprojectsform" onsubmit="dropdownMenu3();return false">
-  <input type="submit">
+  <input type="Download CSV">
 </form>
 
 <br>
 
-<a href="/projects.csv?divs=\"1,2\"" title="Download" download>Download selected project CSV</a>
-<br>
 
 ## Selected projects
 
