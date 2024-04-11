@@ -1,6 +1,17 @@
 <script>
 
 function dud() {
+       {%- for contact in project.contacts -%}
+         {%- assign namesArr = namesArr | append: contact.name %}
+         {%- assign emailsArr = emailsArr | append: contact.email %}
+         {%- if forloop.last == false -%}
+            {% assign namesArr = namesArr | append: "," -%}
+            {% assign emailsArr = emailsArr | append: "," -%}
+         {%- endif -%}
+        {%- endfor -%}
+       content = content + project_name + '"' + ', "' + namesArr + '"' + ', "' + emailsArr +'"\n';
+
+
 }
 
 const dropdownMenu3 = () => {
@@ -17,15 +28,7 @@ const dropdownMenu3 = () => {
      if ( show_item == 'unset' ) {
        {%- assign namesArr = '' -%}
        {%- assign emailsArr = '' -%}
-       {%- for contact in project.contacts -%}
-         {%- assign namesArr = namesArr | append: contact.name %}
-         {%- assign emailsArr = emailsArr | append: contact.email %}
-         {%- if forloop.last == false -%}
-            {% assign namesArr = namesArr | append: "," -%}
-            {% assign emailsArr = emailsArr | append: "," -%}
-         {%- endif -%}
-        {%- endfor -%}
-        content = content + '"' + project_name + '"' + ', "' + namesArr + '"' + ', "' + emailsArr +'"\n';
+       content = content + project_name + ', ' + namesArr + ', ' + emailsArr +'\n';
      }
    {%- endfor -%}
 
