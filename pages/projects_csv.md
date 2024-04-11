@@ -3,7 +3,7 @@ permalink: /projects.csv
 layout: none
 ---
 {%- capture content -%}
-Project Name, Mentor Names, Mentor emails
+Project Name, Mentor Names, Mentor emails <br>
 {%- assign id = 0 -%}
 {%- assign projects = site.data.project_database.projects | values | sort: 'postdate' | reverse -%}
 {%- for project in projects -%}
@@ -18,7 +18,7 @@ Project Name, Mentor Names, Mentor emails
     {%- endif -%}
   {%- endfor -%}
   {% assign id = id | plus:1 -%}
-  \"{{project.name }}\",\"{{namesArr}}\",\"{{emailsArr}}\"
+  \"{{project.name }}\",\"{{namesArr}}\",\"{{emailsArr}}\" <br>
 {%- endfor -%}
 {%- endcapture -%}
 {{ content | markdownify | strip_html }}
