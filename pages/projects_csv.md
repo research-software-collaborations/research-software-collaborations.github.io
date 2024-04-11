@@ -2,6 +2,7 @@
 permalink: /projects_csv.html
 ---
 
+Project Name, Mentor Names, Mentor emails <br>
 {%- assign id = 0 -%}
 {%- assign projects = site.data.project_database.projects | values | sort: 'postdate' | reverse -%}
 
