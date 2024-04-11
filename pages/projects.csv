@@ -18,6 +18,5 @@ Project Name, Mentor Names, Mentor emails <br>
     {%- endif -%}
   {%- endfor -%}
   {% assign id = id | plus:1 -%}
-  \"{{project.name }}\",\"{{namesArr}}\",\"{{emailsArr}}\"
-  <br>
+  "{{project.name }}",\"{{namesArr}}\",\"{{emailsArr}}\"
 {%- endfor -%}
