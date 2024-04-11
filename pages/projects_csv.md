@@ -2,9 +2,20 @@
 permalink: /projects.csv
 layout: plaintext
 ---
+{%- capture contentForQuerystring -%}{{ content_for_header }}{%- endcapture -%}
+{%- assign pageUrl = contentForQuerystring | split:'"pageurl":"' | last | split:'"' | first | split:'.myshopify.com' | last |
+   replace:'\/','/' | 
+   replace:'%20',' ' | 
+   replace:'\u0026','&'
+-%}
+
 {%- assign id = 0 -%}
 {%- assign projects = site.data.project_database.projects | values | sort: 'postdate' | reverse -%}
 {%- capture content -%}
+{{ content_for_header }}
+<br>
+{{ pageUrl }}
+<br>
 Project Name, Mentor Names, Mentor emails
 <br>
 {%- for project in projects -%}
