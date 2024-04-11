@@ -94,7 +94,7 @@ var id = 0;
 <br>
 
 <form name="downloadprojectsform" onsubmit="dropdownMenu3();return false">
-  <input type="Download CSV">
+  Download CSV: <input type="submit">
 </form>
 
 <br>
