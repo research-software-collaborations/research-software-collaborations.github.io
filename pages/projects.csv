@@ -4,6 +4,7 @@ layout: none
 ---
 {%- assign nl = "\r\n" -%}
 Project Name, Mentor Names, Mentor emails {{nl}} 
+
 {%- assign id = 0 -%}
 {%- assign projects = site.data.project_database.projects | values | sort: 'postdate' | reverse -%}
 {%- for project in projects -%}
@@ -19,4 +20,5 @@ Project Name, Mentor Names, Mentor emails {{nl}}
   {%- endfor -%}
   {% assign id = id | plus:1 -%}
   "{{project.name }}","{{namesArr}}","{{emailsArr}}\n"
+
 {%- endfor -%}
