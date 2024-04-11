@@ -14,7 +14,7 @@ const dropdownMenu3 = () => {
      var project_name = "{{project["name"]}}";
      var projectDiv = document.getElementById(++id);
      var show_item =  projectDiv.style.display;
-     if ( (show_item == 'unset') ) {
+     if ( show_item == 'unset' ) {
         content = 'bye there';
      }
    {%- endfor -%}
