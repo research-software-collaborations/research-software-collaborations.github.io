@@ -11,11 +11,9 @@ permalink: /projects_csv.html
   {%- for contact in project.contacts -%}
     {%- assign namesArr = namesArr | append: contact.name -%}
     {%- assign emailsArr = emailsArr | append: contact.email -%}
-    {%- assign namesArr = namesArr | append: " " -%}
-    {%- assign emailsArr = emailsArr | append: " " -%}
     {%- if forloop.last == false -%}
-       {%- assign namesArr = namesArr | append: "," -%}
-       {%- assign emailsArr = emailsArr | append: "," -%}
+       {%- assign namesArr = namesArr | append: ", " -%}
+       {%- assign emailsArr = emailsArr | append: ", " -%}
     {%- endif -%}
   {%- endfor -%}
   {% assign id = id | plus:1 -%}
