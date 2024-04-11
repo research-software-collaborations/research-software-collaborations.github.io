@@ -10,13 +10,11 @@ const dropdownMenu3 = () => {
    {%- for project in projects -%}
      var projectDiv = document.getElementById(++id);
      var show_item =  projectDiv.style.display;
-
      if ( (show_item == 'unset') ) {
-        var project_name = {{project["name"]}};
+        var project_name = "{{project["name"]}}";
         content = content + project_name + ",";
 	content = content + "\n";
      }
-
   {%- endfor -%}
 
    const file = new Blob([content], { type: 'text/plain' });
