@@ -1,10 +1,18 @@
 <script>
+
+function dropdownMenu3() {
+   const content = "hi there";
+   const file = new Blob([content], { type: 'text/plain' });
+   link.href = URL.createObjectURL(file);
+   link.download = "sample.txt";
+   link.click();
+   URL.revokeObjectURL(link.href);
+}
+
 function dropdownMenu2() {
 
 var search_box = document.getElementById("searchprojects");
 var search_box_text = search_box.value;
-
-
 
 {%- assign projects = site.data.project_database.projects | values | sort: 'postdate' | reverse -%}
 
@@ -83,9 +91,13 @@ var id = 0;
   <input type="submit">
 </form>
 
+<form name="downloadprojectsform" onsubmit="dropdownMenu3();return false">
+  <input type="submit">
+</form>
+
 <br>
 
-<a href="/projects.csv" title="Download" download>Download selected project CSV</a>
+<a href="/projects.csv?divs=\"1,2\"" title="Download" download>Download selected project CSV</a>
 <br>
 
 ## Selected projects
