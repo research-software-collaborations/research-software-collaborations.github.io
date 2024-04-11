@@ -20,4 +20,5 @@ permalink: /projects_csv.html
   {%- endfor -%}
   {% assign id = id | plus:1 -%}
   \"{{project.name }}\",\"{{namesArr}}\",\"{{emailsArr}}\"
+  <br>
 {%- endfor -%}
