@@ -5,7 +5,7 @@ function dud() {
 
 const dropdownMenu3 = () => {
    const link = document.createElement("a");
-   var content = 'hi there';
+   var content = '';
 
    {%- assign projects = site.data.project_database.projects | values | sort: 'postdate' | reverse -%}
 
@@ -15,9 +15,17 @@ const dropdownMenu3 = () => {
      var projectDiv = document.getElementById(++id);
      var show_item =  projectDiv.style.display;
      if ( show_item == 'unset' ) {
-	var ppeople = ' dunno';
-	var pemails = ' dunno';
-        content = content + project_name + ', ' + ppeople + ', ' + pemails + '\n';
+       {%- assign namesArr = '' -%}
+       {%- assign emailsArr = '' -%}
+       {%- for contact in project.contacts -%}
+         {%- assign namesArr = namesArr | append: contact.name %}
+         {%- assign emailsArr = emailsArr | append: contact.email %}
+         {%- if forloop.last == false -%}
+            {% assign namesArr = namesArr | append: "," -%}
+            {% assign emailsArr = emailsArr | append: "," -%}
+         {%- endif -%}
+        {%- endfor -%}
+        content = content + '"' + project_name + '"' + ', "' + namesArr + '"' + ', "' + emailsArr +'"\n';
      }
    {%- endfor -%}
 
