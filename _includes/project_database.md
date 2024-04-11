@@ -10,7 +10,9 @@ const dropdownMenu3 = () => {
      var show_item =  projectDiv.style.display;
 
      if ( (show_item == 'unset') ) {
-        content = content + " 1 \n";
+        var project_name = {{project["name"]}};
+        content = content + project_name + ",";
+	content = content + "\n";
      }
 
   {%- endfor -%}
