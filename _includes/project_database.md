@@ -4,6 +4,8 @@ const dropdownMenu3 = () => {
    const link = document.createElement("a");
    const content = 'hi there';
 
+   {%- assign projects = site.data.project_database.projects | values | sort: 'postdate' | reverse -%}
+
    var id = 0;
    {%- for project in projects -%}
      var projectDiv = document.getElementById(++id);
