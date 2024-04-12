@@ -6,13 +6,14 @@ function dud() {
 
 const dropdownMenu3 = () => {
    const link = document.createElement("a");
-   var content = 'Project Name, Mentor Name, Mentor EMail \n';
+   var content = 'Project Name, Mentor Name, Mentor Email, Date Posted \n';
 
    {%- assign projects = site.data.project_database.projects | values | sort: 'postdate' | reverse -%}
 
    var id = 0;
    {%- for project in projects -%}
      var project_name = "{{project["name"]}}";
+     var project_date = "{{project["date"]}}";
      var projectDiv = document.getElementById(++id);
      var show_item =  projectDiv.style.display;
      if ( show_item == 'unset' ) {
@@ -26,7 +27,7 @@ const dropdownMenu3 = () => {
             {% assign emailsArr = emailsArr | append: ", " -%}
          {%- endif -%}
         {%- endfor -%}
-       content = content + '"' + project_name + '", "' + "{{namesArr}}" + '", "' + "{{emailsArr}}" +'"\n';
+       content = content + '"' + project_name + '", "' + "{{namesArr}}" + '", "' + "{{emailsArr}}" + ' '+"{{project_date}}" + '"\n';
      }
    {%- endfor -%}
 
