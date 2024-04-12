@@ -171,7 +171,7 @@ var id = 0;
   {% assign id = id | plus:1 %}
   <div style="margin-bottom:4px;" id="{{id}}">
    {% assign details = project.description %}
-   {%- capture summary -%}{{project.name }}: {{project.shortdescription}}. {{menteeInfo}} <a href="mailto:{{emailsArr}}">Email the mentors ({{namesArr}})</a>{%- endcapture -%}
+   {%- capture summary -%}{{project.name }}: {{project.shortdescription}}. {{menteeInfo}} <a href="mailto:{{emailsArr}}">Email the mentors ({{namesArr}})</a>. Date posted {{project.postdate}}. {%- endcapture -%}
    {%- include details.html -%}
   </div>
 {% endfor %}
