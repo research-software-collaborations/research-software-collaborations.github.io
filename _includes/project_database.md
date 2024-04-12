@@ -13,7 +13,7 @@ const dropdownMenu3 = () => {
    var id = 0;
    {%- for project in projects -%}
      var project_name = "{{project["name"]}}";
-     var project_date = "{{project["date"]}}";
+     var project_date = "{{project["postdate"]}}";
      var projectDiv = document.getElementById(++id);
      var show_item =  projectDiv.style.display;
      if ( show_item == 'unset' ) {
@@ -27,7 +27,7 @@ const dropdownMenu3 = () => {
             {% assign emailsArr = emailsArr | append: ", " -%}
          {%- endif -%}
         {%- endfor -%}
-       content = content + '"' + project_name + '", "' + "{{namesArr}}" + '", "' + "{{emailsArr}}" + ' '+"{{project_date}}" + '"\n';
+       content = content + '"' + project_name + '", "' + "{{namesArr}}" + '", "' + "{{emailsArr}}" + ', '+"{{project_date}}" + '"\n';
      }
    {%- endfor -%}
 
