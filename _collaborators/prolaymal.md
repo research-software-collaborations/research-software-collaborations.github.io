@@ -4,7 +4,7 @@ active: true
 name: Prolay Mal
 institution: NISER Bhubaneswar
 e-mail: prolay@niser.ac.in
-github-username: 
+github-username: prolaymal
 photo: "/assets/images/team/prolay-mal.jpeg"
 shortname: prolaymal
 title:
