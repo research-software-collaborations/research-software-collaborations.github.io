@@ -31,8 +31,6 @@ eligible for reimbursement from the HSF-India project.
 
 ### Forms for reimbursement
 
-  **Please ignore this section for now. It will be discussed on the last day of the school itself.**
-
 There are two relevant forms for travel reimbursement:
 
   * [Guest Reimbursement Request](https://finance.princeton.edu/form-library/reimbursement/guest-reimbursement-reque/guest_reimbursement_request.pdf) - Everyone requesting travel reimbursement must fill out this form
