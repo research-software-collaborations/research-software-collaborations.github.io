@@ -33,8 +33,9 @@ eligible for reimbursement from the HSF-India project.
 
 There are two relevant forms for travel reimbursement:
 
-  * [Guest Reimbursement Request](https://finance.princeton.edu/form-library/reimbursement/guest-reimbursement-reque/guest_reimbursement_request.pdf) - Everyone requesting travel reimbursement must fill out this form
-  * [Supplier Onboarding Form](https://finance.princeton.edu/form-library/buying-paying/supplierpayee-management/supplier_mgmt.pdf) - Only people requesting reimbursement via wire transfer need to fill out this form. If you would like to receive a check, this form is not needed.
+  * [Guest Reimbursement Request](https://finance.princeton.edu/forms/guest-reimbursement-request) - Everyone requesting travel reimbursement must fill out this form
+  * [Supplier Onboarding Form for US-based participants](https://finance.princeton.edu/forms/supplierpayee-management) Only people requesting reimbursement via wire transfer need to fill out this form. If you would like to receive a check, this form is not needed.
+  * [Supplier Onboarding Form for foreign participants](https://finance.princeton.edu/forms/foreign-individual-payeesubstitute-w-8ben) and is required for all non-US based participants.
 
 Please note the following:
 
