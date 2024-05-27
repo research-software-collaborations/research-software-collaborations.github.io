@@ -23,9 +23,9 @@ eligible for reimbursement from the HSF-India project.
   * Reimbursed travel should use the least expensive options possible, which reasonably meet normal travel time constraints.
   * Reimbursed travel should be booked in **regular, economy fares**. No business class or paid economy class upgrades can be reimbursed. In cases where airlines offer "economy basic" or similar discounted fares, with limitations on carry-on baggage or similar, it is fine to choose the "regular" economy fare permitting baggage.
   * For participants flying from outside the U.S., air flights can only be reimbursed if the carrier is allowed by the Fly America Act and U.S. Open Skies agreements and normally reimbursable with U.S. government (NSF) sponsored research funds.
-  * For long distance ground travel, mass transportation (train, bus) is preferred to long distance taxi. 
+  * For long distance ground travel in US/Europe, mass transportation (train, bus) is preferred to long distance taxi. Uber is recommended in India.
   * Receipts should be provided in electronic form (scanned or clear photos), preferably grouped together into a single pdf file.
-  * The form(s) for reimbursement are linked below. This should in general be filled out by one week after the end of the school week itself (i.e. Friday, 3 August, 2018) and submitted along with the electronic copy of the receipts described above.
+  * The form(s) for reimbursement are linked below. This should in general be filled out by one week after the end of the event itself and submitted along with the electronic copy of the receipts described above.
 
   If you have any questions or doubts about travel reimbursement please send an email with your travel plan to [david.lange@cern.ch](mailto:david.lange@cern.ch) before booking to get confirmation on reimbursement.
 
@@ -48,6 +48,7 @@ Please note the following:
     * Specify the city, state and country where the event was located for the "Destination"
     * Business purpose: "To participate in the HSF-India workshop on research software held at <location>, <dates>" 
     * Fill out the list of expenses as appropriate. Include the date (in MM/DD/YY format), a short description of the type of expense and the amount in U.S. Dollars.
+    * "per diem" can not be paid per policy. Instead, please list a breakout of meals. I suggest a single line on the expense form called "Meals (combined, breakout attached)", and then a page in the PDF listing per meal estimates. There is no need for receipts. Our group policy is $37.50 on travel days and $50 on other days when no meals are provided. As in general meals are provided (and paid by our grant), please take that into account, but at the same time do make sure to cover your actual costs (up to $37.50/$50). Questions, ask me. 
     * If you paid an expense in something other than U.S. Dollars, look up the exchange rate (corresponding to the date of the expense!) on some online service and make a screenshot of the rate (including the date). Include the screenshot in the pdf with the receipt. Put the equivalent U.S. Dollar cost in the form in the "Amount" column and include the amount in the foreign currency (with label such as CHF, EUR) in parentheses in the item "Description". (Note that the administration may adjust the conversion amount if the wrong rate or date is used.)
     * Add your name, date and signature at the bottom of the form.
   * Make a readable scan or clear photo of all relevant receipts for the expenses to be reimbursed. Please merge these receipts into a single file. 
