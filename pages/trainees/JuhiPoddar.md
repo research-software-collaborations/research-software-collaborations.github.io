@@ -12,7 +12,7 @@ photo: /assets/images/team/Juhi-Poddar.jpg
 institution: Tata Institute of Fundamental Research
 website:
 e-mail: juhi.npoddar@gmail.com
-project_title: Analysis_Infrastructure_Integrating_Dcache_Storage_with_JupyterHub
+project_title: Analysis Infrastructure Integrating Dcache Storage with JupyterHub
 project_goal: >
   The project aims to offer users a streamlined and secure platform for accessing and analyzing data, By establishing a robust connection between Dcache storage and JupyterHub
 mentors:
