@@ -8,7 +8,7 @@ active: true
 dates:
   start: 2024-05-25
   end: 2024-08-31
-photo: /assets/images/team/SaiKrishna_podem.png
+photo: /assets/images/team/SaiKrishna_podem.jpg
 institution: IIT Hyderabad
 website:
 e-mail: sai.krishna.podem@cern.ch
