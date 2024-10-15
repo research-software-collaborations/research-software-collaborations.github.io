@@ -27,7 +27,7 @@ project_goal: >
 mentors:
   - Vassil Vassilev (Princeton University, USA)
   - S M Hari Krishna (Ramaiah University of Applied Sciences, India)
-proposal: assets/pdf/Adopting-CppInterOp-in-cppyy-Proposal.pdf
+proposal: /assets/pdf/Adopting-CppInterOp-in-cppyy-Proposal.pdf
 presentations:
 github-username: Vipul-Cariappa
 linkedin-profile: https://www.linkedin.com/in/vipul-cariappa03/
