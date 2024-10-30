@@ -7,7 +7,7 @@ title: Juhi Poddar - Analysis Infrastructure
 active: true
 dates:
   start: 2024-02-01
-  end: 2024-07-01
+  end: 2025-02-01
 photo: /assets/images/team/Juhi-Poddar.jpg
 institution: Tata Institute of Fundamental Research
 website:
