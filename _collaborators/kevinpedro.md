@@ -9,6 +9,9 @@ photo: "/assets/images/team/Kevin-Pedro.png"
 shortname: kevinpedro
 title:
 website: http://kjplanet.com/kjp/
+networks:
+  - cms
+  - uscms
 presentations:
 ---
 
