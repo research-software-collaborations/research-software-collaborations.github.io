@@ -5,5 +5,6 @@ latitude:
 longitude:
 url: https://www.vecc.gov.in
 personnel:
+  - vikasssinghal
 ---
 
