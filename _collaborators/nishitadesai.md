@@ -1,6 +1,6 @@
 ---
 layout: collaborator
-active: true
+active: false
 name: Nishita Desai
 institution: Tata Institute of Fundamental Research
 e-mail: Nishita.Desai@tifr.res.in
