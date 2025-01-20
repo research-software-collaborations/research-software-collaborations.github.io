@@ -14,4 +14,5 @@ personnel:
   - fatala22
   - vvassilev
   - kevinpedro
+  - gomber
 ---
