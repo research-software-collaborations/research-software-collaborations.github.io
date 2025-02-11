@@ -36,6 +36,7 @@ The following exchanges are eligible:
     * Project statement including high-level science goals and need (approximately 1 page)
     * Summary of local support infrastructure for visiting researcher
     * Estimated budget need, any timing constraints, etc
+    * Send expressions of interest to [rsc-inquiries@googlegroups.com](mailto:rsc-inquiries@googlegroups.com)
 
 ### Acceptance criteria
   * Alignment with HSF-India science goals
