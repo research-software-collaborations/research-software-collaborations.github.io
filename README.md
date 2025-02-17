@@ -33,8 +33,8 @@ locally and view them at http://localhost:4000
   * Make a fork of https://github.com/research-software-collaborations/project_database for your changes
   * Create a working area
 ```
-git clone git@github.com:research-software-collaborations/research-software-collaborations.github.io.git
-cd research-software-collaborations.github.io/project_database
+git clone --recursive git@github.com:research-software-collaborations/research-software-collaborations.github.io.git
+cd research-software-collaborations.github.io/_data/project_database
 git remote add myrepo git-URL-of-your-fork
 git checkout -b my_new_idea
 git push -u myrepo my_new_idea
