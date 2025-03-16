@@ -41,6 +41,7 @@ For the *supplier onboarding* form:
 
   * Leave section 3 blank
   * Sign and date page 2
+    
 For the *guest reimbursement* form:
   * Fill out "Today's date" in the upper right hand corner of the form
   * Fill out your name, address and business phone
