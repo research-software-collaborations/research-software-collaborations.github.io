@@ -37,10 +37,8 @@ There are two relevant forms for travel reimbursement:
   * [Supplier Onboarding Form for foreign participants](https://finance.princeton.edu/forms/foreign-individual-payeesubstitute-w-8ben) and is required for all non-US based participants.
   * [Supplier Onboarding Form for US-based participants](https://finance.princeton.edu/forms/supplierpayee-management) Only US-based folks requesting reimbursement via wire transfer need to fill out this form. If you would like to receive a check, this form is not needed (we find that receiving a check is simplest/fastest)
 
-These forms can be filled out and signed electronically. After completing and checking them, [use this google form](https://docs.google.com/forms/d/e/1FAIpQLScGB_VOZDsQoATIEJMxHP3F-czXp8W8Ml8HjcbDqhLLIDqlog/viewform?usp=sf_link) to upload all documents and to make your request for reimbursement. 
-
 For the *supplier onboarding* form:
-  * leave section 3 blank
+  * Leave section 3 blank
   * Sign and date page 2
 For the *guest reimbursement* form:
   * Fill out "Today's date" in the upper right hand corner of the form
@@ -60,3 +58,4 @@ Checklist for avoiding common mistakes:
   * Did you break down meals as requested above?
   * Did you provide your address and/or bank information so that we can pay you?
 
+These forms can be filled out and signed electronically. After completing and checking them, [use this google form](https://docs.google.com/forms/d/e/1FAIpQLScGB_VOZDsQoATIEJMxHP3F-czXp8W8Ml8HjcbDqhLLIDqlog/viewform?usp=sf_link) to upload all documents and to make your request for reimbursement. 
