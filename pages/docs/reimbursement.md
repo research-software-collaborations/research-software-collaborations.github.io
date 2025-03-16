@@ -38,6 +38,7 @@ There are two relevant forms for travel reimbursement:
   * [Supplier Onboarding Form for US-based participants](https://finance.princeton.edu/forms/supplierpayee-management) Only US-based folks requesting reimbursement via wire transfer need to fill out this form. If you would like to receive a check, this form is not needed (we find that receiving a check is simplest/fastest)
 
 For the *supplier onboarding* form:
+
   * Leave section 3 blank
   * Sign and date page 2
 For the *guest reimbursement* form:
@@ -53,6 +54,7 @@ For the *guest reimbursement* form:
   * Make a readable scan or clear photo of all relevant receipts for the expenses to be reimbursed. Please merge these receipts into a single file.
 
 Checklist for avoiding common mistakes:
+
   * Did you sign and date the forms?
   * Did you use day by day INR to USD conversion factors and document them?
   * Did you break down meals as requested above?
