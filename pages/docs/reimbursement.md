@@ -34,23 +34,29 @@ eligible for reimbursement from the HSF-India project.
 There are two relevant forms for travel reimbursement:
 
   * [Guest Reimbursement Request](https://finance.princeton.edu/forms/guest-reimbursement-request) - Everyone requesting travel reimbursement must fill out this form
-  * [Supplier Onboarding Form for US-based participants](https://finance.princeton.edu/forms/supplierpayee-management) Only people requesting reimbursement via wire transfer need to fill out this form. If you would like to receive a check, this form is not needed.
   * [Supplier Onboarding Form for foreign participants](https://finance.princeton.edu/forms/foreign-individual-payeesubstitute-w-8ben) and is required for all non-US based participants.
+  * [Supplier Onboarding Form for US-based participants](https://finance.princeton.edu/forms/supplierpayee-management) Only US-based folks requesting reimbursement via wire transfer need to fill out this form. If you would like to receive a check, this form is not needed (we find that receiving a check is simplest/fastest)
 
-Please note the following:
+These forms can be filled out and signed electronically. After completing and checking them, [use this google form](https://docs.google.com/forms/d/e/1FAIpQLScGB_VOZDsQoATIEJMxHP3F-czXp8W8Ml8HjcbDqhLLIDqlog/viewform?usp=sf_link) to upload all documents and to make your request for reimbursement. 
 
-  * The form can be filled out electronically (e.g. in Acrobat Reader). This is the preferred method in order to guarantee legibility.
-  * You can either sign the pdf electronically (e.g. in Acrobat Reader) or fill it out electronically, print the result, sign it and scan the result.
-  * If you cannot fill the form out electronically, print the form and fill it out using clear block letters. Sign it and make a clear scan of the completed form.
-  * On the form:
-    * Fill out "Today's date" in the upper right hand corner of the form
-    * Fill out your name, address and business phone
-    * Specify the departure and return date from your trip to the school (please use MM/DD/YY format)
-    * Specify the city, state and country where the event was located for the "Destination"
-    * Business purpose: "To participate in the HSF-India workshop on research software held at fill-in-location, fill-in-dates" 
-    * Fill out the list of expenses as appropriate. Include the date (in MM/DD/YY format), a short description of the type of expense and the amount in U.S. Dollars.
-    * "per diem" can not be paid per policy. Instead, please list a single line on the expense form called "Meals (combined, breakout attached)", and then attach a breakout of rough costs per meal as a separate google doc or PDF document (use dollars for these estimates to save effort). Following our group policy, there is a limit of $50 per day, but as in general some meals are provided (and paid by our grant or by your host) this should not be a big problem. Questions, ask me. 
-    * If you paid an expense in something other than U.S. Dollars, look up the exchange rate (corresponding to the date of the expense!) on some online service and make a screenshot of the rate (including the date). For example you can make a pdf of [this link](https://www.exchangerates.org.uk/INR-USD-exchange-rate-history.html) and include it in your receipts. Put the equivalent U.S. Dollar cost in the form in the "Amount" column and include the amount in the foreign currency (with label such as CHF, EUR) in parentheses in the item "Description". (Note that the administration may adjust the conversion amount if the wrong rate or date is used, but lets try to save them the trouble.)
-    * Add your name, date and signature at the bottom of the form.
-  * Make a readable scan or clear photo of all relevant receipts for the expenses to be reimbursed. Please merge these receipts into a single file. 
-  * [Use this form](https://docs.google.com/forms/d/e/1FAIpQLScGB_VOZDsQoATIEJMxHP3F-czXp8W8Ml8HjcbDqhLLIDqlog/viewform?usp=sf_link) to upload all forms and to make your request for reimbursement. 
+For the *supplier onboarding* form:
+  * leave section 3 blank
+  * Sign and date page 2
+For the *guest reimbursement* form:
+  * Fill out "Today's date" in the upper right hand corner of the form
+  * Fill out your name, address and business phone
+  * Specify the departure and return date from your trip to the school (please use MM/DD/YY format)
+  * Specify the city, state and country where the event was located for the "Destination"
+  * Business purpose: "To participate in the HSF-India workshop on research software held at fill-in-location, fill-in-dates" 
+  * Fill out the list of expenses as appropriate. Include the date (in MM/DD/YY format), a short description of the type of expense and the amount in U.S. Dollars.
+  * "per diem" can not be paid per policy. Instead, please list a single line on the expense form called "Meals (combined, breakout attached)", and then attach a breakout of rough costs per meal as a separate google doc or PDF document (use dollars for these estimates to save effort). Following our group policy, there is a limit of $50 per day, but as in general some meals are provided (and paid by our grant or by your host) this should not be a big problem. Questions, ask me. 
+  * If you paid an expense in something other than U.S. Dollars, look up the exchange rate (corresponding to the date of the expense!) on some online service and make a screenshot of the rate (including the date). For example you can make a pdf of [this link](https://www.exchangerates.org.uk/INR-USD-exchange-rate-history.html) and include it in your receipts. Put the equivalent U.S. Dollar cost in the form in the "Amount" column and include the amount in the foreign currency (with label such as CHF, EUR) in parentheses in the item "Description". (Note that the administration may adjust the conversion amount if the wrong rate or date is used, but lets try to save them the trouble.)
+  * Add your name, date and signature at the bottom of the form.
+  * Make a readable scan or clear photo of all relevant receipts for the expenses to be reimbursed. Please merge these receipts into a single file.
+
+Checklist for avoiding common mistakes:
+  * Did you sign and date the forms?
+  * Did you use day by day INR to USD conversion factors and document them?
+  * Did you break down meals as requested above?
+  * Did you provide your address and/or bank information so that we can pay you?
+
