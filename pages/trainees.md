@@ -4,6 +4,9 @@ layout: default
 title: Research Software Trainees and Fellowships
 ---
 
+**March 17, 2025: [2025 Trainee program is looking for students and mentors](https://research-software-collaborations.org/trainee_program.html)
+  
+
 ## Research Software Trainees
 
 People are the key to successful software. The HSF-India project aims to promote the
