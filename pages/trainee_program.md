@@ -4,7 +4,7 @@ layout: default
 title: Research Software Trainees and Fellowships Program
 ---
 
-We are looking for summer 2024 projects. Contact us if you are interested and have a project/mentor idea that fits our program. We are happy to discuss project ideas with you.
+We are looking for summer 2025 projects. Apply [here](https://docs.google.com/forms/d/e/1FAIpQLSei8ZRzL4hDXm-kaA8l5JSS053bi8nX42f3y4i56T3UkgBjYg/viewform?usp=dialog) or simply contact us if you are interested and have a project/mentor idea that fits our program. We are happy to discuss project ideas with you. 
 
 ## Research Software Trainees
 
