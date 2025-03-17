@@ -66,8 +66,8 @@ There is no requirement to establish a research project before applying, however
 projects, please include that information as part of your application. We aim to match all
 selected students to projects that they are excited about.
 
-   * Deadline: April 1, 2024
-   * Application form: [Please submit applications here](https://docs.google.com/forms/d/e/1FAIpQLSe56nh_uxU_1ge4zJihp6qzau6Cy5jIWerNxz4D3lhpynQGbw/viewform?usp=sf_link).
+   * Deadline: April 6, 2025
+   * Application form: [Please submit applications here](https://docs.google.com/forms/d/e/1FAIpQLSei8ZRzL4hDXm-kaA8l5JSS053bi8nX42f3y4i56T3UkgBjYg/viewform?usp=dialog).
    * Application requirements:
       * CV summarizing academic background, work and research experiences, technical skills
       * Copy of recent academic transcripts
