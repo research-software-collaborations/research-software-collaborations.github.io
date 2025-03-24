@@ -4,8 +4,6 @@ layout: default
 title: Research Software Trainees and Fellowships Program
 ---
 
-We are looking for summer 2025 projects. Apply [here](https://docs.google.com/forms/d/e/1FAIpQLSei8ZRzL4hDXm-kaA8l5JSS053bi8nX42f3y4i56T3UkgBjYg/viewform?usp=dialog) or simply contact us if you are interested and have a project/mentor idea that fits our program. We are happy to discuss project ideas with you. 
-
 ## Research Software Trainees
 
   Are you a student or a recent grad interested in growing your software
@@ -26,6 +24,11 @@ encourage collaborations which engage individuals in ways that maximize their po
 and their potential impact on the community.
 Trainees will spend their projects (flexible in length, but typically 3 or 6 months)
 working to build their skills while working on an exciting and topical research software project.
+
+### Applications now being accepted for 2025 Projects
+
+We are looking for trainees for summer 2025 projects. Apply via the [Application Google Form](https://docs.google.com/forms/d/e/1FAIpQLSei8ZRzL4hDXm-kaA8l5JSS053bi8nX42f3y4i56T3UkgBjYg/viewform?usp=dialog) or simply contact us if you are interested and have a project/mentor idea that fits our program. We are happy to discuss project ideas with you. 
+
 
 ### Who should apply to the HSF-India Trainees and Fellowships program?
 
@@ -59,7 +62,7 @@ Follow the links for more details about each area. Expect projects to be softwar
   will have a large focus on physics algorithms, others on computatonal methods. All aim to result in
   significant contributions to open source software and to build skills and knowledge as a result.
 
-A list currently open available ideas can be found [here](http://research-software-collaborations.org/projects).
+A list currently open available ideas can be found here: [http://research-software-collaborations.org/projects](http://research-software-collaborations.org/projects).
 
 ### How to apply
 There is no requirement to establish a research project before applying, however having a mentor and potential topic area of mutual interest is beneficial. Our program will match selected students with mentors and projects, however the number of co-mentor teams will be limited. If you have interest in one or more specific
