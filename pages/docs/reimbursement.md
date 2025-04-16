@@ -18,7 +18,7 @@ eligible for reimbursement from the HSF-India project.
 
   * Participants should plan on traveling on dates agreed with the HSF-India project for a particular event. These will be documented in **"Notes for specific events and workshops"** section of this webpage **or** specified in email from a designated representative of the HSF-India project.
   * Travelers should pay for their travel themselves and will be reimbursed up to the specified limits after the meeting/training event has concluded.
-  * The reimbursement can be done by check or bank transfer, typically within 5-10 business days from submission and approval of the required documentation.
+  * The reimbursement can be done by check or bank transfer, typically within 5-10 business days from submission and approval of the required documentation. The approval of non-US-based participants may take 1 month or more (but can be started ahead of time).
   * Only the traveler can be directly reimbursed (not the traveler's research group).
   * Reimbursed travel should use the least expensive options possible, which reasonably meet normal travel time constraints.
   * Reimbursed travel should be booked in **regular, economy fares**. No business class or paid economy class upgrades can be reimbursed. In cases where airlines offer "economy basic" or similar discounted fares, with limitations on carry-on baggage or similar, it is fine to choose the "regular" economy fare permitting baggage.
@@ -49,16 +49,18 @@ For the *guest reimbursement* form:
   * Specify the city, state and country where the event was located for the "Destination"
   * Business purpose: "To participate in the HSF-India workshop on research software held at fill-in-location, fill-in-dates" 
   * Fill out the list of expenses as appropriate. Include the date (in MM/DD/YY format), a short description of the type of expense and the amount in U.S. Dollars.
-  * "per diem" can not be paid per policy. Instead, please list a single line on the expense form called "Meals (combined, breakout attached)", and then attach a breakout of rough costs per meal as a separate google doc or PDF document (use dollars for these estimates to save effort). Here is a [template to start from](https://docs.google.com/document/d/1nwRHICCjA5f0U-31RR1dj72ecGleYrU3SEOch2sH-Pw)Following our group policy, there is a limit of $50 per day, but as in general some meals are provided (and paid by our grant or by your host) this should not be a big problem. Questions, ask me. 
-  * If you paid an expense in something other than U.S. Dollars, look up the exchange rate (corresponding to the date of the expense!) on some online service and make a screenshot of the rate (including the date). For example you can make a pdf of [this link](https://www.exchangerates.org.uk/INR-USD-exchange-rate-history.html) and include it in your receipts. Put the equivalent U.S. Dollar cost in the form in the "Amount" column and include the amount in the foreign currency (with label such as CHF, EUR) in parentheses in the item "Description". (Note that the administration may adjust the conversion amount if the wrong rate or date is used, but lets try to save them the trouble.)
+  * "per diem" can not be paid per policy. Instead, please list a single line on the expense form called "Meals (combined, breakout attached)", and then attach a breakout of rough costs per meal as a separate google doc or PDF document (use dollars for these estimates to save effort). Here is a [template to start from](https://docs.google.com/document/d/1nwRHICCjA5f0U-31RR1dj72ecGleYrU3SEOch2sH-Pw)Following our group policy, there is a limit of $50 per day, but as in general some meals are provided (and paid by our grant or by your host) this should not be a big problem. Questions, ask me.
+  * Similarly, if you take more than a couple of Uber/taxi trips, please also use a separate document to summarize all of them and provide a summed total on the reimbursement form.
+  * If you paid an expense in something other than U.S. Dollars, look up the exchange rate (corresponding to the date of the expense!) on some online service and make a screenshot of the rate (including the date). For example you can make a pdf of [this link](https://www.exchangerates.org.uk/INR-USD-exchange-rate-history.html) and include it in your receipts. Put the equivalent U.S. Dollar cost in the form in the "Amount" column and include the amount in the foreign currency (with label such as CHF, EUR) in parentheses in the item "Description". Please be sure to align the currency conversion with the date of each individual expense (eg, not the date of the trip, nor the date of your reimbursement request).
   * Add your name, date and signature at the bottom of the form.
   * Make a readable scan or clear photo of all relevant receipts for the expenses to be reimbursed. Please merge these receipts into a single file.
 
-Checklist for avoiding common mistakes:
+Checklist for avoiding common mistakes that otherwise delay the process:
 
   * Did you sign and date the forms?
   * Did you use day by day INR to USD conversion factors and document them?
   * Did you break down meals as requested above?
   * Did you provide your address and/or bank information so that we can pay you?
+  * Did you provide all of the necessary receipts? (not needed for items less than $50)
 
 These forms can be filled out and signed electronically. After completing and checking them, [use this google form](https://docs.google.com/forms/d/e/1FAIpQLScGB_VOZDsQoATIEJMxHP3F-czXp8W8Ml8HjcbDqhLLIDqlog/viewform?usp=sf_link) to upload all documents and to make your request for reimbursement. 
