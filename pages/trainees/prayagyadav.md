@@ -7,10 +7,10 @@ title: Prayag Yadav - COFFEA FCC schema and examples
 active: true
 dates:
   start: 2024-06-10
-  end: 
+  end: 2025-07-15
 photo: /assets/images/team/Prayag-Yadav.png
 institution: University of Hyderabad
-website: https://www.prayagyadav.me
+website: https://www.prayagyadav.com
 e-mail: prayagyadav206@gmail.com
 project_title: Building examples for Future Circular Collider (FCC) analyses using the Columnar Framework For Effective Analysis (COFFEA) framework and developing the schema class implementation of FCC simulation samples in COFFEA
 project_goal: >
@@ -19,7 +19,8 @@ mentors:
 - David Lange (Princeton University)
 - Bhawna Gomber (University of Hyderabad)
 proposal: /assets/pdf/COFFEA_FCC_Proposal.pdf
-presentations:
+presentations: 1. [Dec 12 2024 Project Updates](https://indico.cern.ch/event/1487970/contributions/6272164/attachments/2986109/5259280/ProjectUpdates.pdf)
+  2. [At the 8th FCC Physics Workshop](https://indico.cern.ch/event/1439509/contributions/6289559/attachments/2995158/5276761/FCC_Workshop_Presentation.pdf)
 github-username: prayagyadav
 linkedin-profile: https://www.linkedin.com/in/prayagyadav206
 current_status: >
