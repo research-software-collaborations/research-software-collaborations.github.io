@@ -24,7 +24,7 @@ project_goal: >
   In the JuliaHEP fitting ecosystem, this package will complement the unbinned fit focused AlgebraPDF.jl.
 mentors:
   - Jerry Ling (Harvard University, USA)
-proposal: /assets/pdf/advancing_binneddistributionfit_for_hep_analysis.pdf
+proposal: /assets/pdf/Advancing_BinnedDistributionFit_for_HEP_analysis.pdf
 presentations:
 github-username: divital-coder
 linkedin-profile: https://www.linkedin.com/in/divyansh-goyal-34654b200/
