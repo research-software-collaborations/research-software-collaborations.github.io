@@ -21,7 +21,6 @@ project_goal: >
   ● A comprehensive technical report detailing the methods, implementation, experiments, and results, ready for publication on platforms like arXiv or Zenodo.
 mentors:
 - Pratik Jawahar (CERN)
-- David Lange (Princeton University)
 proposal: /assets/pdf/Anomaly Detection using XLSTM VAE.pdf
 presentations:
 github-username: njangid22
