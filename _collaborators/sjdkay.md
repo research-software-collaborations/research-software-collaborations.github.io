@@ -1,11 +1,11 @@
 ---
 layout: collaborator
 active: true
-institution: University of York, UK
+institution: University of York
 name: Stephen Kay
-photo: /assets/images/team/Stephen-Kay.jpg
+photo: "/assets/images/team/Stephen-Kay.jpg"
 shortname: sjdkay
-title: 
+title:
 github-username: sjdkay
 networks:
   - epic
