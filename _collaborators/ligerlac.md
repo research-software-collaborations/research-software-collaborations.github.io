@@ -3,10 +3,10 @@ layout: collaborator
 active: true
 institution: Princeton University
 name: Lino Gerlach
+e-mail: lino.oscar.gerlach@cern.ch
 photo: /assets/images/team/Lino-Gerlach.jpg
 shortname: ligerlac
 title: Postdoctoral Research Associate
-website: github.com/ligerlac
 github-username: ligerlac
 presentations:
   - title: Model-Independent Real-Time Anomaly Detection at CMS with CICADA
