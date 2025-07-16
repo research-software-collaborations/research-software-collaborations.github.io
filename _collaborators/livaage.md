@@ -6,7 +6,7 @@ institution: Princeton University
 e-mail: liv.helen.vage@cern.ch
 github-username: livaage
 photo: "/assets/images/team/Liv-Vage.jpg"
-shortname: liv
+shortname: livaage
 title:
 website: 
 networks:
