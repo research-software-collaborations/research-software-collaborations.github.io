@@ -5,4 +5,5 @@ website: https://www.belle2.org
 logo: /assets/images/networks/belle-ii.png
 personnel:
   - bipul-bhuyan
+  - jim-libby
 ---
