@@ -6,4 +6,5 @@ logo: /assets/images/networks/dune-logo.jpeg
 personnel:
   - schellman
   - tunnell
+  - bipul-bhuyan
 ---
