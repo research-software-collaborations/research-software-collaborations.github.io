@@ -5,7 +5,7 @@ e-mail: brij@cern.ch
 gitlab-url: https://gitlab.cern.ch/bjashal
 institution: Rutherford Appleton Laboratory, Oxford
 name: Brij Kishor Jashal
-photo: "/assets/images/team/Brij-Kishor-Jashal.jpeg"
+photo:
 shortname: brij01
 title: Dr
 website: https://bjashal.web.cern.ch/
