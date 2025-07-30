@@ -4,7 +4,7 @@ pagetype: trainee
 permalink: /trainees/SanjeevKumar.html
 myname: Sanjeev Kumar
 title: Sanjeev Kumar - Advancing Trigger Efficiency
-active: true
+active: false
 dates:
   start: 2024-03-01
   end: 2024-07-01
