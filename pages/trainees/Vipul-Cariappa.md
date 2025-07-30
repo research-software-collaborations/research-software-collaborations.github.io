@@ -4,7 +4,7 @@ pagetype: trainee
 permalink: /trainees/Vipul-Cariappa.html
 myname: Vipul Cariappa
 title: Vipul Cariappa - HSF India Trainee
-active: true
+active: false
 dates:
   start: 2024-09-09
   end: 2025-02-28
