@@ -4,7 +4,7 @@ pagetype: trainee
 permalink: /trainees/DurbarChakraborty.html
 myname: Durbar Chakraborty
 title: Durbar Chakraborty - HSF India Trainee
-active: true
+active: false
 dates:
   start: 2023-07-01
   end: 2023-11-01
