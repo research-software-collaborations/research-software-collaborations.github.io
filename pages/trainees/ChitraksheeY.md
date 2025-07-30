@@ -4,7 +4,7 @@ pagetype: trainee
 permalink: /trainees/ChitraksheeYede.html
 myname: Chitrakshee Yede
 title: Chitrakshee Yede - HSF India Trainee
-active: true
+active: false
 dates:
   start: 2023-06-05
   end: 2023-11-30
