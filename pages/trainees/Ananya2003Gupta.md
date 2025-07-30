@@ -4,7 +4,7 @@ pagetype: trainee
 permalink: /trainees/AnanyaGupta.html
 myname: Ananya Gupta
 title: Ananya Gupta - HSF India Trainee
-active: true
+active: false
 dates:
   start: 2023-06-14
   end: 2023-09-30
