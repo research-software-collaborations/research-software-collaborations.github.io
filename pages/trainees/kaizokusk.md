@@ -4,7 +4,7 @@ pagetype: trainee
 permalink: /trainees/PodemSaiKrishna.html
 myname: Podem Sai Krishna
 title: Podem Sai Krishna - Particle Identification
-active: true
+active: false
 dates:
   start: 2024-05-25
   end: 2024-08-31
