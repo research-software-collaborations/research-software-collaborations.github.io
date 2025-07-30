@@ -4,7 +4,7 @@ pagetype: trainee
 permalink: /trainees/AdamZachariaAnil.html
 myname: Adam Zacharia Anil
 title: Adam Zacharia Anil - Correlation Function Analysis
-active: true
+active: false
 dates:
   start: 2023-07-01
   end: 2023-12-01
