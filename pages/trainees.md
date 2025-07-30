@@ -34,13 +34,11 @@ program and how to appy
 {% assign active-trainees = trainees | select: "active" | where_exp: "item", "item.hidden != true" %}
 {% assign inactive-trainees = trainees | reject: "active" | where_exp: "item", "item.hidden != true" %}
 
-
-{%- if active-trainees.size > 0 %}
 ## Current and Former Trainees
 
 <div id="current" class="container-fluid">
   <div class="row">
-    {% for person in trainees %}
+    {% for person in active-trainees %}
       <div class="card" style="width: 12rem;">
          <img class="card-img-top" src="{{person.photo}}" alt="Card image cap">
          <div class="card-body d-flex flex-column">
@@ -54,9 +52,23 @@ program and how to appy
          </div>
       </div>
     {% endfor %}
+    {% for person in inactive-trainees %}
+      <div class="card" style="width: 12rem;">
+         <img class="card-img-top" src="{{person.photo}}" alt="Card image cap">
+         <div class="card-body d-flex flex-column">
+           <div class="card-text">
+              <b><a href="{{person.permalink}}">{{person.myname}}</a></b><br>
+              <small>{{person.institution}}</small><br><br>
+           </div>
+           <div class="card-text mt-auto"><i>
+             {% include fellow_dates.html dates=person.dates %}
+           </i><br></div>
+         </div>
+      </div>
+    {% endfor %}    
   </div>
   <br>
 </div>
-{%- endif -%}
+
 
 
