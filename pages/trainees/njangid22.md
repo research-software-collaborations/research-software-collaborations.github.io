@@ -4,7 +4,7 @@ pagetype: trainee
 permalink: /trainees/NikhilJangid.html
 myname: Nikhil Jangid
 title: Nikhil Jangid - Anomaly Detection using XLSTM-VAE
-active: true
+active: false
 dates:
   start: 2024-06-01
   end: 2024-08-31
