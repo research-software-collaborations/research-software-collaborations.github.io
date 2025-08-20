@@ -31,10 +31,12 @@ mentors:
 proposal: /assets/pdf/Julia_Interfaces_to_HepMC3_Event_Record_Library.pdf
 presentations:
   - url: /assets/pdf/divyansh_hepmc3_juliahep2025.pdf
-    title: HepMC3 and Julia
-    date: July 31, 2025
+    title: Julia Interfaces to the HepMC3 Event Record Library
+    date: July 28, 2025
+    meetingurl: https://indico.cern.ch/event/1488852/
 github-username: divital-coder
 linkedin-profile: https://www.linkedin.com/in/divyansh-goyal-34654b200/
 current_status: >
 ---
+
 
