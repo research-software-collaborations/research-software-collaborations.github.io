@@ -7,7 +7,7 @@ title: Divyansh Goyal - HSF India Trainee
 active: true
 dates:
   start: 2025-06-05
-  end: 2025-09-05
+  end: 2025-12-05
 photo: /assets/images/team/Divyansh-Goyal.jpg
 institution: Guru Gobind Singh Indraprastha University
 website:
@@ -39,6 +39,7 @@ github-username: divital-coder
 linkedin-profile: https://www.linkedin.com/in/divyansh-goyal-34654b200/
 current_status: >
 ---
+
 
 
 
