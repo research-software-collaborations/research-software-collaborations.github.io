@@ -4,7 +4,7 @@ pagetype: trainee
 permalink: /trainees/PrayagYadav.html
 myname: Prayag Yadav
 title: Prayag Yadav - COFFEA FCC schema and examples
-active: true
+active: false
 dates:
   start: 2024-06-10
   end: 2025-07-15
