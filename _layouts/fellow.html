@@ -54,7 +54,7 @@
         <ul>
           {% for presentation in page.presentations %}
             {% assign prettydate = presentation.date | date: "%-d %b %Y" %}
-            <li>{{prettydate}} - <a href="{{presentation.url}}">"{{presentation.title}}"</a>, {{page.fellow-name}}, <a href="{{presentation.meetingurl}}">{{presentation.meeting}}</a>
+            <li>{{prettydate}} - <a href="{{presentation.url}}">"{{presentation.title}}"</a>, {{page.myname}}, <a href="{{presentation.meetingurl}}">{{presentation.meeting}}</a>
             {% if presentation.recordingurl %}
               Recording: <a href="{{presentation.recordingurl}}">{{presentation.title}}</a></li>
             {% endif %}
