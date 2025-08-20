@@ -34,9 +34,11 @@ presentations:
     title: Julia Interfaces to the HepMC3 Event Record Library
     date: July 28, 2025
     meetingurl: https://indico.cern.ch/event/1488852/
+    meeting: JuliaHEP 2025
 github-username: divital-coder
 linkedin-profile: https://www.linkedin.com/in/divyansh-goyal-34654b200/
 current_status: >
 ---
+
 
 
