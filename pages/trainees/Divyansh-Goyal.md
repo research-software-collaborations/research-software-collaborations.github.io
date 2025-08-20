@@ -29,8 +29,12 @@ mentors:
   - Graeme Stewart (CERN)
   - Matuesz Fila (CERN)
 proposal: /assets/pdf/Julia_Interfaces_to_HepMC3_Event_Record_Library.pdf
-presentations: /assets/pdf/divyansh_hepmc3_juliahep2025.pdf
+presentations:
+  - url: /assets/pdf/divyansh_hepmc3_juliahep2025.pdf
+    title: HepMC3 and Julia
+    date: July 31, 2025
 github-username: divital-coder
 linkedin-profile: https://www.linkedin.com/in/divyansh-goyal-34654b200/
 current_status: >
 ---
+
