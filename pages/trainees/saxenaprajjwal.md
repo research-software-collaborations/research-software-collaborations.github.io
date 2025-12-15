@@ -17,10 +17,11 @@ project_goal: This project explores quantum approaches to the computationally in
 mentors: Rocky Bala Garg (Stanford University)
 proposal: /assets/pdf/trainees/Prajjwal_Saxena.pdf
 presentations:
-github-username: https://github.com/saxenaprajjwal
+github-username: saxenaprajjwal
 linkedin-profile: https://www.linkedin.com/in/prajjwal-saxena-0024/
 current_status: >
 ---
+
 
 
 
