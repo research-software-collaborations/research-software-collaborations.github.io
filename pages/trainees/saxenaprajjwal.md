@@ -8,7 +8,7 @@ active: true
 dates:
   start: 2025-12-01
   end: 2026-05-01
-photo: /assets/images/team/Prajjwal_Saxena.png
+photo: /assets/images/team/Prajjwal_Saxena.jpg
 institution: Indian Institute of Science
 website:
 e-mail: prajjwals@iisc.ac.in
@@ -21,6 +21,7 @@ github-username: https://github.com/saxenaprajjwal
 linkedin-profile: https://www.linkedin.com/in/prajjwal-saxena-0024/
 current_status: >
 ---
+
 
 
 
