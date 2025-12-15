@@ -7,7 +7,7 @@ title: Prajjwal Saxena - Sustainable Quantum Algorithms for Particle Track Recon
 active: true
 dates:
   start: 2025-12-01
-  end: 2025-05-01
+  end: 2026-05-01
 photo: /assets/images/team/Prajjwal_Saxena.png
 institution: Indian Institute of Science
 website:
@@ -21,5 +21,6 @@ github-username: https://github.com/saxenaprajjwal
 linkedin-profile: https://www.linkedin.com/in/prajjwal-saxena-0024/
 current_status: >
 ---
+
 
 
