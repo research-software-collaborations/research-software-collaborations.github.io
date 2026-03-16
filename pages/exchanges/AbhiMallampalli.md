@@ -15,7 +15,13 @@ website: ""
 e-mail: "abhi.mallampalli@gmail.com"
 project_title: "Towards an AI agent for Large-Scale Scientific Collaborations"
 project_goal: >
-  This project will develop a structured and reproducible analysis framework that reflects a realistic search for the Higgs boson in the H to WW decay channel using CMS NanoAOD open data from the LHC. It is intended to bridge the gap between theoretical coursework and the practical complexities of experimental particle physics by guiding beginners and early-career researchers through a full analysis workflow. The framework covers trigger selection, object reconstruction, event selection, background modeling, and statistical inference, while noting the limitations of publicly available data. The project will be implemented through well-documented Python notebooks and modular analysis tools. The final outcome will be a public GitHub repository that functions both as a practical toolkit for Higgs studies and as a comprehensive educational resource adaptable to other LHC Open Data analyses.
+  We propose the development of an intelligent AI assistant—a research
+  agent—designed to serve as an expert companion for members of large scientific collaborations.
+  The goal is to create a tool that can understand natural language questions, retrieve the most
+  relevant information from a diverse set of private data sources, and synthesize accurate, trustworthy
+  answers. Such a system would not only dramatically accelerate research but also help democratize
+  access to the collaboration's collective knowledge, making every member more efficient and
+  effective.
 mentors:
   - "Balaraman Ravindran (IIT Madras)"
   - "Sridhara Dasu (University of Wisconsin, Madison)"
