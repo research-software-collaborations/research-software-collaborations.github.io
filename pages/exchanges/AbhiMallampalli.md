@@ -18,7 +18,7 @@ project_goal: >
 mentors:
   - "Balaraman Ravindran (IIT Madras)"
   - "Sridhara Dasu (University of Wisconsin, Madison)"
-proposal: "/assets/pdf/LLM_for_Science.pdf"
+proposal: "/assets/pdf/LLMs_for_Science.pdf"
 presentations: ""
 github-username: 
 linkedin-profile: 
