@@ -4,12 +4,6 @@
   <center>
 </h4>
 
-<center>
-<img src="/assets/images/coming-soon-monsoon.png" style="width:60%">
-<br>
-  
-</center>
-
 {% assign exchanges = site.pages | where: "pagetype", "exchange"
                                | last_name_sort: "name"
                                | reverse %}
@@ -19,7 +13,7 @@
 <div id="current" class="container-fluid">
   <div class="row">
     {% for person in exchanges %}
-      <div class="card" style="width: 12rem;">
+      <div class="card" style="width: 10rem;">
          <img class="card-img-top" src="{{person.photo}}" alt="Card image cap">
          <div class="card-body d-flex flex-column">
            <div class="card-text">
