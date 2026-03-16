@@ -1,5 +1,5 @@
 ---
-layout: fellow
+layout: exchange
 pagetype: exchange
 permalink: /exchanges/AbhiMallampalli.html
 myname: "Abhi Mallampalli"
