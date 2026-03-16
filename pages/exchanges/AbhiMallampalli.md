@@ -2,7 +2,7 @@
 layout: fellow
 pagetype: exchange
 permalink: /exchanges/AbhiMallampalli.html
-myname: "Abhi Mallampalli
+myname: "Abhi Mallampalli"
 title: "Abhi Mallampalli - Towards an AI agent for Large-Scale Scientific Collaborations"
 active: true
 dates:
