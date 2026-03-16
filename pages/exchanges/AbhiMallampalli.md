@@ -8,7 +8,7 @@ active: true
 dates:
   start: 2026-01-01
   end: 2026-04-01
-photo: /assets/images/team/Abhi-Mallampalli.png
+photo: /assets/images/team/Abhi-Mallampalli.jpg
 institution: ""
 website: ""
 e-mail: "abhi.mallampalli@gmail.com"
