@@ -4,6 +4,7 @@ pagetype: exchange
 permalink: /exchanges/AbhiMallampalli.html
 myname: "Abhi Mallampalli"
 title: "Abhi Mallampalli - Towards an AI agent for Large-Scale Scientific Collaborations"
+institution: IIT - Madras
 active: true
 dates:
   start: 2026-01-01
