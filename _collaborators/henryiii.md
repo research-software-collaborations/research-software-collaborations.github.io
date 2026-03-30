@@ -6,6 +6,7 @@ inspire-id: Henry.F.Schreiner.1
 institution: Princeton University
 name: Henry Schreiner
 photo: "/assets/images/team/Henry-Schreiner.jpg"
+github-username: henryiii
 shortname: henryiii
 title:
 website: https://iscinumpy.gitlab.io
