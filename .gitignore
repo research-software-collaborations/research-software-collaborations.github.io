@@ -9,7 +9,6 @@ assets/.DS_Store
 vendor/
 !_sass/bootstrap/vendor/
 _cache/
-.ruby-version
 .jekyll-metadata
 _data/indico/
 _data/topical/
