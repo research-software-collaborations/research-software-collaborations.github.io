@@ -7,6 +7,7 @@ _site/
 assets/.DS_Store
 .bundle/
 vendor/
+!_sass/bootstrap/vendor/
 _cache/
 .ruby-version
 .jekyll-metadata
