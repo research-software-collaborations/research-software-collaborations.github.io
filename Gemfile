@@ -45,7 +45,7 @@ end
 gem 'jekyll-last-modified-at'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+gem 'tzinfo-data', platforms: :windows
 
 # Needed by Nokogiri
 gem 'pkg-config', '~> 1.4'
