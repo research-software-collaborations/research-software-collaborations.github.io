@@ -13,4 +13,5 @@ personnel:
   - livaage
   - ligerlac
   - pfackeldey
+  - maxgalli
 ---

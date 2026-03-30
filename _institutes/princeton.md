@@ -8,6 +8,7 @@ personnel:
   - davidlange6
   - pelmer
   - pfackeldey
+  - maxgalli
   - jpivarski
   - henryiii
   - vvassilev
