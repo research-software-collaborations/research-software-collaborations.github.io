@@ -39,7 +39,7 @@ program and how to appy
 <div id="current" class="container-fluid">
   <div class="row">
     {% for person in active-trainees %}
-      <div class="card" style="width: 12rem;">
+      <div class="card person" style="width: 12rem;">
          <img class="card-img-top" src="{{person.photo}}" alt="Card image cap">
          <div class="card-body d-flex flex-column">
            <div class="card-text">
@@ -53,7 +53,7 @@ program and how to appy
       </div>
     {% endfor %}
     {% for person in inactive-trainees %}
-      <div class="card" style="width: 12rem;">
+      <div class="card person" style="width: 12rem;">
          <img class="card-img-top" src="{{person.photo}}" alt="Card image cap">
          <div class="card-body d-flex flex-column">
            <div class="card-text">
