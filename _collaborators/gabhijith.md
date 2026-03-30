@@ -8,7 +8,7 @@ github-username: gabhijith
 photo: "/assets/images/team/Abhijith-Gandrakota.png"
 shortname: gabhijith
 title: Wilson Fellow & Associate Scientist
-website: https://abhijithg.com
+website: https://gabhijith.github.io
 networks:
   - cms
   - us-cms
