@@ -21,7 +21,7 @@
 
            {% if include.person.e-mail and include.person.e-mail != blank %}
             <button type="button" class="btn btn-outline-secondary btn-sm">
-              <a href="mailto:{{include.person.e-mail}}"><i class="fas fa-envelope-square"></i></a>
+              <a href="mailto:{{include.person.e-mail}}"><i class="fas fa-square-envelope"></i></a>
             </button>
            {% endif %}
 
