@@ -1,6 +1,7 @@
 ---
 ---
 
+@use "sass:color";
 @import "variables";
 @import "site-mixins";
 @import "bootstrap/functions";
@@ -86,11 +87,11 @@ pre code {
 // Dark mode
 @media (prefers-color-scheme: dark) {
   a {
-    color: scale-color($iris-200, $lightness: 50%);
+    color: color.scale($iris-200, $lightness: 50%);
   }
 
   a:hover {
-    color: scale-color($iris-200, $lightness: 20%);
+    color: color.scale($iris-200, $lightness: 20%);
   }
 
   header.masthead {
@@ -157,7 +158,7 @@ pre code {
 %light-purple-header {
   color: $iris-400;
   @media (prefers-color-scheme: dark) {
-    color: scale-color($iris-400, $lightness: 40%);
+    color: color.scale($iris-400, $lightness: 40%);
   }
 }
 
@@ -476,7 +477,7 @@ main {
     display: flex;
     flex-flow: row wrap;
     margin: 5px 0 10px 0;
-    background-color: scale-color($iris-100, $lightness: 60%);
+    background-color: color.scale($iris-100, $lightness: 60%);
     border-radius: 6px;
     color: black;
 
@@ -576,7 +577,7 @@ main {
   figure.iris-figure.caption {
     @media only screen and (min-width: 991px), only print {
       padding: 6px;
-      background-color: scale-color($iris-100, $lightness: 60%);
+      background-color: color.scale($iris-100, $lightness: 60%);
       @media (prefers-color-scheme: dark) {
         background-color: $iris-100;
       }

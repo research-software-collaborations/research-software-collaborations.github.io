@@ -33,10 +33,10 @@ defaults:
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 strict_front_matter: true
 
@@ -55,6 +55,7 @@ exclude:
 
 sass:
   sass_dir: _sass
+  style: compressed
   quiet_deps: true
   silence_deprecations:
     - import

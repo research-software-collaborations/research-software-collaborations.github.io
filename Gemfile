@@ -31,14 +31,12 @@ group :development do
   gem 'rubocop-rake', require: false
 end
 
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem 'minima', '~> 2.5'
-
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.16'
   gem 'jekyll-include-cache'
   gem 'jekyll-indico', '~> 0.6.2'
+  gem 'jekyll-seo-tag'
 end
 
 # This is used like a library, not as a plugin
