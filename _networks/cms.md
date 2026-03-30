@@ -20,4 +20,7 @@ personnel:
   - livaage
   - ligerlac
   - saghosh
+  - vipin-bhatnagar
+  - sunil-bansal
+  - sushil-chauhan
 ---
