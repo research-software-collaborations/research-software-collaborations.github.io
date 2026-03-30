@@ -23,4 +23,6 @@ personnel:
   - vipin-bhatnagar
   - sunil-bansal
   - sushil-chauhan
+  - gabhijith
+  - brajesh-choudhary
 ---

@@ -8,6 +8,9 @@ photo: /assets/images/team/Lino-Gerlach.jpg
 shortname: ligerlac
 title: Postdoctoral Research Associate
 github-username: ligerlac
+networks:
+  - cms
+  - us-cms
 presentations:
   - title: Model-Independent Real-Time Anomaly Detection at CMS with CICADA
     date: 2024-10-16

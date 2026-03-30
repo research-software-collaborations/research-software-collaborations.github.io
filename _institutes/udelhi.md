@@ -4,4 +4,5 @@ title: University of Delhi
 url: https://physics.du.ac.in
 personnel:
   - arunkumar
+  - brajesh-choudhary
 ---

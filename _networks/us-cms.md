@@ -14,4 +14,8 @@ personnel:
   - varuns23
   - pallabidas
   - livaage
+  - gabhijith
+  - maxgalli
+  - pfackeldey
+  - ligerlac
 ---
