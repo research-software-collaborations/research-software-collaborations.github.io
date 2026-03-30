@@ -55,6 +55,9 @@ exclude:
 
 sass:
   sass_dir: _sass
+  quiet_deps: true
+  silence_deprecations:
+    - import
 
 inspire:
   cache-dir: _cache

@@ -2,7 +2,7 @@
     {% raise_error "Empty person card! Please check." %}
 {%- endunless %}
 
-       <div class="card" style="width: 12rem;">
+       <div class="card person" style="width: 12rem;">
          <a href="{{include.person.url}}"><img class="card-img-top" src="{{ include.person.photo }}" alt="Card image cap"></a>
          <div class="card-body d-flex flex-column">
          <div class="card-text">

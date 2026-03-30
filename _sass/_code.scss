@@ -17,13 +17,11 @@ kbd {
   color: $kbd-color;
   background-color: $kbd-bg;
   @include border-radius($border-radius-sm);
-  @include box-shadow($kbd-box-shadow);
 
   kbd {
     padding: 0;
     font-size: 100%;
-    font-weight: $nested-kbd-font-weight;
-    @include box-shadow(none);
+    font-weight: $font-weight-bold;
   }
 }
 
@@ -31,7 +29,6 @@ kbd {
 pre {
   display: block;
   font-size: $code-font-size;
-  color: $pre-color;
 
   // Account for some code outputs that place code tags in pre tags
   code {
@@ -39,10 +36,4 @@ pre {
     color: inherit;
     word-break: normal;
   }
-}
-
-// Enable scrollable blocks of code
-.pre-scrollable {
-  max-height: $pre-scrollable-max-height;
-  overflow-y: scroll;
 }

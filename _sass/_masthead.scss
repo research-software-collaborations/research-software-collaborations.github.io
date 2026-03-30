@@ -16,6 +16,12 @@ header.masthead {
     width: 100%;
     background-color: $gray-200;
     opacity: 0.66;
+    z-index: 1;
+  }
+
+  > .container {
+    position: relative;
+    z-index: 2;
   }
   .page-heading,
   .post-heading,

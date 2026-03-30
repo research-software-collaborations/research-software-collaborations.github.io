@@ -1,9 +1,13 @@
 ---
 ---
 
-@import "functions";
 @import "variables";
-@import "mixins";
+@import "site-mixins";
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/variables-dark";
+@import "bootstrap/maps";
+@import "bootstrap/mixins";
 
 html {
   height: 100%;
@@ -195,6 +199,19 @@ pre code {
   padding: 5px;
 }
 
+/* Person cards */
+
+.card.person {
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+  img.card-img-top {
+    height: 12rem;
+    object-fit: cover;
+    object-position: top;
+  }
+}
+
 /* News cards */
 
 .row.news {
@@ -281,8 +298,18 @@ div#container {
 /* Custom footer */
 
 .navbar-dark {
+  @media not print {
+    @include gradient-x($primary, $primary, 0%, 100%);
+  }
   @media (prefers-color-scheme: dark) {
     @include gradient-x($primary, $primary, 0%, 100%);
+  }
+}
+
+// Open dropdowns on hover on desktop (BS5 is click-only by default)
+@include media-breakpoint-up(md) {
+  .navbar .dropdown:hover > .dropdown-menu {
+    display: block;
   }
 }
 
@@ -317,7 +344,7 @@ div#container {
     @media not print {
       color: $navbar-dark-active-color;
 
-      @include hover-focus {
+      &:hover, &:focus {
         color: $navbar-dark-hover-color;
       }
     }

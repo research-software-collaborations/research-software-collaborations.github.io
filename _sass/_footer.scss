@@ -13,7 +13,7 @@
   a {
     color: $navbar-dark-active-color;
 
-    @include hover-focus {
+    &:hover, &:focus {
       color: $navbar-dark-hover-color;
     }
   }
