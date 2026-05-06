@@ -6,14 +6,15 @@ title: Research Software Exchanges
 
 ## Researcher exchanges
 
-The HSF-India project aims to promote the
-development of international research software collaborations in physics
-by providing opportunities for early career researchers (postdocs, young faculty/staff, senior PhD students)
-to establish an extended research exchange (e.g., 1-3 months) to work with other experts in
-particle physics, nuclear physics and astroparticle physics,
-as well as from the computational and data science communities. These research exchanges aim
-to achieve specific software deliverables and foster a longer term research collaboration. Our team
-has experienced firsthand how these short exchanges can impact research outcomes and careers long term.
+The HSF-India project aims to promote the development of international research
+software collaborations in physics by providing opportunities for early career
+researchers (postdocs, young faculty/staff, senior PhD students) to establish
+an extended research exchange (e.g., 1-3 months) to work with other experts in
+particle physics, nuclear physics and astroparticle physics, as well as from
+the computational and data science communities. These research exchanges aim to
+achieve specific software deliverables and foster a longer term research
+collaboration. Our team has experienced firsthand how these short exchanges can
+impact research outcomes and careers long term.
 
 ### Eligibility
 The following exchanges are eligible:
@@ -21,9 +22,12 @@ The following exchanges are eligible:
   * A researcher affiliated with a US institution to work for 1-3 months with an India-based researcher
 
 ### Support offered for accepted applications
-  * Up to three months reasonable support for local costs. These will vary depending on location. Please estimate the needs for your project in application. Talk to us for guidance in case of doubt.
-  * Transportation to/from research exchange location
-  * Travel support for mentor reverse visit at end of research exchange period
+  * Up to three months reasonable subsistence support for local costs. These will vary depending on location. Please estimate the needs for your project in application. Talk to us for guidance in case of doubt.
+  * Travel support to/from research exchange location (see [travel reimbursement guidelines](/docs/reimbursement.html) for specifics)
+  * We do not provide salary support during the research visit.
+
+After 1-3 month research visit has concluded, we also support a shorter (e.g. 1 week) reverse visit by the host collaborator to the institution of the visitor who made the 1-3 month proposal, for example for a seminar talk, without the need for a full proposal as described below. If the original host would like a longer 1-3 month visit they can apply by following the full instructions on this page.
+
 
 ### Timeline
   * We review applications quarterly (December 15, March 15, June 15, September 15) and are receptive to applications at any time.
