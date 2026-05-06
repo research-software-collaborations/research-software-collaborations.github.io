@@ -26,7 +26,7 @@ The following exchanges are eligible:
   * Travel support to/from research exchange location (see [travel reimbursement guidelines](/docs/reimbursement.html) for specifics)
   * We do not provide salary support during the research visit.
 
-After 1-3 month research visit has concluded, we also support a shorter (e.g. 1 week) reverse visit by the host collaborator to the institution of the visitor who made the 1-3 month proposal, for example for a seminar talk, without the need for a full proposal as described below. If the original host would like a longer 1-3 month visit they can apply by following the full instructions on this page.
+After 1-3 month research visit has concluded, we also support a shorter (e.g. 1 week) reverse visit by the host collaborator to the institution of the visitor who made the 1-3 month proposal, for example for a seminar talk, without the need for a full proposal as described below. If the original host would like a longer 1-3 month visit to the original visitor's institution they can apply by following the full instructions on this page.
 
 
 ### Timeline
