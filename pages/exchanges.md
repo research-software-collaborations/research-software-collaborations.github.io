@@ -1,17 +1,17 @@
 ---
 permalink: /exchanges.html
 layout: default
-title: Research Software Exchanges
+title: Research Software Visits
 ---
 
-## Researcher exchanges
+## Researcher visits
 
 The HSF-India project aims to promote the development of international research
 software collaborations in physics by providing opportunities for early career
-researchers (postdocs, young faculty/staff, senior PhD students) to establish
-an extended research exchange (e.g., 1-3 months) to work with other experts in
+researchers (junior faculty/staff, postdocs, senior PhD students) to make 
+an extended research visit (e.g., 1-3 months) to work with other experts in
 particle physics, nuclear physics and astroparticle physics, as well as from
-the computational and data science communities. These research exchanges aim to
+the computational and data science communities. These research visits aim to
 achieve specific software deliverables and foster a longer term research
 collaboration. Our team has experienced firsthand how these short exchanges can
 impact research outcomes and careers long term.
@@ -31,7 +31,7 @@ After 1-3 month research visit has concluded, we also support a shorter (e.g. 1 
 
 ### Timeline
   * We review applications quarterly (December 15, March 15, June 15, September 15) and are receptive to applications at any time.
-  * In most cases both the required visa arrangement and housing take time to arrange. Please allow for at least one month of review/approval time in addition to the time needed for these arrangements. We can help you and your host with any accumulated knowledge we have on logistics from our personal experience as well as other exchanges.
+  * In most cases both the required visa arrangement and housing take time to arrange. Please allow for at least one month of review/approval time in addition to the time needed for these arrangements. We can help you and your host with any accumulated knowledge we have on logistics from our personal experience as well as other visits and exchanges.
 
 ### Application process and format
   * Final applications are a joint proposal from both involved researchers and should be supported by both research groups. In case you are interested but do not already have an exchange idea to propose, we are able to assist you in identifying potential opportunities that match your interests and have examples of interested host researchers. In this case, start by expressing your interest in the program and we can work with you from there. 
@@ -44,6 +44,6 @@ After 1-3 month research visit has concluded, we also support a shorter (e.g. 1 
 
 ### Acceptance criteria
   * Alignment with HSF-India science goals
-  * Prospects for longer-term collaboration enabled by research exchange
-  * Research software developed as part of the research exchange
+  * Prospects for longer-term collaboration enabled by research visit/exchange
+  * Research software developed as part of the research visit/exchange
 
