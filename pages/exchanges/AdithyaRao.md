@@ -10,7 +10,7 @@ active: true
 dates:
   start: 2026-06-01
   end: 2026-08-31
-photo: assets/images/team/Adithya_Rao.jpg
+photo: /assets/images/team/Adithya_Rao.jpg
 website: ""
 e-mail: "adithya04rao@gmail.com"
 project_title: "Extending to non 1mu 1p signatures in SBN"
@@ -24,7 +24,7 @@ project_goal: >
 mentors:
   - "David Schmitz (U. of Chicago)"
   - "Thomas Wester (U. of Chicago)"
-proposal: "assets/pdf/SBN.pdf"
+proposal: "/assets/pdf/SBN.pdf"
 presentations: ""
 github-username: 
 linkedin-profile: 
