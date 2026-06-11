@@ -1,7 +1,7 @@
 ---
 layout: exchange
 pagetype: exchange
-permalink:
+permalink: exchanges/AdithyaRao.html
 myname: "Adithya Rao"
 title: "Adithya Rao - Extending to non 1mu 1p signatures in SBN"
 host_institution: "University of Chicago"
