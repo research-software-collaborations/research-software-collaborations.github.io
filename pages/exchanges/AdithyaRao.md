@@ -10,7 +10,7 @@ active: true
 dates:
   start: 2026-06-01
   end: 2026-08-31
-photo: assets/images/team/adithya.jpg
+photo: assets/images/team/Adithya_Rao.jpg
 website: ""
 e-mail: "adithya04rao@gmail.com"
 project_title: "Extending to non 1mu 1p signatures in SBN"
