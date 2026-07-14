@@ -19,7 +19,7 @@ mentors:
   - Marilena Bandieramonte (CERN)
   - Xiangyang Ju (CERN)
   - Martina Javurkova (CERN)
-proposal:
+proposal: /assets/pdf/trainees/DhruvalPatel.pdf
 presentations:
 current_status: >
 github-username: D-H-R-U-V-A-L
