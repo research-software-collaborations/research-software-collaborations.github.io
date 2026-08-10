@@ -16,9 +16,9 @@ project_title: Exploring Diffusion Models for Hadronic Physics Simulation
 project_goal: >
   Investigate the use of generative diffusion models for simulating hadronic interactions in high-energy particle collisions, focusing on training conditional diffusion models on simulated hadronic interaction data to reproduce key physics observables and distributions.
 mentors:
-  - Marilena Bandieramonte (CERN)
-  - Xiangyang Ju (CERN)
-  - Martina Javurkova (CERN)
+  - Marilena Bandieramonte (University of Pittsburgh)
+  - Xiangyang Ju (Lawrence Berkeley National Laboratory)
+  - Martina Javurkova (Massachusetts U., Amherst)
 proposal: /assets/pdf/trainees/DhruvalPatel.pdf
 presentations:
 current_status: >
