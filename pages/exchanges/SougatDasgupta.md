@@ -3,7 +3,7 @@ layout: exchange
 pagetype: exchange
 permalink: exchanges/SougatDasgupta.html
 myname: "Sougat Dasgupta"
-title: "Sougat Dasgupta -"
+title: "Sougat Dasgupta"
 host_institution: "University of Minnesota Twin Cities"
 institution: "Indian Institute of Science Education and Research, Thiruvananthapuram"
 active: true
@@ -13,7 +13,7 @@ dates:
 photo: /assets/images/team/Sougat-Dasgupta.jpg
 website: ""
 e-mail: "sougatdasgupta03@gmail.com"
-project_title: ""
+project_title: "Accelerating the HyperWave framework for gravitational-wave data analysis"
 project_goal: >
     The project will focus on accelerating the computational performance of the HyperWave framework by integrating utilities from the ML4GW library, 
     which provides GPU-accelerated tools for gravitational-wave data analysis, including waveform generation. 
@@ -22,7 +22,7 @@ project_goal: >
 mentors:
   - "Michael Coughlin (U. of Minnesota)"
   - "Argyro Sasli (U. of Minnesota)"
-proposal: ""
+proposal: "/assets/pdf/GW_hsf_proposal.pdf‎"
 presentations: ""
 github-username: 
 linkedin-profile: 
