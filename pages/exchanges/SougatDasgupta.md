@@ -19,12 +19,12 @@ project_goal: >
     which provides GPU-accelerated tools for gravitational-wave data analysis, including waveform generation. 
     The goal is to develop efficient and scalable workflows to significantly reduce the computational cost of parameter estimation, 
     potentially improving performance by up to an order of magnitude.
-mentors:
-  - "Michael Coughlin (U. of Minnesota)"
-  - "Argyro Sasli (U. of Minnesota)"‎
 presentations: ""
 github-username: 
 linkedin-profile: 
 current_status: ""
 proposal: /assets/pdf/GW_hsf_proposal.pdf
+mentors:
+  - "Michael Coughlin (U. of Minnesota)"
+  - "Argyro Sasli (U. of Minnesota)"
 ---
