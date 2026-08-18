@@ -22,7 +22,7 @@ project_goal: >
 mentors:
   - "Michael Coughlin (U. of Minnesota)"
   - "Argyro Sasli (U. of Minnesota)"
-proposal: "/assets/pdf/GW_hsf_proposal.pdf‎"
+proposal: /assets/pdf/GW_hsf_proposal.pdf‎
 presentations: ""
 github-username: 
 linkedin-profile: 
