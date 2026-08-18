@@ -21,10 +21,10 @@ project_goal: >
     potentially improving performance by up to an order of magnitude.
 mentors:
   - "Michael Coughlin (U. of Minnesota)"
-  - "Argyro Sasli (U. of Minnesota)"
-proposal: /assets/pdf/GW_hsf_proposal.pdf‎
+  - "Argyro Sasli (U. of Minnesota)"‎
 presentations: ""
 github-username: 
 linkedin-profile: 
 current_status: ""
+proposal: /assets/pdf/GW_hsf_proposal.pdf
 ---
