@@ -18,7 +18,20 @@ bundle install
 bundle exec rake serve
 ```
 
-Alternatively, you can test your changes out using the Jekyll docker image:
+Alternatively, using **conda** (recommended on macOS arm64):
+
+```bash
+# One-time environment setup
+conda create -n github-web-dev -c conda-forge ruby=3.4.8 clang_osx-arm64 -y
+conda run -n github-web-dev bundle install
+
+# Start the server (from the repo root)
+conda run -n github-web-dev bundle exec jekyll serve --incremental
+```
+
+The site will be available at http://localhost:4000
+
+Or, you can test your changes out using the Jekyll docker image:
 ```bash
 docker run --rm -it \
       --volume="$PWD:/srv/jekyll"  \
