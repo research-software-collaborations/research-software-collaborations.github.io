@@ -4,63 +4,46 @@
   <center>
 </h4>
 
-We are organizing software skills for physics training
-events.
+We are organizing software skills for physics training events.
+
+{%- assign all_training = site.data.training | values | sort: "startdate" -%}
+{%- assign now_ts = 'now' | date: '%s' | plus: 0 -%}
+{%- assign upcoming = "" | split: "" -%}
+{%- assign past = "" | split: "" -%}
+{%- for event in all_training -%}
+  {%- assign end_ts = event.enddate | date: '%s' | plus: 0 -%}
+  {%- if end_ts >= now_ts -%}
+    {%- assign upcoming = upcoming | push: event -%}
+  {%- else -%}
+    {%- assign past = past | push: event -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign past = past | reverse -%}
 
 Upcoming events include:
 <ul style="list-style-type: circle; padding-left: 20px;">
-  <li> <a href="https://indico.cern.ch/event/1724888/">HSF-India Scientific Computing Workshop - IIT Mandi: November 2-6 2026</a>
-</ul>
-
-<ul style="list-style-type: circle; padding-left: 20px;">
-  <li> <a href="https://indico.cern.ch/event/1714663/">HSF-India Scientific Computing Workshop - Bharati Vidyapeeth's College of Engineering Delhi: October 12-16 2026</a>
+  {% for event in upcoming %}
+  <li><a href="{{ event.meetingurl }}">{{ event.name }}:
+    {%- assign sm = event.startdate | date: "%-m" -%}
+    {%- assign em = event.enddate | date: "%-m" -%}
+    {%- if sm == em %} {{ event.startdate | date: "%B %-d" }}-{{ event.enddate | date: "%-d %Y" }}
+    {%- else %} {{ event.startdate | date: "%B %-d" }} - {{ event.enddate | date: "%B %-d %Y" }}
+    {%- endif %}</a></li>
+  {% else %}
+  <li>None currently scheduled.</li>
+  {% endfor %}
 </ul>
 
 Past events include:
 <ul style="list-style-type: circle; padding-left: 20px;">
-  <li> <a href="https://indico.cern.ch/event/1649033/">HSF-India Scientific Computing Workshop - IISER Pune: May 4-8 2026</a>
-</ul>
-
-<ul style="list-style-type: circle; padding-left: 20px;">
-  <li> <a href="https://indico.cern.ch/event/1649043/">HSF-India Scientific Computing Workshop - IIT Hyderabad: April 27 - May 1 2026</a>
-</ul>
-
-<ul style="list-style-type: circle; padding-left: 20px;">
-  <li> <a href="https://indico.cern.ch/event/1580090">HSF-India Scientific Computing Workshop - IIT Madras: January 5-9 2026</a>
-</ul> 
-
-<ul style="list-style-type: circle; padding-left: 20px;">
-  <li> <a href="https://indico.cern.ch/event/1580062">HSF-India Scientific Computing Workshop - IIT Guwahati: November 24-28 2025</a>
-</ul>     
-    
-<ul style="list-style-type: circle; padding-left: 20px;">
-  <li>  <a href="https://indico.cern.ch/event/1529191">HSF-India Scientific Computing Workshop - Chandigarh: September  15-19 2025</a>
-</ul> 
-    
-<ul style="list-style-type: circle; padding-left: 20px;">
-  <li> <a href="https://indico.cern.ch/event/1519117/">HSF-India Scientific Computing Workshop at IISc - Bangalore: June 15-21 2025</a>
-</ul> 
-    
-<ul style="list-style-type: circle; padding-left: 20px;">
-  <li> <a href="https://indico.cern.ch/event/1394564/">EIC Detector and Physics Simulation Workshop and Tutorial at IIT Bombay: May 13-18 2025</a>
-</ul>    
-
-<ul style="list-style-type: circle; padding-left: 20px;">
-  <li> <a href="https://indico.cern.ch/event/1394564/">January 13-17 2025 at University of Hyderabad</a>
-</ul>    
-<ul style="list-style-type: circle; padding-left: 20px;">
-  <li> <a href="https://indico.cern.ch/event/1461967/">December 16-20 2024 at VECC (Kolkata)</a>
-</ul>
-    
-<ul style="list-style-type: circle; padding-left: 20px;">
-  <li> <a href="https://indico.cern.ch/event/1386725/">December 18-22 2023 at Delhi University</a>
-</ul>
-<ul style="list-style-type: circle; padding-left: 20px;">
-  <li> <a href="https://indico.cern.ch/event/1328624/">December 18-22 2023 at NISER (Bhubaneswar)</a>
-</ul>
-    
-<ul style="list-style-type: circle; padding-left: 20px;">
-  <li> <a href="https://indico.cern.ch/event/1254939/">May 1-5, 2023 at TIFR/Mumbai</a>
+  {% for event in past %}
+  <li><a href="{{ event.meetingurl }}">{{ event.name }}:
+    {%- assign sm = event.startdate | date: "%-m" -%}
+    {%- assign em = event.enddate | date: "%-m" -%}
+    {%- if sm == em %} {{ event.startdate | date: "%B %-d" }}-{{ event.enddate | date: "%-d %Y" }}
+    {%- else %} {{ event.startdate | date: "%B %-d" }} - {{ event.enddate | date: "%B %-d %Y" }}
+    {%- endif %}</a></li>
+  {% endfor %}
 </ul>
 
 Other events will be announced as they are scheduled. Interested in hosting an event? Please
