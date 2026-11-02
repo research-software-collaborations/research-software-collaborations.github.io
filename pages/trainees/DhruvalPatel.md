@@ -7,7 +7,7 @@ title: Dhruval Patel - Exploring Diffusion Models for Hadronic Physics Simulatio
 active: true
 dates:
   start: 2026-07-13
-  end: 2026-10-16
+  end: 2026-12-31
 photo: /assets/images/team/Dhruval-Patel.jpg
 institution: Adani University
 website:
